@@ -1,0 +1,2 @@
+id,side,q,t,due,start_count,tier,entry,entry_t,entry_fee,exit_due,gap_exposed,retry_rev,exit_reason,exit_signal_t,exit,exit_t,gross,fees,net,exit_delay_ms,wait_trades
+32,1,4,1975.742652181,1975.7476521810001,642,normal,"[(4, 0.671)]",1975.931552641,0.062,2001.711401766,False,-1,50_trade_timeout,2001.706401766,"[(4, 0.629)]",2001.711676122,-0.16800000000000015,0.1276,-0.29560000000000014,5.274355999972613,50

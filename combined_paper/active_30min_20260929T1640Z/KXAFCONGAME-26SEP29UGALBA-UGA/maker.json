@@ -1,0 +1,30 @@
+{
+  "decisions": [
+    {
+      "t": 1787916443051,
+      "n": 0,
+      "prices": [
+        0.54,
+        0.55
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    }
+  ],
+  "ledger": [],
+  "shadows": [
+    {
+      "t": 1787916443051,
+      "net": -0.2812999999999999,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    }
+  ],
+  "unresolved": null
+}

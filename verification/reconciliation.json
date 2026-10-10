@@ -1,0 +1,48 @@
+{
+  "raw_records": 418577,
+  "message_types": {
+    "metadata": 1,
+    "subscribed": 3,
+    "orderbook_snapshot": 13,
+    "orderbook_delta": 398705,
+    "trade": 11248,
+    "event_lifecycle": 76,
+    "market_lifecycle_v2": 8524,
+    "timer": 6,
+    "end": 1
+  },
+  "exact_historical_replay_match": true,
+  "flow": {
+    "all": {
+      "next_side_accuracy": 0.6547619047619048,
+      "opposite_within_five_accuracy": 0.6031746031746031,
+      "n": 1260
+    },
+    "full": {
+      "next_side_accuracy": 0.7706349206349207,
+      "opposite_within_five_accuracy": 0.6285714285714286,
+      "n": 1260
+    }
+  },
+  "shadows": {
+    "n": 636,
+    "paired": 235,
+    "filled": 486,
+    "one_sided": 251,
+    "no_fill": 150,
+    "completion": 0.3694968553459119,
+    "diagnostic_net": -12.305720000002168
+  },
+  "portfolio": {
+    "initial": 100.0,
+    "ending": 99.6113,
+    "gross": -0.08800000000000019,
+    "fees": 0.30069999999999997,
+    "net": -0.38870000000000005,
+    "max_drawdown": 0.48279999999999745,
+    "funded_taker_trades": 3,
+    "funded_maker_trades": 0,
+    "arbitrage_trades": 0
+  },
+  "feed_sha256": "b2dbfbd34e42983e9fbf22e611bbbd2268933cbac4da29659e67a359d11c29ec"
+}

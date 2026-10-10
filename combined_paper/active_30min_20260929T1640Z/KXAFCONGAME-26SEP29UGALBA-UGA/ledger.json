@@ -1,0 +1,602 @@
+{
+  "config": {
+    "ticker": "KXAFCONGAME-26SEP29UGALBA-UGA",
+    "bankroll": 100.0,
+    "order_budget": 5.0,
+    "cash_fraction": 0.25,
+    "max_contracts": 20,
+    "mode": "imbalance_state",
+    "warmup": 30,
+    "min_cell": 1,
+    "strong_imbalance": 0.8,
+    "persistence_trades": 3,
+    "anchor_stride": 5,
+    "max_trades": 50,
+    "reference_q": 1,
+    "latency_ms": 5.0,
+    "depth_fraction": 0.5,
+    "adverse_slippage": 0.001,
+    "fee_quantum": "0.0001",
+    "fee_scope": "contract",
+    "max_book_age_s": 10.0,
+    "max_source_lag_s": 3.0,
+    "max_processing_lag_s": 1.0,
+    "max_hold_s": 300.0,
+    "close_buffer_s": 60.0,
+    "session_loss_limit": 10.0,
+    "late_diagnostic_trades": 500,
+    "max_pending_labels": 2000,
+    "plot_points": 2500
+  },
+  "fee_multiplier": 1.0,
+  "stats": {
+    "trade_messages": 240,
+    "history_n": 7,
+    "anchors": 9,
+    "cell_n": 0,
+    "pending_labels": 2,
+    "closed_trades": 0,
+    "open_contracts": 0,
+    "gross_closed": 0.0,
+    "fees_closed": 0,
+    "net_closed": 0.0,
+    "fees_paid_including_open": 0.0,
+    "cash": 99.6113,
+    "liquidation_equity": 99.6113,
+    "max_dd_observed": 2.745999999999995,
+    "unmarkable_observations": 0,
+    "DA_percent": null,
+    "DA_n": 0,
+    "traded_DA_percent": null,
+    "traded_DA_n": 0,
+    "directional_signals_with_valid_labels": 0,
+    "correct_direction_hit_rate": null,
+    "directional_signal_timeouts": 0,
+    "taken_censored": 0,
+    "taken_pending": 0,
+    "win_rate": null,
+    "timeouts": 0,
+    "late_same_side": 0,
+    "connected": true,
+    "paused": false
+  },
+  "forecasts": [
+    {
+      "id": 0,
+      "t": 1816.286660373,
+      "start_count": 61,
+      "bucket": 4,
+      "state": null,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1830.357215669,
+      "hit_wait_trades": 11,
+      "hit_wait_s": 14.070555296000066
+    },
+    {
+      "id": 1,
+      "t": 1820.141747572,
+      "start_count": 68,
+      "bucket": 4,
+      "state": null,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1838.387732597,
+      "hit_wait_trades": 6,
+      "hit_wait_s": 18.24598502499998
+    },
+    {
+      "id": 2,
+      "t": 1844.543309974,
+      "start_count": 75,
+      "bucket": 4,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1993.564824159
+    },
+    {
+      "id": 3,
+      "t": 1850.269589893,
+      "start_count": 80,
+      "bucket": 4,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2050.565312945
+    },
+    {
+      "id": 4,
+      "t": 1922.323112537,
+      "start_count": 104,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2569.779744475
+    },
+    {
+      "id": 5,
+      "t": 1922.326506965,
+      "start_count": 109,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2679.553992901
+    },
+    {
+      "id": 6,
+      "t": 1922.330089114,
+      "start_count": 114,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 1,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2830.339640895
+    },
+    {
+      "id": 7,
+      "t": 2970.078556646,
+      "start_count": 205,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 7,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": null,
+      "label_status": "pending",
+      "imbalance_changed": true
+    },
+    {
+      "id": 8,
+      "t": 3039.501477581,
+      "start_count": 224,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 7,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": null,
+      "label_status": "pending",
+      "imbalance_changed": true
+    }
+  ],
+  "trades": [],
+  "events": [
+    {
+      "t": 1613.793019434,
+      "kind": "imbalance_locked",
+      "trade_count": 14,
+      "mid": 0.405,
+      "imbalance": -0.9865804835499095
+    },
+    {
+      "t": 1616.7092495,
+      "kind": "imbalance_unlocked",
+      "trade_count": 15,
+      "mid": 0.395
+    },
+    {
+      "t": 1788.200779614,
+      "kind": "imbalance_locked",
+      "trade_count": 46,
+      "mid": 0.7150000000000001,
+      "imbalance": -0.9992979450852646
+    },
+    {
+      "t": 1789.590101525,
+      "kind": "imbalance_unlocked",
+      "trade_count": 51,
+      "mid": 0.7
+    },
+    {
+      "t": 1803.557765248,
+      "kind": "imbalance_locked",
+      "trade_count": 58,
+      "mid": 0.725,
+      "imbalance": 0.8723404255319149
+    },
+    {
+      "t": 1816.286660373,
+      "kind": "anchor",
+      "trade_count": 61,
+      "mid": 0.735,
+      "anchor_id": 0,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1820.128404807,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 67,
+      "mid": 0.745,
+      "anchor_id": 0
+    },
+    {
+      "t": 1820.141747572,
+      "kind": "anchor",
+      "trade_count": 68,
+      "mid": 0.745,
+      "anchor_id": 1,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1826.718966712,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 70,
+      "mid": 0.765,
+      "anchor_id": 1
+    },
+    {
+      "t": 1830.357215669,
+      "kind": "untraded_move",
+      "trade_count": 72,
+      "mid": 0.775,
+      "anchor_id": 0,
+      "side": 1
+    },
+    {
+      "t": 1838.387732597,
+      "kind": "untraded_move",
+      "trade_count": 74,
+      "mid": 0.79,
+      "anchor_id": 1,
+      "side": 1
+    },
+    {
+      "t": 1844.543309974,
+      "kind": "anchor",
+      "trade_count": 75,
+      "mid": 0.795,
+      "anchor_id": 2,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1850.269589893,
+      "kind": "anchor",
+      "trade_count": 80,
+      "mid": 0.795,
+      "anchor_id": 3,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1856.733220141,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 80,
+      "mid": 0.795,
+      "anchor_id": 2
+    },
+    {
+      "t": 1856.733220141,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 80,
+      "mid": 0.795,
+      "anchor_id": 3
+    },
+    {
+      "t": 1858.934903937,
+      "kind": "imbalance_unlocked",
+      "trade_count": 81,
+      "mid": 0.795
+    },
+    {
+      "t": 1880.651866644,
+      "kind": "imbalance_locked",
+      "trade_count": 95,
+      "mid": 0.8,
+      "imbalance": -0.9657813439489127
+    },
+    {
+      "t": 1880.669299108,
+      "kind": "imbalance_unlocked",
+      "trade_count": 98,
+      "mid": 0.785
+    },
+    {
+      "t": 1922.323112537,
+      "kind": "imbalance_locked",
+      "trade_count": 104,
+      "mid": 0.795,
+      "imbalance": -0.8865832832197807
+    },
+    {
+      "t": 1922.323112537,
+      "kind": "anchor",
+      "trade_count": 104,
+      "mid": 0.795,
+      "anchor_id": 4,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1922.326506965,
+      "kind": "anchor",
+      "trade_count": 109,
+      "mid": 0.795,
+      "anchor_id": 5,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1922.330089114,
+      "kind": "anchor",
+      "trade_count": 114,
+      "mid": 0.795,
+      "anchor_id": 6,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1922.333718291,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 115,
+      "mid": 0.79,
+      "anchor_id": 4
+    },
+    {
+      "t": 1922.333718291,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 115,
+      "mid": 0.79,
+      "anchor_id": 5
+    },
+    {
+      "t": 1922.333718291,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 115,
+      "mid": 0.79,
+      "anchor_id": 6
+    },
+    {
+      "t": 1931.331479397,
+      "kind": "imbalance_unlocked",
+      "trade_count": 116,
+      "mid": 0.79
+    },
+    {
+      "t": 1993.564824159,
+      "kind": "label_timeout",
+      "trade_count": 125,
+      "mid": 0.785,
+      "anchor_id": 2
+    },
+    {
+      "t": 2050.565312945,
+      "kind": "label_timeout",
+      "trade_count": 130,
+      "mid": 0.785,
+      "anchor_id": 3
+    },
+    {
+      "t": 2569.779744475,
+      "kind": "label_timeout",
+      "trade_count": 154,
+      "mid": 0.785,
+      "anchor_id": 4
+    },
+    {
+      "t": 2679.553992901,
+      "kind": "label_timeout",
+      "trade_count": 159,
+      "mid": 0.785,
+      "anchor_id": 5
+    },
+    {
+      "t": 2830.339640895,
+      "kind": "label_timeout",
+      "trade_count": 164,
+      "mid": 0.785,
+      "anchor_id": 6
+    },
+    {
+      "t": 2970.078556646,
+      "kind": "imbalance_locked",
+      "trade_count": 205,
+      "mid": 0.775,
+      "imbalance": -0.9873694254720773
+    },
+    {
+      "t": 2970.078556646,
+      "kind": "anchor",
+      "trade_count": 205,
+      "mid": 0.775,
+      "anchor_id": 7,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2970.079070982,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 205,
+      "mid": 0.77,
+      "anchor_id": 7
+    },
+    {
+      "t": 2970.08008005,
+      "kind": "imbalance_unlocked",
+      "trade_count": 206,
+      "mid": 0.765
+    },
+    {
+      "t": 3039.501477581,
+      "kind": "imbalance_locked",
+      "trade_count": 224,
+      "mid": 0.745,
+      "imbalance": -0.9477124183006507
+    },
+    {
+      "t": 3039.501477581,
+      "kind": "anchor",
+      "trade_count": 224,
+      "mid": 0.745,
+      "anchor_id": 8,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 3039.505040515,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 224,
+      "mid": 0.745,
+      "anchor_id": 8
+    },
+    {
+      "t": 3047.532268531,
+      "kind": "imbalance_unlocked",
+      "trade_count": 229,
+      "mid": 0.755
+    }
+  ],
+  "open_position": null,
+  "pending_order": null,
+  "counts": {
+    "(4, None)": [
+      0,
+      0,
+      2
+    ],
+    "(4, 1)": [
+      0,
+      2,
+      0
+    ],
+    "(0, 1)": [
+      0,
+      3,
+      0
+    ],
+    "('all',)": [
+      0,
+      5,
+      2
+    ],
+    "(4,)": [
+      0,
+      2,
+      2
+    ],
+    "(0,)": [
+      0,
+      3,
+      0
+    ],
+    "(0, 0)": [
+      0,
+      0,
+      0
+    ]
+  }
+}

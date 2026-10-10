@@ -1,0 +1,25 @@
+dataset,band,variant,quotes,filled,paired,gross,fees,net,maxdd,unresolved,censored,replacement_requests,counts
+KXMLBGAME_MLB,0.30_0.70,probability_static,3,3,0,-0.002950000000000008,0.056249999999999946,-0.0591999999999997,0.12260000000000026,0,0,0,"{'band_decisions': 830, 'spread_decisions': 120, 'initializing': 26, 'nonpositive_edge': 91, 'entries': 3}"
+BUFJAC_JAC,0.45_0.55,spread_only_v2,71,44,8,-0.9709999999999999,0.8520000000000025,-1.8230000000000075,1.8230000000000075,0,48,0,"{'band_decisions': 283, 'spread_decisions': 71, 'entries': 71}"
+BUFJAC_JAC,0.30_0.70,spread_only_v2,177,104,25,-1.5689999999999997,1.8653000000000055,-3.4343000000000146,3.4343000000000146,0,124,0,"{'band_decisions': 714, 'spread_decisions': 177, 'entries': 177}"
+BUFJAC_BUF,0.30_0.70,probability_dynamic,3,3,1,0.008000000000000007,0.04760000000000031,-0.03960000000000008,0.0517000000000003,0,0,4,"{'band_decisions': 2623, 'spread_decisions': 860, 'initializing': 149, 'nonpositive_edge': 708, 'entries': 3}"
+KXMLBGAME_MLB,0.45_0.55,probability_dynamic,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 644, 'spread_decisions': 35, 'initializing': 18, 'nonpositive_edge': 17}"
+KXMLBGAME_MLB,0.45_0.55,spread_only_v2,13,5,0,-0.20500000000000007,0.10620000000000042,-0.31120000000000037,0.3111999999999995,0,0,0,"{'band_decisions': 565, 'spread_decisions': 13, 'entries': 13}"
+KXNFLGAME_NFL,0.45_0.55,probability_dynamic,0,0,0,0.0,0.0,0.0,0.0,0,0,0,{}
+BUFJAC_BUF,0.45_0.55,probability_static,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 947, 'spread_decisions': 331, 'initializing': 91, 'nonpositive_edge': 240}"
+BUFJAC_JAC,0.45_0.55,probability_dynamic,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 580, 'spread_decisions': 184, 'initializing': 120, 'nonpositive_edge': 64}"
+KXMLBGAME_MLB,0.30_0.70,probability_dynamic,6,5,2,0.15699999999999975,0.07379999999999994,0.0832000000000006,0.11989999999999768,0,0,5,"{'band_decisions': 834, 'spread_decisions': 124, 'initializing': 26, 'nonpositive_edge': 92, 'entries': 6}"
+BUFJAC_JAC,0.30_0.70,probability_static,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 1476, 'spread_decisions': 490, 'initializing': 321, 'nonpositive_edge': 169}"
+KXNFLGAME_NFL,0.30_0.70,probability_dynamic,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 3172, 'spread_decisions': 151, 'initializing': 29, 'nonpositive_edge': 122}"
+BUFJAC_JAC,0.30_0.70,probability_dynamic,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 1476, 'spread_decisions': 490, 'initializing': 321, 'nonpositive_edge': 169}"
+BUFJAC_BUF,0.45_0.55,spread_only_v2,107,57,16,-0.6909999999999996,1.0312000000000041,-1.7222000000000062,1.733400000000005,0,72,0,"{'band_decisions': 490, 'spread_decisions': 107, 'entries': 107}"
+KXNFLGAME_NFL,0.45_0.55,probability_static,0,0,0,0.0,0.0,0.0,0.0,0,0,0,{}
+BUFJAC_BUF,0.30_0.70,spread_only_v2,241,137,38,-0.9290000000000003,2.3941000000000066,-3.323100000000008,3.388700000000007,0,139,0,"{'band_decisions': 1214, 'spread_decisions': 241, 'entries': 241}"
+KXNFLGAME_NFL,0.30_0.70,probability_static,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 3172, 'spread_decisions': 151, 'initializing': 29, 'nonpositive_edge': 122}"
+BUFJAC_BUF,0.30_0.70,probability_static,4,3,1,0.06799999999999995,0.048300000000000065,0.019700000000000273,0.053000000000000824,0,0,0,"{'band_decisions': 2596, 'spread_decisions': 841, 'initializing': 149, 'nonpositive_edge': 688, 'entries': 4}"
+KXNFLGAME_NFL,0.45_0.55,spread_only_v2,0,0,0,0.0,0.0,0.0,0.0,0,0,0,{}
+KXMLBGAME_MLB,0.30_0.70,spread_only_v2,25,16,5,-0.11095,0.26675000000000104,-0.3777000000000008,0.7884000000000011,0,0,0,"{'band_decisions': 649, 'spread_decisions': 25, 'entries': 25}"
+KXMLBGAME_MLB,0.45_0.55,probability_static,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 644, 'spread_decisions': 35, 'initializing': 18, 'nonpositive_edge': 17}"
+BUFJAC_JAC,0.45_0.55,probability_static,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 580, 'spread_decisions': 184, 'initializing': 120, 'nonpositive_edge': 64}"
+BUFJAC_BUF,0.45_0.55,probability_dynamic,0,0,0,0.0,0.0,0.0,0.0,0,0,0,"{'band_decisions': 947, 'spread_decisions': 331, 'initializing': 91, 'nonpositive_edge': 240}"
+KXNFLGAME_NFL,0.30_0.70,spread_only_v2,31,20,2,-0.12800000000000034,0.34950000000000003,-0.4774999999999965,0.4774999999999956,0,0,0,"{'band_decisions': 2893, 'spread_decisions': 31, 'entries': 31}"

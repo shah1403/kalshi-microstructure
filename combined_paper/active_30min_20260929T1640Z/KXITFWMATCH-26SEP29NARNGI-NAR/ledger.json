@@ -1,0 +1,6138 @@
+{
+  "config": {
+    "ticker": "KXITFWMATCH-26SEP29NARNGI-NAR",
+    "bankroll": 100.0,
+    "order_budget": 5.0,
+    "cash_fraction": 0.25,
+    "max_contracts": 20,
+    "mode": "imbalance_state",
+    "warmup": 30,
+    "min_cell": 1,
+    "strong_imbalance": 0.8,
+    "persistence_trades": 3,
+    "anchor_stride": 5,
+    "max_trades": 50,
+    "reference_q": 1,
+    "latency_ms": 5.0,
+    "depth_fraction": 0.5,
+    "adverse_slippage": 0.001,
+    "fee_quantum": "0.0001",
+    "fee_scope": "contract",
+    "max_book_age_s": 10.0,
+    "max_source_lag_s": 3.0,
+    "max_processing_lag_s": 1.0,
+    "max_hold_s": 300.0,
+    "close_buffer_s": 60.0,
+    "session_loss_limit": 10.0,
+    "late_diagnostic_trades": 500,
+    "max_pending_labels": 2000,
+    "plot_points": 2500
+  },
+  "fee_multiplier": 1.0,
+  "stats": {
+    "trade_messages": 209,
+    "history_n": 7,
+    "anchors": 12,
+    "cell_n": 0,
+    "pending_labels": 0,
+    "closed_trades": 0,
+    "open_contracts": 0,
+    "gross_closed": 0.0,
+    "fees_closed": 0,
+    "net_closed": 0.0,
+    "fees_paid_including_open": 0.0,
+    "cash": 99.6113,
+    "liquidation_equity": 99.6113,
+    "max_dd_observed": 2.745999999999995,
+    "unmarkable_observations": 0,
+    "DA_percent": null,
+    "DA_n": 0,
+    "traded_DA_percent": null,
+    "traded_DA_n": 0,
+    "directional_signals_with_valid_labels": 0,
+    "correct_direction_hit_rate": null,
+    "directional_signal_timeouts": 0,
+    "taken_censored": 0,
+    "taken_pending": 0,
+    "win_rate": null,
+    "timeouts": 0,
+    "late_same_side": 0,
+    "connected": false,
+    "paused": false,
+    "censored:invalid_book": 5
+  },
+  "forecasts": [
+    {
+      "id": 0,
+      "t": 1885.102175621,
+      "start_count": 35,
+      "bucket": 0,
+      "state": null,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1946.034225849,
+      "hit_wait_trades": 11,
+      "hit_wait_s": 60.93205022799998
+    },
+    {
+      "id": 1,
+      "t": 2055.266288598,
+      "start_count": 59,
+      "bucket": 4,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2097.488560704,
+      "hit_wait_trades": 2,
+      "hit_wait_s": 42.22227210600022
+    },
+    {
+      "id": 2,
+      "t": 2097.493943994,
+      "start_count": 64,
+      "bucket": 4,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2339.43257314,
+      "hit_wait_trades": 18,
+      "hit_wait_s": 241.93862914600004
+    },
+    {
+      "id": 3,
+      "t": 2271.889743637,
+      "start_count": 75,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2297.790018032,
+      "hit_wait_trades": 0,
+      "hit_wait_s": 25.900274394999997
+    },
+    {
+      "id": 4,
+      "t": 2552.065491545,
+      "start_count": 120,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 3,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2602.379280751,
+      "hit_wait_trades": 15,
+      "hit_wait_s": 50.31378920599991
+    },
+    {
+      "id": 5,
+      "t": 2665.195308679,
+      "start_count": 142,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 4,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2678.419889993,
+      "hit_wait_trades": 21,
+      "hit_wait_s": 13.224581314000261
+    },
+    {
+      "id": 6,
+      "t": 2665.202168011,
+      "start_count": 147,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 4,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2678.419889993,
+      "hit_wait_trades": 16,
+      "hit_wait_s": 13.217721982000057
+    },
+    {
+      "id": 7,
+      "t": 2699.098707637,
+      "start_count": 167,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 4,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": null,
+      "label_status": "censored:invalid_book",
+      "imbalance_changed": true
+    },
+    {
+      "id": 8,
+      "t": 2699.102477572,
+      "start_count": 172,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 5,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": null,
+      "label_status": "censored:invalid_book",
+      "imbalance_changed": true
+    },
+    {
+      "id": 9,
+      "t": 2789.274885975,
+      "start_count": 194,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 6,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": null,
+      "label_status": "censored:invalid_book"
+    },
+    {
+      "id": 10,
+      "t": 2789.278054614,
+      "start_count": 199,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 7,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": null,
+      "label_status": "censored:invalid_book"
+    },
+    {
+      "id": 11,
+      "t": 2789.281502911,
+      "start_count": 204,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 7,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": null,
+      "label_status": "censored:invalid_book"
+    }
+  ],
+  "trades": [],
+  "events": [
+    {
+      "t": 1505.74988521,
+      "kind": "imbalance_locked",
+      "trade_count": 3,
+      "mid": 0.29000000000000004,
+      "imbalance": 0.9090909090909091
+    },
+    {
+      "t": 1527.691138668,
+      "kind": "imbalance_unlocked",
+      "trade_count": 4,
+      "mid": 0.265
+    },
+    {
+      "t": 1863.604841913,
+      "kind": "imbalance_locked",
+      "trade_count": 26,
+      "mid": 0.135,
+      "imbalance": 0.943326721450836
+    },
+    {
+      "t": 1878.945655678,
+      "kind": "imbalance_unlocked",
+      "trade_count": 28,
+      "mid": 0.15000000000000002
+    },
+    {
+      "t": 1885.102175621,
+      "kind": "imbalance_locked",
+      "trade_count": 35,
+      "mid": 0.205,
+      "imbalance": -0.9830350326575621
+    },
+    {
+      "t": 1885.102175621,
+      "kind": "anchor",
+      "trade_count": 35,
+      "mid": 0.205,
+      "anchor_id": 0,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1885.106842157,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 37,
+      "mid": 0.19999999999999998,
+      "anchor_id": 0
+    },
+    {
+      "t": 1927.472386529,
+      "kind": "imbalance_unlocked",
+      "trade_count": 38,
+      "mid": 0.175
+    },
+    {
+      "t": 1929.493835229,
+      "kind": "imbalance_locked",
+      "trade_count": 40,
+      "mid": 0.18,
+      "imbalance": 0.8123317355046292
+    },
+    {
+      "t": 1943.698946281,
+      "kind": "imbalance_unlocked",
+      "trade_count": 44,
+      "mid": 0.19
+    },
+    {
+      "t": 1946.034225849,
+      "kind": "untraded_move",
+      "trade_count": 46,
+      "mid": 0.26,
+      "anchor_id": 0,
+      "side": 1
+    },
+    {
+      "t": 1991.734628781,
+      "kind": "imbalance_locked",
+      "trade_count": 51,
+      "mid": 0.24500000000000002,
+      "imbalance": 0.9878787878787756
+    },
+    {
+      "t": 2000.120335875,
+      "kind": "imbalance_unlocked",
+      "trade_count": 52,
+      "mid": 0.19999999999999998
+    },
+    {
+      "t": 2055.266288598,
+      "kind": "imbalance_locked",
+      "trade_count": 59,
+      "mid": 0.255,
+      "imbalance": 0.842832089087372
+    },
+    {
+      "t": 2055.266288598,
+      "kind": "anchor",
+      "trade_count": 59,
+      "mid": 0.255,
+      "anchor_id": 1,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2055.338742093,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 59,
+      "mid": 0.265,
+      "anchor_id": 1
+    },
+    {
+      "t": 2055.340650827,
+      "kind": "imbalance_unlocked",
+      "trade_count": 60,
+      "mid": 0.27
+    },
+    {
+      "t": 2097.488560704,
+      "kind": "untraded_move",
+      "trade_count": 61,
+      "mid": 0.30500000000000005,
+      "anchor_id": 1,
+      "side": 1
+    },
+    {
+      "t": 2097.491930043,
+      "kind": "imbalance_locked",
+      "trade_count": 63,
+      "mid": 0.30500000000000005,
+      "imbalance": 0.8311171503445598
+    },
+    {
+      "t": 2097.493943994,
+      "kind": "anchor",
+      "trade_count": 64,
+      "mid": 0.30500000000000005,
+      "anchor_id": 2,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2097.523919066,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 68,
+      "mid": 0.31499999999999995,
+      "anchor_id": 2
+    },
+    {
+      "t": 2204.993802751,
+      "kind": "imbalance_unlocked",
+      "trade_count": 69,
+      "mid": 0.345
+    },
+    {
+      "t": 2271.889743637,
+      "kind": "imbalance_locked",
+      "trade_count": 75,
+      "mid": 0.31499999999999995,
+      "imbalance": -0.9812798352625504
+    },
+    {
+      "t": 2271.889743637,
+      "kind": "anchor",
+      "trade_count": 75,
+      "mid": 0.31499999999999995,
+      "anchor_id": 3,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2279.913470237,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 75,
+      "mid": 0.31499999999999995,
+      "anchor_id": 3
+    },
+    {
+      "t": 2297.790018032,
+      "kind": "untraded_move",
+      "trade_count": 75,
+      "mid": 0.255,
+      "anchor_id": 3,
+      "side": -1
+    },
+    {
+      "t": 2339.43257314,
+      "kind": "untraded_move",
+      "trade_count": 82,
+      "mid": 0.245,
+      "anchor_id": 2,
+      "side": -1
+    },
+    {
+      "t": 2340.580399289,
+      "kind": "imbalance_unlocked",
+      "trade_count": 83,
+      "mid": 0.235
+    },
+    {
+      "t": 2482.651918589,
+      "kind": "imbalance_locked",
+      "trade_count": 109,
+      "mid": 0.22999999999999998,
+      "imbalance": -0.9697153240460327
+    },
+    {
+      "t": 2552.065491545,
+      "kind": "anchor",
+      "trade_count": 120,
+      "mid": 0.14,
+      "anchor_id": 4,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2552.070982406,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 120,
+      "mid": 0.135,
+      "anchor_id": 4
+    },
+    {
+      "t": 2584.358655505,
+      "kind": "imbalance_unlocked",
+      "trade_count": 122,
+      "mid": 0.12500000000000003
+    },
+    {
+      "t": 2602.379280751,
+      "kind": "untraded_move",
+      "trade_count": 135,
+      "mid": 0.105,
+      "anchor_id": 4,
+      "side": -1
+    },
+    {
+      "t": 2665.195308679,
+      "kind": "imbalance_locked",
+      "trade_count": 142,
+      "mid": 0.05999999999999998,
+      "imbalance": -0.9672131147540983
+    },
+    {
+      "t": 2665.195308679,
+      "kind": "anchor",
+      "trade_count": 142,
+      "mid": 0.05999999999999998,
+      "anchor_id": 5,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2665.202168011,
+      "kind": "anchor",
+      "trade_count": 147,
+      "mid": 0.05999999999999998,
+      "anchor_id": 6,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2665.238885285,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 148,
+      "mid": 0.06999999999999998,
+      "anchor_id": 5
+    },
+    {
+      "t": 2665.238885285,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 148,
+      "mid": 0.06999999999999998,
+      "anchor_id": 6
+    },
+    {
+      "t": 2666.499482854,
+      "kind": "imbalance_unlocked",
+      "trade_count": 149,
+      "mid": 0.06999999999999998
+    },
+    {
+      "t": 2678.419889993,
+      "kind": "untraded_move",
+      "trade_count": 163,
+      "mid": 0.025000000000000015,
+      "anchor_id": 5,
+      "side": -1
+    },
+    {
+      "t": 2678.419889993,
+      "kind": "untraded_move",
+      "trade_count": 163,
+      "mid": 0.025000000000000015,
+      "anchor_id": 6,
+      "side": -1
+    },
+    {
+      "t": 2699.098707637,
+      "kind": "imbalance_locked",
+      "trade_count": 167,
+      "mid": 0.020000000000000014,
+      "imbalance": 0.9563728024819028
+    },
+    {
+      "t": 2699.098707637,
+      "kind": "anchor",
+      "trade_count": 167,
+      "mid": 0.020000000000000014,
+      "anchor_id": 7,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2699.102477572,
+      "kind": "anchor",
+      "trade_count": 172,
+      "mid": 0.020000000000000014,
+      "anchor_id": 8,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2699.105259841,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 175,
+      "mid": 0.025000000000000015,
+      "anchor_id": 7
+    },
+    {
+      "t": 2699.105259841,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 175,
+      "mid": 0.025000000000000015,
+      "anchor_id": 8
+    },
+    {
+      "t": 2710.789700068,
+      "kind": "imbalance_unlocked",
+      "trade_count": 176,
+      "mid": 0.025000000000000015
+    },
+    {
+      "t": 2779.66038367,
+      "kind": "imbalance_locked",
+      "trade_count": 190,
+      "mid": 0.035000000000000024,
+      "imbalance": -0.8082472843021639
+    },
+    {
+      "t": 2789.273418342,
+      "kind": "imbalance_unlocked",
+      "trade_count": 192,
+      "mid": 0.025000000000000015
+    },
+    {
+      "t": 2789.274885975,
+      "kind": "imbalance_locked",
+      "trade_count": 194,
+      "mid": 0.025000000000000015,
+      "imbalance": 0.983726606997559
+    },
+    {
+      "t": 2789.274885975,
+      "kind": "anchor",
+      "trade_count": 194,
+      "mid": 0.025000000000000015,
+      "anchor_id": 9,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2789.278054614,
+      "kind": "anchor",
+      "trade_count": 199,
+      "mid": 0.025000000000000015,
+      "anchor_id": 10,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2789.281502911,
+      "kind": "anchor",
+      "trade_count": 204,
+      "mid": 0.025000000000000015,
+      "anchor_id": 11,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2789.294235251,
+      "kind": "censored",
+      "trade_count": 205,
+      "mid": null,
+      "anchor_id": 7,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294235251,
+      "kind": "censored",
+      "trade_count": 205,
+      "mid": null,
+      "anchor_id": 8,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294235251,
+      "kind": "censored",
+      "trade_count": 205,
+      "mid": null,
+      "anchor_id": 9,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294235251,
+      "kind": "censored",
+      "trade_count": 205,
+      "mid": null,
+      "anchor_id": 10,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294235251,
+      "kind": "censored",
+      "trade_count": 205,
+      "mid": null,
+      "anchor_id": 11,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294235251,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294235251,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "strategy_book_pause"
+    },
+    {
+      "t": 2789.294337593,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294412474,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294476688,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.294584273,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.295001071,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.295171414,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.295887535,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.296363277,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.297075066,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.297700803,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.298131056,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.308478757,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.308478757,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "strategy_book_pause"
+    },
+    {
+      "t": 2789.310917681,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.311495097,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.311644928,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.311727954,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.311832472,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.312580138,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.312580138,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "strategy_book_pause"
+    },
+    {
+      "t": 2789.313191839,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.313706671,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.315747753,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.316160599,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.316591141,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.316713762,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.316786784,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.31768392,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.318436653,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.319906518,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.323268312,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.323629851,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.324201924,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.324321418,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.324399095,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.324470001,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.324608728,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.339771506,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.393389297,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.395029659,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.39518693,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.399980588,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.404251159,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.4089194,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.410038312,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.412100817,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.414975036,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.429867399,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.445629569,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.451680032,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.452276579,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.471047544,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.477334291,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.477925586,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.498256919,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.498828645,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.499327102,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.500629773,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.501087462,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.504994952,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.505374755,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.507785675,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.50825834,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.508780236,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.513174806,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.513997165,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.514559236,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.521374681,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.521806255,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.522170536,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.522459856,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.527056018,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.529243685,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.531642602,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.551831089,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.553784464,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.554791874,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.575014718,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.706733378,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.709352749,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.713093819,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.715734794,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.716486892,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.758488115,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.863122623,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.863711436,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.870314318,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.870901538,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.871737491,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.872636895,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.878068806,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.879168077,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.882105314,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.902970688,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.903375882,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2789.90975435,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.046188172,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.046850048,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.177326328,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.180604187,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.250175079,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.265024438,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.270027112,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.270094154,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.285306484,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.286624271,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.286715172,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.289401661,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.289614809,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.28969814,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.2897643,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.343929407,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.357085937,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.357670797,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.501626582,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.508849378,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.592831992,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.742496012,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.742876273,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.78035095,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.78092824,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2790.80926369,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.107412514,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.112590945,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.112806195,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.112924088,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.11302138,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.11597612,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.116838727,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.1170207,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.117121407,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.117238327,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.117427826,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.117854534,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.11796037,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.118055153,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.118164707,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.118386183,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.11847203,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.118567317,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.118845818,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.11917871,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.119898574,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.121138586,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.122056318,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.123306488,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.124289115,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.124993357,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.125818831,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.163070531,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.168402258,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.169212777,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.171666659,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.172422386,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.237389299,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.255804948,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.256692269,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.256989313,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.257189758,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.265590511,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.304579121,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.304920977,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.313476262,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.416959559,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.417996643,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.418313151,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.418813877,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.420975824,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.42573065,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.452140227,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.452672741,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.531770749,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.532456383,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.53444395,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.535108112,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.56758067,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.57166172,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.572597253,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.625888115,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.848174635,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.848725428,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.849243128,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.914178481,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2791.914724095,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2792.098390376,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2792.401130856,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2792.447598687,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2792.448236171,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2793.273680854,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2793.274756366,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2793.758275661,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2793.758869719,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2793.761592056,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2793.915893209,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.307894836,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.626283679,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.626980669,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.708910719,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.709649131,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.721081314,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.72176807,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.727011596,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.728702141,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.778098145,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.778641459,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.860718933,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2794.861290754,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.056414736,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.059617207,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.091024043,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.127994767,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.129841874,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.275865075,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.276449564,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.413711885,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.419002874,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.485242909,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.485837846,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.49597612,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.934052392,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.937163598,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2795.942192487,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2796.134016941,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2796.135187678,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2796.27815089,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2796.50871162,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2796.752840833,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2796.896689646,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.023484637,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.031850225,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.102228689,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.150799455,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.203462791,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.22272645,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.273270295,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.273345699,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.638789967,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2797.645359819,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.119182907,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.120225459,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.120885498,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.413407869,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.414798567,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.415302324,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.417334711,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.417835329,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.418075909,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.42046064,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.421023165,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.421657573,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.422641139,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.423162183,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.424136187,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.424726274,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.425583236,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.426247374,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.4271584,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.899371396,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.899600752,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2798.900213541,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.140669946,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.149373456,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.168058203,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.175418349,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.214846118,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.221879516,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.27383657,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.274499531,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.277919862,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.293807284,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.305718023,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.71323212,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.714082162,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.909449922,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2799.916772141,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2800.148451382,
+      "kind": "data_gap",
+      "trade_count": 205,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2800.154080108,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2800.159345311,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2800.289868145,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2800.300846821,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2800.303790078,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2801.15318737,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2801.275832063,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2802.098164111,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2803.304867469,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2803.306724778,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2803.411441251,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2803.445027587,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2803.582564946,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2803.890997051,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2803.894208758,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2804.519333051,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2804.521705289,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2804.709851941,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2804.721818477,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2805.103453401,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.015894145,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.019873019,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.020319071,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.933321134,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.933868505,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.934628193,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.935056864,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.935565074,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.936064136,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.936610563,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.937131895,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.937482215,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.937849942,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.938398235,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.939126034,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.939890495,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.940555326,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2809.990264196,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.005851109,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.006380014,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.020378509,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.022122949,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.030375204,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.030736875,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.031304667,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.032086304,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.035203183,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.036789228,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.037247716,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.037788422,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.049271546,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.049743341,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.050808412,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.062086675,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.153925343,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.543452714,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.550146235,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2810.914285711,
+      "kind": "data_gap",
+      "trade_count": 206,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2811.668838861,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2811.675175745,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2811.679455583,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2811.823266636,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2812.675331837,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2814.997705752,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2815.03927981,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2815.051249738,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2815.54250615,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2815.545380791,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2815.581252351,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2815.599263442,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2817.047780473,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2817.060881827,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2817.975899819,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2817.976566991,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2817.99838139,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2817.999036101,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.020182697,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.021442582,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.037673967,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.038073797,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.065093139,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.065671834,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.469746366,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.470571833,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.477667956,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.511490222,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.512268325,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2818.617815783,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2819.823790543,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.037207755,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.038003835,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.049195812,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.112347216,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.164268996,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.164726071,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.165159859,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.165271269,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.165345687,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.165415828,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.424428543,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2820.54759262,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2821.682457925,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2821.848209776,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2826.836673517,
+      "kind": "data_gap",
+      "trade_count": 207,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2826.847678847,
+      "kind": "data_gap",
+      "trade_count": 208,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2826.97251057,
+      "kind": "data_gap",
+      "trade_count": 208,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2827.591802576,
+      "kind": "data_gap",
+      "trade_count": 208,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2827.606987345,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2827.722410955,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2827.745708738,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2828.606170389,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2831.549618828,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2832.547305188,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2832.551444483,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.347667272,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.354344393,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.358347294,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.361615338,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.363929693,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.366918359,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.369211322,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.38612624,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.388789375,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.396074761,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.435425368,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.43687796,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.437002578,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.446359089,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.471551249,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.477356385,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.477462024,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.478620731,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.481485329,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.481654429,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.481730164,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.48179297,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.48185024,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.484193117,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.48429596,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.490245295,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.490891079,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.492710267,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.504455484,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.509204821,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.510678473,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.510952018,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.513229848,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.51365969,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.514725686,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.520278978,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.524155598,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.580864092,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.584555335,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.586400475,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.592110816,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.602384378,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2836.719551756,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2837.020570216,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2837.027020034,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2837.411127721,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2837.417739659,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2837.429001377,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2837.434666998,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2837.4363323,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2838.402032786,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2838.403186199,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2838.598796049,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2838.601558537,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2838.998007774,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2841.35309621,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2841.356736418,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2841.375214571,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2841.376455543,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.887438029,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.887596942,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.895929779,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.896255155,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.896350274,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.896422624,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.896486135,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.896674037,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.896746294,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.896810823,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.897096274,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.897463972,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.901915532,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.904551464,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.904853634,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.904947052,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.905017102,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.910048294,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.910254958,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.91042563,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.910578951,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.911181727,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.912636083,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.913753673,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.913860712,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.914383435,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.914490651,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.914602404,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.91467338,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2842.914825321,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2843.527822957,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2843.554202822,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2844.305040918,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.343801648,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.344208571,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.34890783,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.34932764,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.349828416,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.352699891,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.353895344,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.354275923,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.356616795,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.357060775,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.357147771,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.357329699,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.359471827,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.36027324,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.361700745,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.368908578,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.36940327,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.370174029,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.373669949,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.373939916,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.374025963,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.374199544,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.374275763,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.375929709,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.376899291,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.377580079,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.385952769,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.386682512,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.389632728,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.390162943,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.390744399,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.391993438,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.392471811,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.392965515,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.393825875,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.394341552,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.395178776,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.395567848,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.405883786,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.408220178,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.409076174,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.410621944,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.411203355,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2845.411959969,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.305573897,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.308357657,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.329731867,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.358566128,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.360450183,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.377685123,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.383808681,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2846.384133798,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2847.405326387,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2848.310013676,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2848.310561407,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2848.329460485,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2850.310119217,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2850.310506256,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2850.314261102,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.385749406,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.389326904,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.389842308,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.395870239,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.397962514,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.408367167,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.565582581,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.569107331,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.569251907,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.569323817,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2851.570405088,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2852.313026796,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2852.31397011,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2852.985931298,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2853.076866791,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2853.161730984,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2854.314072083,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2854.314710965,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2855.28139857,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2856.312438555,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2856.314277526,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2858.311788651,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2858.312480266,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2860.312308377,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2860.313109256,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2862.313754939,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2862.314570213,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2864.31519579,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2864.317347052,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2866.317909316,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2866.318450666,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2868.316673757,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2868.318101007,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2870.315675929,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2870.316319908,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2872.323336381,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2872.324482289,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2874.060128393,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2874.075229567,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2874.332954796,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2874.338283988,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2876.321923074,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2876.322403149,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2876.3435689,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2877.882597805,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2878.324367261,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2878.325126887,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2880.321247624,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2880.321865721,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2880.328698246,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2881.815044226,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2881.815474357,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2881.815737572,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2882.323426584,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2882.324183141,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.325989846,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.32631452,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.361431312,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.361995941,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.378985447,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.381703563,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.400661777,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.403218174,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.418941804,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.423305986,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.445239245,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2884.446830429,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2886.326093768,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2886.326675201,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2888.331206876,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2888.331777743,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2890.328248824,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2890.335271764,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2890.353596499,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2892.180573256,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2894.486017379,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2894.487355632,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2898.303283808,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2900.305819643,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2900.30637951,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2902.306434982,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2902.307047018,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2904.305904904,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2904.306425491,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2906.30817161,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2906.308915234,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2906.55889106,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2906.58167834,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2906.598766805,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2906.619050308,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2906.639331453,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2907.071196951,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2907.072061492,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2907.072432502,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2907.075811032,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2907.075938202,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2908.310661088,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2908.311019919,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2910.310848783,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2910.311406441,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2912.309033667,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2912.309423236,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2914.311883575,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2914.313147557,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2916.314129211,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2916.314960439,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2918.317283592,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2918.317902448,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2920.314322998,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2920.314942854,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2921.376750297,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2921.377256853,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2921.377775125,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2921.377967785,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2921.378571029,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2922.322914604,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2922.324168424,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2923.436392256,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2924.31562456,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2924.316205833,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2926.31775407,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2926.319923436,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2928.3206747,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2928.321006302,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2930.321419728,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2930.322448891,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2932.318252546,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2932.318810756,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2934.329434158,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2934.329840665,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2936.324437065,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2936.324973064,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2938.329137969,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2938.32969268,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2940.324441338,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2940.32512144,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2942.330718595,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2942.331891879,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2944.328062693,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2944.328469259,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2944.353470527,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2944.365401172,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2946.330244273,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2946.333669377,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2948.330375575,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2948.330921614,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2950.330866117,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2950.331235677,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2952.331589949,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2952.332491252,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2954.335109099,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2954.33779706,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2956.332271925,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2956.332731459,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2958.333911497,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2958.334505425,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2960.332743852,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2960.33344487,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2962.361723601,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2962.363106818,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2964.34408543,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2964.344662545,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2966.340675338,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2966.342144224,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2968.342431931,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2968.342989064,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2970.342553846,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2970.34594414,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2972.343477707,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2972.344340758,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2974.342445123,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2974.343716884,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2976.344590521,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2976.348112352,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2978.345992006,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2978.3474203,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2980.346240882,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2980.346873795,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2982.347057545,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2982.347646345,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2984.349072204,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2984.349615043,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2986.35540379,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2986.355947808,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2988.351868788,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2988.35242827,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2989.427245843,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2989.60075387,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2990.353960157,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2990.354459485,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2992.356786693,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2992.357305114,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2994.355170001,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2994.356057149,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2996.356613429,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2996.356980405,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2998.356395023,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 2998.357024181,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3000.356399893,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3000.357081712,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3002.358812126,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3002.359575228,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3004.363049928,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3004.363776067,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3006.365298291,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3006.365855334,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3008.36584819,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3008.366782495,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3010.362424154,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3010.36334991,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3012.363149099,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3012.36382039,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3014.366999169,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3016.01271384,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3023.685910461,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    },
+    {
+      "t": 3070.253093043,
+      "kind": "data_gap",
+      "trade_count": 209,
+      "mid": null,
+      "reason": "invalid_book"
+    }
+  ],
+  "open_position": null,
+  "pending_order": null,
+  "counts": {
+    "(0, None)": [
+      0,
+      0,
+      1
+    ],
+    "(4, 1)": [
+      1,
+      0,
+      1
+    ],
+    "(0, 1)": [
+      1,
+      0,
+      0
+    ],
+    "('all',)": [
+      5,
+      0,
+      2
+    ],
+    "(0,)": [
+      4,
+      0,
+      1
+    ],
+    "(4,)": [
+      1,
+      0,
+      1
+    ],
+    "(0, -1)": [
+      3,
+      0,
+      0
+    ],
+    "(4, -1)": [
+      0,
+      0,
+      0
+    ]
+  }
+}

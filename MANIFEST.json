@@ -1,0 +1,902 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 81,
+    "sha256": "175890a9a8cd5ac41df7bfff533efaa88af17c588c9108468cdf5be9d0d1f114"
+  },
+  {
+    "path": ".github/workflows/import.yml",
+    "bytes": 2113,
+    "sha256": "434b78cc0d94b6641ca6f6a3da7659cc3a1934cd8c4f86d421fe5e213f6e17af"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 42,
+    "sha256": "62883da8ae1a99cd0922e318bfd6a85811896c702b1d96e40cc53b736fe6ba33"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3385,
+    "sha256": "64e992b3748c8c128aded8fea36431718dffe98f9bf72c76166fb9bc64f0602d"
+  },
+  {
+    "path": "combined_paper/Active_30min_Paper_Report.md",
+    "bytes": 5083,
+    "sha256": "6763c5b33abe59f9f43b37d938004f450b4b12c405d10c823175e8f47578d475"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29GBSNGR-GBS/events.csv",
+    "bytes": 12136,
+    "sha256": "93066c8cd11aa95e9d99e41e91acff66d4707c0500458e13acc6833c0c76422e"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29GBSNGR-GBS/forecasts.csv",
+    "bytes": 7965,
+    "sha256": "b597aa81defaa3d62fafd6259e4dbfda89c0158e36cf373055e67fd60edf1324"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29GBSNGR-GBS/ledger.json",
+    "bytes": 59170,
+    "sha256": "e2ff9285dc29da3af590b8995b287c11e2abe9e259104466975e0e08c04aa196"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29GBSNGR-GBS/maker.json",
+    "bytes": 72961,
+    "sha256": "a89cc1aef0580ca8792d24b29f1d66aac7742cece7217bb9ec0f4d5ed6191352"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29GBSNGR-GBS/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29UGALBA-UGA/events.csv",
+    "bytes": 2180,
+    "sha256": "2470ce708f37845c85c44d87b9839d516185f9bf1cb47c7233fe82c88e549436"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29UGALBA-UGA/forecasts.csv",
+    "bytes": 1505,
+    "sha256": "9ec3510c480a73bd541c675db245044e56cad57727034e286fedac56537d429a"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29UGALBA-UGA/ledger.json",
+    "bytes": 12694,
+    "sha256": "b2136ceb49406070a4823ce64ffc35c5bf59a2bef554707fef021cccb229b651"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29UGALBA-UGA/maker.json",
+    "bytes": 542,
+    "sha256": "c8f79285b360fe94fa68737ddec377e42738d44ade21df143b13b136e8bbd680"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29UGALBA-UGA/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29ZAMTOG-ZAM/events.csv",
+    "bytes": 12265,
+    "sha256": "2cb22d34cf514f7c1c07a2c3515deec91e56a3260c815fa4406d6de7d5f960b8"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29ZAMTOG-ZAM/forecasts.csv",
+    "bytes": 7016,
+    "sha256": "8ea9435a3990d899d907b20ea07e9965357305241f133320d4a16f62725c4dc0"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29ZAMTOG-ZAM/ledger.json",
+    "bytes": 60028,
+    "sha256": "db61118d578bf5ef5bf6257a1215256cb50801380faaf3b6e216c9c09065e7b5"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29ZAMTOG-ZAM/maker.json",
+    "bytes": 76,
+    "sha256": "2bd842a62887d89c453fed9283d44a1b4ec618b19ae4fc73eab7bb17606b3ef8"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONGAME-26SEP29ZAMTOG-ZAM/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONSPREAD-26SEP29GHAGAM-GHA2/events.csv",
+    "bytes": 3966,
+    "sha256": "b36bcb95f9d3dd000c1bdeb2c7807dd9043bdbcf4b8b3015bd256c6c2660c0be"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONSPREAD-26SEP29GHAGAM-GHA2/forecasts.csv",
+    "bytes": 1630,
+    "sha256": "d2430ed635124cc4263c33a2ca87248e4ba9b18d51d7f916df43407d2b0ce748"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONSPREAD-26SEP29GHAGAM-GHA2/ledger.json",
+    "bytes": 17074,
+    "sha256": "5eb5e5f96ac2f8b414342d32a32cee21ce36a3c8cd5474c6cb750bdc3b887efc"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONSPREAD-26SEP29GHAGAM-GHA2/maker.json",
+    "bytes": 76,
+    "sha256": "2bd842a62887d89c453fed9283d44a1b4ec618b19ae4fc73eab7bb17606b3ef8"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXAFCONSPREAD-26SEP29GHAGAM-GHA2/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI/events.csv",
+    "bytes": 29191,
+    "sha256": "e8b4c8e8d8dac6afc4d365503203bc3e0690ec55e722298ff6e5eb0bdf443850"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI/forecasts.csv",
+    "bytes": 14840,
+    "sha256": "48879ae692e575af33676bec94c010f815e553a5b07c5a13e7a1d3c344f89aed"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI/ledger.json",
+    "bytes": 124818,
+    "sha256": "78d58f4b8a3896cba1b7efb55de651a5f2d2485e0874ae3b80d37e95ec961b8d"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI/maker.json",
+    "bytes": 156997,
+    "sha256": "da4f13a673fcd885f5d48ce495bc9a063047467aa55f50025a88fafbbbde690b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI/trades.csv",
+    "bytes": 672,
+    "sha256": "eca1a0a4773be216b3bdbf2e14dca5ff38c7eee605a6887f2015e64cef7d49d1"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR/events.csv",
+    "bytes": 79591,
+    "sha256": "2027befa9149ee263d0151ec6142fadb0ae942a9856c261ea62ee29728757dd9"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR/forecasts.csv",
+    "bytes": 6471,
+    "sha256": "2e3ea76435410aabf6ebbb082a38f2ffbb48d6115393c174559f41eec26a73d0"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR/ledger.json",
+    "bytes": 252541,
+    "sha256": "267ff492bc2482fb23c8ca84f755bf95dc8f7c90e347b168d43a542b233d1db4"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR/maker.json",
+    "bytes": 17307,
+    "sha256": "a3fe54425f0267288737288253c56795ef86073837c80e5772f926dcbe0febb5"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29NARNGI-NAR/events.csv",
+    "bytes": 39385,
+    "sha256": "5757fad5bcdbcc15eb18707e3689b6842077da92644c0cf82c5f6b783cd87803"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29NARNGI-NAR/forecasts.csv",
+    "bytes": 2080,
+    "sha256": "6ee511f3e70df6445d2d11f85c45d2934ac7b253cf77ba2e319076478b7a5786"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29NARNGI-NAR/ledger.json",
+    "bytes": 125762,
+    "sha256": "43fd1b8bebaaa5ccec26de619bb992d512c285afdb1de4b4c5358419cbdb3402"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29NARNGI-NAR/maker.json",
+    "bytes": 76,
+    "sha256": "2bd842a62887d89c453fed9283d44a1b4ec618b19ae4fc73eab7bb17606b3ef8"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29NARNGI-NAR/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29SOUHOV-HOV/events.csv",
+    "bytes": 53638,
+    "sha256": "86838c1476c6d6df492093799da7ac32d5992f8cc42abebe4bf374bd3754b17f"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29SOUHOV-HOV/forecasts.csv",
+    "bytes": 11897,
+    "sha256": "af7fa200ada8c5fac3a1e602cf7de9a5121c8df59be86e044276d056c5d64bfb"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29SOUHOV-HOV/ledger.json",
+    "bytes": 182965,
+    "sha256": "244b335d316b253ed86c15a2abd080b0323a0173480c171c75f550599f2b4cf7"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29SOUHOV-HOV/maker.json",
+    "bytes": 94176,
+    "sha256": "d7ca3480daccfe4607954c3e8d1df675129dd58d12e7813e82fdd3b8d4a2fafc"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXITFWMATCH-26SEP29SOUHOV-HOV/trades.csv",
+    "bytes": 411,
+    "sha256": "8839d26d6e7d8ea0716ebb3f3ca39d57db07573eea2e8194f580423ded92ec76"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXMLBGAME-26SEP291400PHIATL-ATL/events.csv",
+    "bytes": 13589,
+    "sha256": "f4eb91f1bd0c1cc87eab7a3d9d12fbaa370968088da009a27d4f116c518dd91c"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXMLBGAME-26SEP291400PHIATL-ATL/forecasts.csv",
+    "bytes": 16992,
+    "sha256": "d9575b9fbcfea7ce6f2ecf9f56df068ca3ee1fac9d59dd791054414c02c6de16"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXMLBGAME-26SEP291400PHIATL-ATL/ledger.json",
+    "bytes": 101272,
+    "sha256": "55dc6ce155b1674b72226afa12bdee345fe2b7621c82bf6cad8585b5b47f4bf8"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXMLBGAME-26SEP291400PHIATL-ATL/maker.json",
+    "bytes": 76,
+    "sha256": "2bd842a62887d89c453fed9283d44a1b4ec618b19ae4fc73eab7bb17606b3ef8"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXMLBGAME-26SEP291400PHIATL-ATL/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXUEFANLGAME-26SEP29FINBLR-FIN/events.csv",
+    "bytes": 12715,
+    "sha256": "76513e452265044d93139a55578aec4a3ffb87243d26fa7c84c8c2ef14e7b923"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXUEFANLGAME-26SEP29FINBLR-FIN/forecasts.csv",
+    "bytes": 9567,
+    "sha256": "0c1c13305a19935769d14fbfb969f3a9fb7e5c68855338f44575cdaa52bde6e8"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXUEFANLGAME-26SEP29FINBLR-FIN/ledger.json",
+    "bytes": 70482,
+    "sha256": "cb8220527ce85261478ec17f62a33691d989c2dab453720af36c2a50d89dba30"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXUEFANLGAME-26SEP29FINBLR-FIN/maker.json",
+    "bytes": 158074,
+    "sha256": "0cc824f4eba07afd3b6b7b530b8019570145d567d6a5d94a5422c926eaea5968"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/KXUEFANLGAME-26SEP29FINBLR-FIN/trades.csv",
+    "bytes": 1,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/capture_summary.json",
+    "bytes": 106555,
+    "sha256": "3a885cac2de132c57c83198b897ef0655fcf12ba7b4b2729912f25f6a60c9d6b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/combined_results.json",
+    "bytes": 16066,
+    "sha256": "2a4b772a3ae283aae4cf1974f9333dd554917ec41ae5aeed32bd08285c03ac6b"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/feed.jsonl.gz",
+    "bytes": 17898711,
+    "sha256": "b2dbfbd34e42983e9fbf22e611bbbd2268933cbac4da29659e67a359d11c29ec"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/replay_status.json",
+    "bytes": 485,
+    "sha256": "5dcc91ef937b6ea826b9175c3303cfdfaa20892d89caa890de765e7e7ee90e1a"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/run_status.json",
+    "bytes": 555,
+    "sha256": "25ebdfedba3970995eaef491c6872388e05ee591632310a6b85f1a83b6f43984"
+  },
+  {
+    "path": "combined_paper/active_30min_20260929T1640Z/selection.json",
+    "bytes": 124641,
+    "sha256": "9e4d4bbba721320b4891abba4aa174198e9f34efd63052f5b8c0931dc3492878"
+  },
+  {
+    "path": "combined_paper/inspect_capture.py",
+    "bytes": 1692,
+    "sha256": "7406572e1c5344fef726cf9d248d1c0875bbd5d7e0dde45d68164fe3de225f89"
+  },
+  {
+    "path": "combined_paper/record_live.py",
+    "bytes": 4200,
+    "sha256": "1c67c736100a51bbcd625eac5f6454a8fc9a93542b43d1ba860b85ee3dca47d1"
+  },
+  {
+    "path": "combined_paper/recover_capture.py",
+    "bytes": 2454,
+    "sha256": "01ee496eb4dd317d34c8d5f0afa4fa29455c0f40f1d6712918d35a4a5375f601"
+  },
+  {
+    "path": "combined_paper/replay_combined.py",
+    "bytes": 20453,
+    "sha256": "91fef953808a7c7284c1826b1dcdc961c29a4570f55318d7b54091816ec19e09"
+  },
+  {
+    "path": "combined_paper/test_combined.py",
+    "bytes": 4257,
+    "sha256": "e24c2dab8f0ff324658e1461a7816c98b46d3f9de929f2da1821ecc933fae1c6"
+  },
+  {
+    "path": "combined_paper/test_empty_snapshot.py",
+    "bytes": 1863,
+    "sha256": "1b0e6628e9f43fc7d67a95b9a79375b5f1423cecdcb7627316487a636aa575f6"
+  },
+  {
+    "path": "combined_paper/test_recovery.py",
+    "bytes": 1931,
+    "sha256": "38c18b6cb14f1bad463a33477b3f1b360e78824d1081261fe2826897cc343a5e"
+  },
+  {
+    "path": "data/orderbook.parquet",
+    "bytes": 1829026,
+    "sha256": "1b19d38ab37d91c93ddf74a17ebe96cd99cf33ab3a5cf2bc73c55de827bd9c3c"
+  },
+  {
+    "path": "data/trades.parquet",
+    "bytes": 5253607,
+    "sha256": "69010e3f63a7bc16b159e1bde4cba01979eecc5df41b6870bc8ecda81f9d24e1"
+  },
+  {
+    "path": "diagnostics/Imbalance_Threshold_Report.md",
+    "bytes": 7159,
+    "sha256": "c7a67585175da9d62f7edf1bb49e08a18a55629dfbfe9d38d013f8505caf9fa9"
+  },
+  {
+    "path": "diagnostics/imbalance_threshold_results.json",
+    "bytes": 123867,
+    "sha256": "e58af0fdf7c43577b7ce3978b7c0d4a5cc46adb8d6ca7c153daecd13c46d80b0"
+  },
+  {
+    "path": "diagnostics/imbalance_threshold_test.py",
+    "bytes": 12471,
+    "sha256": "0b55d88480e06b77f61d37a2ebe6fe0b8c2981ed97cbd372deff810773ba1db1"
+  },
+  {
+    "path": "docs/AUDIT.md",
+    "bytes": 2150,
+    "sha256": "1623b49a1c629da27c18e92a2118ab906a426bb10c973419a28a34ac5e69d873"
+  },
+  {
+    "path": "docs/DATASETS.md",
+    "bytes": 2245,
+    "sha256": "a00b92b620f7739a33c66c272d652189928d1c3e4ba9e068cc53026f5356b344"
+  },
+  {
+    "path": "docs/explorer.html",
+    "bytes": 6720,
+    "sha256": "e4a4b0fee904242fae8aad668c1f427000b00eb3eee9d0c38a54ada179b56cda"
+  },
+  {
+    "path": "docs/kalshi_diagnostics.png",
+    "bytes": 68384,
+    "sha256": "1a1930fd2cac8966972c06c510b8b9e1bd1ca18d48cfee92e7c9de5329aa1d82"
+  },
+  {
+    "path": "docs/kalshi_economics.png",
+    "bytes": 68636,
+    "sha256": "259559cacc14df5bb2e56e0c5b4b458ab8a06d997e99a42e5267b03e392f4d9c"
+  },
+  {
+    "path": "docs/preview.png",
+    "bytes": 122842,
+    "sha256": "ce2002074d620d57c2f0c5688df95fc2890a15750b56119d8c5c30525e488c22"
+  },
+  {
+    "path": "historical/Kalshi_Live_Paper.ipynb",
+    "bytes": 71939,
+    "sha256": "ce43a0e35670f7bf5b3376d7e634dd02a9da8ef5a29a58df50bedb609a0efd0a"
+  },
+  {
+    "path": "historical/Kalshi_Paper_Bundle.zip",
+    "bytes": 312751,
+    "sha256": "f5890e0cb990d2cdd9b553ab558c5d650a0dc29376335e7c23d9c89aa5da8fc2"
+  },
+  {
+    "path": "historical/Kalshi_Recovered_Replay.zip",
+    "bytes": 4380934,
+    "sha256": "bcf0fdd477a39d867b550c270293dcba7549b5e1ba33ec7aaac166d542568e43"
+  },
+  {
+    "path": "historical/Kalshi_Three_Leg_Pilot.zip",
+    "bytes": 277801,
+    "sha256": "9d23a82e84876e8f3af7134ee15fd825600f1ae762602d2349572c0f80581ffa"
+  },
+  {
+    "path": "historical/Public_Kalshi_sample_summary.csv",
+    "bytes": 349,
+    "sha256": "6c146102824e9ab485da9a9a7e7beba776bcd7fa1cbe5f6b2ca151995943e91f"
+  },
+  {
+    "path": "historical/final_kalshi_replay.zip",
+    "bytes": 215607,
+    "sha256": "5ebb151be77d80ea2b15a921d93747ee4d8c82f7edd983a2724395cb17a71b2e"
+  },
+  {
+    "path": "historical/kalshi_conditional_feature_search.zip",
+    "bytes": 4307574,
+    "sha256": "dbfdf05bc28d97de986d659d92818ec8f8903eea2d9da8e9176f9b384988f2e9"
+  },
+  {
+    "path": "historical/kalshi_external_sports_validation.zip",
+    "bytes": 995136,
+    "sha256": "75d37240d64ba1b44656f6ae1b58d440f955b8fcdfc8bbb85731ff2a41162f86"
+  },
+  {
+    "path": "historical/kalshi_fade_event_study_summary.csv",
+    "bytes": 18421,
+    "sha256": "fbbf0421c25052d1b877c7485529685cc98551275c74ec087bf05a56987a8ad0"
+  },
+  {
+    "path": "historical/kalshi_live_paper_bundle.zip",
+    "bytes": 13036,
+    "sha256": "412c31126d138fad332573a88a47951428f5af4a6c6b6b971e7e8e99ebe35f01"
+  },
+  {
+    "path": "historical/kalshi_next_move_strategy_results.zip",
+    "bytes": 387695,
+    "sha256": "af1c45853a62f4d64f15e39527dbb466e639fc9c375dad7dcdb8e9fdd32d25aa"
+  },
+  {
+    "path": "historical/kalshi_research_2026-09-21.zip",
+    "bytes": 90278532,
+    "sha256": "a45d4afb129b5abcdd06aaf681b27fb2fbeafbab298fac947e96983c696e2da3"
+  },
+  {
+    "path": "historical/kalshi_rolling_fp_state.py",
+    "bytes": 10861,
+    "sha256": "70f70512be894344670f4ac2289f5539aa9bd638d9815c412915760e547c42a0"
+  },
+  {
+    "path": "historical/kalshi_sports_test_results.zip",
+    "bytes": 29475047,
+    "sha256": "f0b86d52df9c6045879f196af9284ebf8a03e853374d4e22db60a1a885cf225c"
+  },
+  {
+    "path": "historical/kalshi_spread_crossing_prediction_plots.zip",
+    "bytes": 430272,
+    "sha256": "a89d83269a36a6c4f626216dc3f9e20b007f22babb7c1945b527e89b94cd46e3"
+  },
+  {
+    "path": "historical/kalshi_trade_time_plots.zip",
+    "bytes": 1912611,
+    "sha256": "9d36fb35706f526c2f972d978e08b641295455914fdd1b1445f60b8c9ca2e282"
+  },
+  {
+    "path": "historical/locked_fp_trade_time_kalshi.py",
+    "bytes": 8386,
+    "sha256": "86b0b256287db81585776d0000aabffdb7df6a2b5c3fa4df7c05a10ec488cc32"
+  },
+  {
+    "path": "kalshi_paper/paper_engine.py",
+    "bytes": 44701,
+    "sha256": "158f9daa174b41af71a0b3d73dcfeab0b27178832ef7750fd89b300a9bfbaeb6"
+  },
+  {
+    "path": "kalshi_paper/test_paper.py",
+    "bytes": 11811,
+    "sha256": "29380a7253eadffa9246b360431e735be69271f96521ad0c3afafbbb69ae7cb6"
+  },
+  {
+    "path": "maker_project/audit_raw.py",
+    "bytes": 2523,
+    "sha256": "f5528842a245aa5f40eba3110ad4a2b93ad553d4a410aca04f769cbdaa2e3976"
+  },
+  {
+    "path": "maker_project/maker_replay.py",
+    "bytes": 24271,
+    "sha256": "6920c25a5d3b1ca7161627a4c1514d65972631b14e8675ac418d44aa014ee493"
+  },
+  {
+    "path": "maker_project/maker_v2/data_and_scores.py",
+    "bytes": 8877,
+    "sha256": "9cdb0f09e7acf906da5ddeb7176a66691f42d253659c2596e57cae31efcfead2"
+  },
+  {
+    "path": "maker_project/maker_v2/distributions.py",
+    "bytes": 5626,
+    "sha256": "af5f5a19546207784d9dab9e02c39fabec58c6afe91868f7c07a0af074bf2a94"
+  },
+  {
+    "path": "maker_project/maker_v2/execution.py",
+    "bytes": 8386,
+    "sha256": "afc68a6fd5e6bb0a2758de625771d078fe3c3e8aa14d25ea5897c60922f6a4e6"
+  },
+  {
+    "path": "maker_project/maker_v2/fees.py",
+    "bytes": 779,
+    "sha256": "21e1ed5e23fd19dc2d631483c3ae6459c2679773405c658d43a8c3a9b5947fec"
+  },
+  {
+    "path": "maker_project/maker_v2/final_run.log",
+    "bytes": 19513,
+    "sha256": "cb94b77d7ebc3e289dbbaef9d6f9b6dc04ebce5ca07f299b739ff45c65329bbe"
+  },
+  {
+    "path": "maker_project/maker_v2/latency_check.log",
+    "bytes": 437,
+    "sha256": "25d24a4d5daf3448024301c0c1fa412d500d554beeac8c18cc9ad2fce0277c8e"
+  },
+  {
+    "path": "maker_project/maker_v2/latency_check.py",
+    "bytes": 561,
+    "sha256": "08e9c38fb57092918df66e3b798aa76c1bd8de0cf63fa9d8d4cd361c0fabbda0"
+  },
+  {
+    "path": "maker_project/maker_v2/maker_v2_accuracy.csv",
+    "bytes": 2562,
+    "sha256": "13ccc03fe6e9878ef7ec2e77da3f26b7fdac0a8bfca6ccf3176b78d421ebf71e"
+  },
+  {
+    "path": "maker_project/maker_v2/maker_v2_report.md",
+    "bytes": 14551,
+    "sha256": "fe29d8a6fa4bff9ae0e03e69fe89793d5e8a7cae8d7f4ca3245b82b77891ec00"
+  },
+  {
+    "path": "maker_project/maker_v2/maker_v2_reproducible.zip",
+    "bytes": 15570829,
+    "sha256": "3667fa33bf4b78a0781039c9fde34592911d624235a61a5f3cd812d1133906c9"
+  },
+  {
+    "path": "maker_project/maker_v2/maker_v2_results.png",
+    "bytes": 210678,
+    "sha256": "c65ae654face7882982dcdf83eacfe8ca65afb9dfbdcb2438dc0f1c7c8c3cadd"
+  },
+  {
+    "path": "maker_project/maker_v2/quote_model.py",
+    "bytes": 5470,
+    "sha256": "45e19feffed07c2fb83b77b36c51651d90de704ee4055bbca3c6e9b8c85025ab"
+  },
+  {
+    "path": "maker_project/maker_v2/report.py",
+    "bytes": 21362,
+    "sha256": "51f69a82a7d969f9d0be7860d859bd5879f315d34c7f56657d243bc18d821f4b"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_0.30_0.70_probability_dynamic.json",
+    "bytes": 529662,
+    "sha256": "bfe37881311457c3bbf7ce1e35ba2d771a908639ab7f9599b2af2efdc8ca52c5"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_0.30_0.70_probability_static.json",
+    "bytes": 525251,
+    "sha256": "213123e2009be8e12da64ef4a1d91b987529e547e54a1f4151266167fa20bea4"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_0.30_0.70_spread_only_v2.json",
+    "bytes": 262961,
+    "sha256": "d9c6de762fa2e08d7f50a72851f67e3caa7d31af02fe720ebca0c4937fa16687"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_0.45_0.55_probability_dynamic.json",
+    "bytes": 176875,
+    "sha256": "cabb28452b17839daf4d7f5d1138af5b7b7e06326f10ec1a24e5a0c6d9fce91f"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_0.45_0.55_probability_static.json",
+    "bytes": 180695,
+    "sha256": "4ce8a3c1b442482ddc6e9a19296021d8cd2d00d76757e8c0810e6fe67b1cd49d"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_0.45_0.55_spread_only_v2.json",
+    "bytes": 118346,
+    "sha256": "4c20b4460d539dcb19032c07ee64df0a5ab7cce33d830df5c0ebc3f56a3510fc"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_accuracy.json",
+    "bytes": 15346,
+    "sha256": "4b128bf876e710475111b24c3178482e73ebeb6ae1801f1973b9bf51ded407ca"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_compact_forecasts.jsonl.gz",
+    "bytes": 889236,
+    "sha256": "29b515446af09e9e30c0cb942770892fdcc6366cf24e2a3c9bb7d3527e87ea62"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_flow_predictions.jsonl.gz",
+    "bytes": 2879882,
+    "sha256": "ff2d2adf5b9c6fdd878b8b6f96d2dc40433fc3b8145cf9d070b3ac02ef3ea694"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_issued_predictions.jsonl.gz",
+    "bytes": 4096445,
+    "sha256": "65977059453ecb496371cae4ab5ef08b2812324f281b728c5cba010b82d94be1"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_BUF_quote_predictions.jsonl.gz",
+    "bytes": 69991,
+    "sha256": "55cbcf92f2fb014a5d292e436f4a47ef7a94ccc9109f0dca794ca26312f89a3c"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_0.30_0.70_probability_dynamic.json",
+    "bytes": 124383,
+    "sha256": "ae0dfa8b8aff52d686dba915c6655c19d26de0cbd5741399acb844333212bb94"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_0.30_0.70_probability_static.json",
+    "bytes": 123829,
+    "sha256": "6dadd23b83dd9c7f8833e11583f6ccc393c32897f119e5992dbb4734a5c70131"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_0.30_0.70_spread_only_v2.json",
+    "bytes": 212571,
+    "sha256": "e36979d26f8510af55f75aaae92f9482f0292834b2982173e4d32ec1a2474cb9"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_0.45_0.55_probability_dynamic.json",
+    "bytes": 47798,
+    "sha256": "5e6db2e08dd2f0b991c03529f2b34f5ce6d3b3cd90c42bdd9386766d66b326a9"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_0.45_0.55_probability_static.json",
+    "bytes": 47342,
+    "sha256": "6ed9c877c6310d444bdc8a41ff394b3dbcf1cddef4a781d3ecbe1d66c71a0620"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_0.45_0.55_spread_only_v2.json",
+    "bytes": 91233,
+    "sha256": "921d886a7a3c42b28534ef9d2391c1fba1b0522e5ea54922435d38497940eea3"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_accuracy.json",
+    "bytes": 14917,
+    "sha256": "5c42f1c2c28854717898c91b219721e59a803802b0e2c6e18cca981875746466"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_compact_forecasts.jsonl.gz",
+    "bytes": 253049,
+    "sha256": "204869c58b5f6712072c005432598f903f33397e9e2abaab69dbf78dc5d40234"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_flow_predictions.jsonl.gz",
+    "bytes": 809283,
+    "sha256": "bdd2bbde2d621acc0ec5f84df52ed5645dc331342b7a83faa8078aa7e38d0a7f"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_issued_predictions.jsonl.gz",
+    "bytes": 1148481,
+    "sha256": "f46cdc36aee39799b1ff4f262d255707e95acc51f3cfb6cd53b115638c3ae730"
+  },
+  {
+    "path": "maker_project/maker_v2/results/BUFJAC_JAC_quote_predictions.jsonl.gz",
+    "bytes": 23507,
+    "sha256": "41b9ca2df86ab106a0557c3487ffe4a000dc8d10ea8afc5dec8b1b221e42a0a3"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_0.30_0.70_probability_dynamic.json",
+    "bytes": 81686,
+    "sha256": "b6da35d494c19d8eb08dd7389cd4e1fff6387f9d51742551cf9ada3ab3120495"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_0.30_0.70_probability_static.json",
+    "bytes": 73336,
+    "sha256": "c8703c533b84c6afa5c773e85580a0ac11fce038a4a26a11dff3e0eee594e485"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_0.30_0.70_spread_only_v2.json",
+    "bytes": 39358,
+    "sha256": "9002d1a1177869d67634f8f6a702ed5444bb8480e9c151e0fe82645a3082d0f6"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_0.45_0.55_probability_dynamic.json",
+    "bytes": 10803,
+    "sha256": "65b69ee41d05a6804ec9a09011fb578426d7de6f7164ce50d2624fb9813aa8df"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_0.45_0.55_probability_static.json",
+    "bytes": 10807,
+    "sha256": "e8d3317828f8e384c569fb1f8b3cc7fe42e76ecab0de3ad170b1f5e206e5a99d"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_0.45_0.55_spread_only_v2.json",
+    "bytes": 13807,
+    "sha256": "72af92611053f56d71e456d74b4198092f8d8b1ce100beb207c6c2ea32740b74"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_accuracy.json",
+    "bytes": 15311,
+    "sha256": "e654bf6a340a1c7004af78c70dd067514b945d2865db62769a8f7433ce975d39"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_compact_forecasts.jsonl.gz",
+    "bytes": 3177842,
+    "sha256": "e6a7242b0b2b03de36104e19db9bb11a379dcbdf86da4378b786281e0dbeae87"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_flow_predictions.jsonl.gz",
+    "bytes": 10622524,
+    "sha256": "3d8d9b7a025d558f84ed77706f6835a72614fa0dfd123796155bf4efb66ec928"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_issued_predictions.jsonl.gz",
+    "bytes": 10456028,
+    "sha256": "6dfe2783cb0ea7e9f80a6e7e789041febfd5169e8420312d29de357f3b794b3e"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXMLBGAME_MLB_quote_predictions.jsonl.gz",
+    "bytes": 15121,
+    "sha256": "b4ef846f4495c43195e4c31b04169b5c27332fac946f47bd0feca9d772cc90ca"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_0.30_0.70_probability_dynamic.json",
+    "bytes": 85300,
+    "sha256": "672681365f34b459c41284dcfac7a553b8b047c623c815c32450630a90115854"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_0.30_0.70_probability_static.json",
+    "bytes": 85305,
+    "sha256": "d0c6bad6eb77b79b5121eae5aa0601caf76d05459183a1cad7fd903519d4decd"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_0.30_0.70_spread_only_v2.json",
+    "bytes": 59958,
+    "sha256": "827d9386a20e5ef34cf5f237c373e24248b87e0a224453f793ac0abb7144d1d9"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_0.45_0.55_probability_dynamic.json",
+    "bytes": 312,
+    "sha256": "eeee2be3357617262b0854cb211279d2473fccc1ea6e6594e0ce26fc42185d3a"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_0.45_0.55_probability_static.json",
+    "bytes": 311,
+    "sha256": "a7d4f0eddf5a30d720f94c1356f4d47f98bb04f16c9a4a3258ebcbeb6e63702c"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_0.45_0.55_spread_only_v2.json",
+    "bytes": 307,
+    "sha256": "20722b0ec8e276248090cb4c2c4a3272083e5a244c1ee17845bb384f08eaa08e"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_accuracy.json",
+    "bytes": 11818,
+    "sha256": "d331737f13b31dd74dfc93ce233bee088b24d828875639ba8a966559e506ee1a"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_compact_forecasts.jsonl.gz",
+    "bytes": 9303939,
+    "sha256": "01e398ce5d9418876bf1363b47711050e5dccf8d7756aa5697114b007ade4d97"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_flow_predictions.jsonl.gz",
+    "bytes": 30550600,
+    "sha256": "5d78ca12516954ed9e5f5390d30917d6ca11ea9cf24016122f57594987dafcab"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_issued_predictions.jsonl.gz",
+    "bytes": 7077376,
+    "sha256": "636c6e5bbde393011ddf8b2a7c3929e67e4a015df054c37d5bce11e40e9c1387"
+  },
+  {
+    "path": "maker_project/maker_v2/results/KXNFLGAME_NFL_quote_predictions.jsonl.gz",
+    "bytes": 11987,
+    "sha256": "547fd9ac0a36138bef0d800cb26586bdee840d4a1a3c026c9cdec1e57aa01a24"
+  },
+  {
+    "path": "maker_project/maker_v2/results/accounting_validation.json",
+    "bytes": 55,
+    "sha256": "9262dd741ce3a8b5bcac1fe8d23ddc0a61f63b601e5ba896912bbbca4cbb3c1b"
+  },
+  {
+    "path": "maker_project/maker_v2/results/calibration.csv",
+    "bytes": 4364,
+    "sha256": "e829d141c5902b50a9653ebef96d5a2f9010976fb3cee124e2aeae0b054ca6bd"
+  },
+  {
+    "path": "maker_project/maker_v2/results/latency20ms_diagnostic.json",
+    "bytes": 79513,
+    "sha256": "ac3f9905b2156b8720eb0cf27003c84a7dc6c2a5265bd184bc37b6ef86ded43d"
+  },
+  {
+    "path": "maker_project/maker_v2/results/pnl.csv",
+    "bytes": 4346,
+    "sha256": "8b2c25deb7612e0460a3d1d1fd1aec1c2a85869814b2090b93a60c0fc14f6b48"
+  },
+  {
+    "path": "maker_project/maker_v2/run.log",
+    "bytes": 11320,
+    "sha256": "20fd1b537bcaa3c8f61c3a9d2f7e526f733c4780c26dc7dcb6ebe9b954438559"
+  },
+  {
+    "path": "maker_project/maker_v2/run.py",
+    "bytes": 7862,
+    "sha256": "1b52d8dd0a5484f3dd80ca170a953b393d6d56e1b39757015e8c426bafdef386"
+  },
+  {
+    "path": "maker_project/maker_v2/source_manifest.json",
+    "bytes": 857,
+    "sha256": "00b7f10213b388e6af40d749611146858126ac873f86691f4b9ec997df264b6b"
+  },
+  {
+    "path": "maker_project/maker_v2/sparse_run.log",
+    "bytes": 9827,
+    "sha256": "89785c4858f670a33fa17d8ccf366540313195e6e2d8eaaf2f23433c7564b288"
+  },
+  {
+    "path": "maker_project/maker_v2/test_v2.py",
+    "bytes": 4983,
+    "sha256": "531b88f9763eb92a3793f48732d4487690eba153b5b1d70ff71ee40cc3f56a1a"
+  },
+  {
+    "path": "maker_project/maker_v2/validation.log",
+    "bytes": 1412,
+    "sha256": "5abb88f252b61fb5480b47bf2bea359ebf0715926ac56475a094e70828b5a33d"
+  },
+  {
+    "path": "reproduce.py",
+    "bytes": 572,
+    "sha256": "721f55fe51a912b7d6eaf9b9238c8aacec7bc189cbf096e0a24ea1925bf26e25"
+  },
+  {
+    "path": "requirements-verified.txt",
+    "bytes": 179,
+    "sha256": "814fc2ca0fa1572ff21f99b1a22c089ecefa65d20113ea6e059578394b934f55"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 97,
+    "sha256": "ade321f3d52dcc1db5173431c3888805dbb4c148a275492dc41c69e43c6262df"
+  },
+  {
+    "path": "verification/ORIGINAL_MANIFEST.json",
+    "bytes": 32571,
+    "sha256": "e2bbfd4a7fb6d8554376faa6ff00a378f516e350db9c6eb6f833591647328001"
+  },
+  {
+    "path": "verification/kalshi-combined-tests.log",
+    "bytes": 1199,
+    "sha256": "92de11ff1c07218ce497e680d263579be4a40daef7252520851a1614f791eb7e"
+  },
+  {
+    "path": "verification/kalshi-engine-tests.log",
+    "bytes": 121,
+    "sha256": "f9cfb533e1988cfee99da4a262ba51415dd39150c4b8b90a561a4d47f26253df"
+  },
+  {
+    "path": "verification/kalshi-maker-tests.log",
+    "bytes": 112,
+    "sha256": "9895caad66172178acd8d724380b1e5b1dde8dd580d3c23348f3058ce2a08453"
+  },
+  {
+    "path": "verification/kalshi-reconciliation.log",
+    "bytes": 1182,
+    "sha256": "a2b7edc1bd1da7bc8b73fa842e72073f135798f5ae71e0ea81d00f015e0e1081"
+  },
+  {
+    "path": "verification/reconciliation.json",
+    "bytes": 1181,
+    "sha256": "16fa86d66d58c4fa86bb0f0f619af516e0690c67973d12cd4f839278b199e7af"
+  },
+  {
+    "path": "verification/replayed_combined_results.json",
+    "bytes": 16066,
+    "sha256": "2a4b772a3ae283aae4cf1974f9333dd554917ec41ae5aeed32bd08285c03ac6b"
+  },
+  {
+    "path": "verification/runtime_versions.json",
+    "bytes": 189,
+    "sha256": "dfb5724577a42ecd7776fb4c0cad6ab9a40576428ce330d43200509aee1aac9a"
+  },
+  {
+    "path": "verification/source_inventory.csv",
+    "bytes": 8298,
+    "sha256": "69b7d835e8e5267f7073182565342ad25c1d2f0f5574e48fc6ddd1c3b1112d19"
+  },
+  {
+    "path": "verify_results.py",
+    "bytes": 2416,
+    "sha256": "c5b0b45bd1b6393059a8cf09a524951ee1e9b8daccf758c81868fe669193f555"
+  }
+]

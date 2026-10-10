@@ -1,0 +1,573 @@
+{
+  "mode": "causal replay of newly live-recorded data; no exchange orders",
+  "incomplete_capture": false,
+  "fee_validation": "start_and_end",
+  "actual_observed_seconds": 1804.6879861840002,
+  "planned_duration_seconds": 1800.0,
+  "initial_cash": 100.0,
+  "cash": 99.6113,
+  "max_drawdown_observed": 0.48279999999999745,
+  "unmarkable_observations": 0,
+  "markets": {
+    "KXAFCONGAME-26SEP29ZAMTOG-ZAM": {
+      "title": "Zambia wins",
+      "trades": 652,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 45,
+      "taker_anchors": 48,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 3,
+      "taker_open": false,
+      "taker_censored_labels": 0,
+      "taker_ready_forecasts": 14,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 0,
+      "trades_in_45_55_band": 0,
+      "maker_ready_forecasts": 0,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 121,
+      "flow_accuracy": {
+        "all": {
+          "n": 11,
+          "next_side_accuracy": 0.9090909090909091,
+          "opposite_within_five_accuracy": 0.6363636363636364
+        },
+        "full": {
+          "n": 11,
+          "next_side_accuracy": 1.0,
+          "opposite_within_five_accuracy": 0.6363636363636364
+        }
+      },
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 52609,
+        "arbitrage_no_net_opportunity": 52609,
+        "maker_outside_band_or_unsupported_grid": 131
+      }
+    },
+    "KXITFWMATCH-26SEP29SOUHOV-HOV": {
+      "title": "Liv Hovde wins",
+      "trades": 2346,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 76,
+      "taker_anchors": 76,
+      "taker_closed": 1,
+      "taker_gross": -0.16800000000000015,
+      "taker_net": -0.29560000000000014,
+      "taker_fees": 0.1276,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 0,
+      "taker_open": false,
+      "taker_censored_labels": 0,
+      "taker_ready_forecasts": 42,
+      "taker_chosen_directions": 1,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 121,
+      "trades_in_45_55_band": 613,
+      "maker_ready_forecasts": 86,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 451,
+      "flow_accuracy": {
+        "all": {
+          "n": 341,
+          "next_side_accuracy": 0.6715542521994134,
+          "opposite_within_five_accuracy": 0.6217008797653959
+        },
+        "full": {
+          "n": 341,
+          "next_side_accuracy": 0.7390029325513197,
+          "opposite_within_five_accuracy": 0.6217008797653959
+        }
+      },
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 56757,
+        "arbitrage_no_net_opportunity": 56757,
+        "maker_band_decisions": 121,
+        "compression_opportunities": 79,
+        "maker_outside_band_or_unsupported_grid": 340,
+        "existing_one_tick_spread": 42,
+        "strategy_book_pause": 1,
+        "reconstructed_resnapshots_after_pause": 541
+      }
+    },
+    "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR": {
+      "title": "Pol Martin Tiffon wins",
+      "trades": 2909,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 44,
+      "taker_anchors": 44,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 0,
+      "taker_open": false,
+      "taker_censored_labels": 0,
+      "taker_ready_forecasts": 12,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 35,
+      "trades_in_45_55_band": 175,
+      "maker_ready_forecasts": 1,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 564,
+      "flow_accuracy": {
+        "all": {
+          "n": 454,
+          "next_side_accuracy": 0.566079295154185,
+          "opposite_within_five_accuracy": 0.5594713656387665
+        },
+        "full": {
+          "n": 454,
+          "next_side_accuracy": 0.7004405286343612,
+          "opposite_within_five_accuracy": 0.6057268722466961
+        }
+      },
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 60808,
+        "arbitrage_no_net_opportunity": 60808,
+        "maker_outside_band_or_unsupported_grid": 539,
+        "maker_band_decisions": 35,
+        "existing_one_tick_spread": 24,
+        "compression_opportunities": 11,
+        "strategy_book_pause": 1,
+        "reconstructed_resnapshots_after_pause": 1272
+      }
+    },
+    "KXAFCONGAME-26SEP29GBSNGR-GBS": {
+      "title": "Guinea-Bissau wins",
+      "trades": 924,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 51,
+      "taker_anchors": 51,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 0,
+      "taker_open": false,
+      "taker_censored_labels": 0,
+      "taker_ready_forecasts": 10,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 101,
+      "trades_in_45_55_band": 510,
+      "maker_ready_forecasts": 63,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 175,
+      "flow_accuracy": {
+        "all": {
+          "n": 65,
+          "next_side_accuracy": 0.5692307692307692,
+          "opposite_within_five_accuracy": 0.47692307692307695
+        },
+        "full": {
+          "n": 65,
+          "next_side_accuracy": 0.8307692307692308,
+          "opposite_within_five_accuracy": 0.5846153846153846
+        }
+      },
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 41704,
+        "arbitrage_no_net_opportunity": 41704,
+        "maker_outside_band_or_unsupported_grid": 84,
+        "maker_band_decisions": 101,
+        "compression_opportunities": 46,
+        "existing_one_tick_spread": 55
+      }
+    },
+    "KXAFCONGAME-26SEP29UGALBA-UGA": {
+      "title": "Uganda wins",
+      "trades": 240,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 7,
+      "taker_anchors": 9,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 2,
+      "taker_open": false,
+      "taker_censored_labels": 0,
+      "taker_ready_forecasts": 0,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 1,
+      "trades_in_45_55_band": 4,
+      "maker_ready_forecasts": 0,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 38,
+      "flow_accuracy": {},
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 16860,
+        "arbitrage_no_net_opportunity": 16860,
+        "maker_outside_band_or_unsupported_grid": 47,
+        "maker_band_decisions": 1,
+        "compression_opportunities": 1
+      }
+    },
+    "KXITFWMATCH-26SEP29NARNGI-NAR": {
+      "title": "Charlotte Narti wins",
+      "trades": 209,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 7,
+      "taker_anchors": 12,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 0,
+      "taker_open": false,
+      "taker_censored_labels": 5,
+      "taker_ready_forecasts": 0,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 0,
+      "trades_in_45_55_band": 0,
+      "maker_ready_forecasts": 0,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 31,
+      "flow_accuracy": {},
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 73328,
+        "arbitrage_no_net_opportunity": 73328,
+        "maker_outside_band_or_unsupported_grid": 41,
+        "strategy_book_pause": 3,
+        "reconstructed_resnapshots_after_pause": 754
+      }
+    },
+    "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI": {
+      "title": "Wilson Leite wins",
+      "trades": 2160,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 93,
+      "taker_anchors": 94,
+      "taker_closed": 2,
+      "taker_gross": 0.07999999999999996,
+      "taker_net": -0.09310000000000003,
+      "taker_fees": 0.17309999999999998,
+      "taker_directional_accuracy": 100.0,
+      "taker_pending_labels": 1,
+      "taker_open": false,
+      "taker_censored_labels": 0,
+      "taker_ready_forecasts": 52,
+      "taker_chosen_directions": 7,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 191,
+      "trades_in_45_55_band": 984,
+      "maker_ready_forecasts": 158,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 6,
+      "flow_matured_windows": 422,
+      "flow_accuracy": {
+        "all": {
+          "n": 312,
+          "next_side_accuracy": 0.7467948717948718,
+          "opposite_within_five_accuracy": 0.6987179487179487
+        },
+        "full": {
+          "n": 312,
+          "next_side_accuracy": 0.8846153846153846,
+          "opposite_within_five_accuracy": 0.6955128205128205
+        }
+      },
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 62529,
+        "arbitrage_no_net_opportunity": 62529,
+        "maker_outside_band_or_unsupported_grid": 235,
+        "maker_band_decisions": 197,
+        "compression_opportunities": 138,
+        "existing_one_tick_spread": 59
+      }
+    },
+    "KXUEFANLGAME-26SEP29FINBLR-FIN": {
+      "title": "Finland wins",
+      "trades": 1032,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 62,
+      "taker_anchors": 64,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 2,
+      "taker_open": false,
+      "taker_censored_labels": 0,
+      "taker_ready_forecasts": 14,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 187,
+      "trades_in_45_55_band": 1032,
+      "maker_ready_forecasts": 168,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 7,
+      "flow_matured_windows": 187,
+      "flow_accuracy": {
+        "all": {
+          "n": 77,
+          "next_side_accuracy": 0.7662337662337663,
+          "opposite_within_five_accuracy": 0.4935064935064935
+        },
+        "full": {
+          "n": 77,
+          "next_side_accuracy": 0.7792207792207793,
+          "opposite_within_five_accuracy": 0.5584415584415584
+        }
+      },
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 20513,
+        "arbitrage_no_net_opportunity": 20513,
+        "maker_band_decisions": 207,
+        "existing_one_tick_spread": 203,
+        "compression_opportunities": 4,
+        "strategy_book_pause": 1,
+        "reconstructed_resnapshots_after_pause": 1
+      }
+    },
+    "KXAFCONSPREAD-26SEP29GHAGAM-GHA2": {
+      "title": "Ghana wins by more than 1.5 goals?",
+      "trades": 129,
+      "maker_multiplier": 0,
+      "taker_multiplier": 1.0,
+      "taker_history": 0,
+      "taker_anchors": 9,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 0,
+      "taker_open": false,
+      "taker_censored_labels": 9,
+      "taker_ready_forecasts": 0,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 0,
+      "trades_in_45_55_band": 2,
+      "maker_ready_forecasts": 0,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 8,
+      "flow_accuracy": {},
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 8668,
+        "arbitrage_no_net_opportunity": 8668,
+        "maker_outside_band_or_unsupported_grid": 25,
+        "strategy_book_pause": 20,
+        "reconstructed_resnapshots_after_pause": 20
+      }
+    },
+    "KXMLBGAME-26SEP291400PHIATL-ATL": {
+      "title": "Atlanta wins",
+      "trades": 647,
+      "maker_multiplier": 0.5,
+      "taker_multiplier": 0.5,
+      "taker_history": 96,
+      "taker_anchors": 120,
+      "taker_closed": 0,
+      "taker_gross": 0.0,
+      "taker_net": 0.0,
+      "taker_fees": 0.0,
+      "taker_directional_accuracy": null,
+      "taker_pending_labels": 4,
+      "taker_open": false,
+      "taker_censored_labels": 20,
+      "taker_ready_forecasts": 70,
+      "taker_chosen_directions": 0,
+      "maker_closed": 0,
+      "maker_net": 0,
+      "maker_gross": 0,
+      "maker_fees": 0,
+      "maker_open": false,
+      "maker_matured_shadow_quotes": 0,
+      "trades_in_45_55_band": 0,
+      "maker_ready_forecasts": 0,
+      "maker_qualifying_forecasts": 0,
+      "maker_pending_shadow_quotes": 0,
+      "flow_matured_windows": 100,
+      "flow_accuracy": {},
+      "arbitrage_trades": 0,
+      "arbitrage_net": 0.0,
+      "audit": {
+        "arbitrage_book_checks": 2348,
+        "arbitrage_no_net_opportunity": 2348,
+        "maker_outside_band_or_unsupported_grid": 130,
+        "strategy_book_pause": 2,
+        "reconstructed_resnapshots_after_pause": 2
+      }
+    }
+  },
+  "equity": [
+    [
+      1445.265193111,
+      100.0
+    ],
+    [
+      1975.931552641,
+      99.8268
+    ],
+    [
+      1992.36632511,
+      99.786
+    ],
+    [
+      1992.409724837,
+      99.74520000000001
+    ],
+    [
+      1992.859983538,
+      99.6636
+    ],
+    [
+      1992.862604239,
+      99.7044
+    ],
+    [
+      2630.198579598,
+      99.5172
+    ],
+    [
+      2630.273326233,
+      99.55720000000001
+    ],
+    [
+      2632.901237432,
+      99.52720000000001
+    ],
+    [
+      2633.201979716,
+      99.5172
+    ],
+    [
+      2633.226503819,
+      99.55720000000001
+    ],
+    [
+      2646.779336167,
+      99.5976
+    ],
+    [
+      2679.318936128,
+      99.638
+    ],
+    [
+      2685.812027784,
+      99.60770000000001
+    ],
+    [
+      2685.81337111,
+      99.5976
+    ],
+    [
+      2700.219258385,
+      99.55080000000001
+    ],
+    [
+      2703.950236454,
+      99.5608
+    ],
+    [
+      2705.787762925,
+      99.55080000000001
+    ],
+    [
+      2705.795265399,
+      99.5608
+    ],
+    [
+      2710.425928962,
+      99.57090000000001
+    ],
+    [
+      2710.474329622,
+      99.581
+    ],
+    [
+      2710.535660389,
+      99.5911
+    ],
+    [
+      2741.572886196,
+      99.6113
+    ]
+  ],
+  "source_lag_ms_median": 34.17694568634033,
+  "source_lag_ms_p95": 117.2776341438293
+}

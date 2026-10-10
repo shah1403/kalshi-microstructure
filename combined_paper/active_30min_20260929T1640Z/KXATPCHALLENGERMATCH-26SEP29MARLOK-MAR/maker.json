@@ -1,0 +1,792 @@
+{
+  "decisions": [
+    {
+      "t": 1666796098723,
+      "n": 0,
+      "prices": [
+        0.46,
+        0.47
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1666798893408,
+      "n": 0,
+      "prices": [
+        0.46,
+        0.47
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1668433971063,
+      "n": 0,
+      "prices": [
+        0.46,
+        0.47
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1670173932857,
+      "n": 0,
+      "prices": [
+        0.46,
+        0.47
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1671574826844,
+      "n": 0,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1673387154952,
+      "n": 0,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1675248634848,
+      "n": 0,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1677514100282,
+      "n": 0,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1678539228903,
+      "n": 0,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1680301929641,
+      "n": 0,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1682340466470,
+      "n": 0,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": 0.0,
+      "expected_one_sided_loss": null,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1683586150371,
+      "n": 1,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.01492857142857153,
+      "expected_one_sided_loss": 0.028500000000000192,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1686029459890,
+      "n": 2,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.019863636363636496,
+      "expected_one_sided_loss": 0.028500000000000192,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1687383680531,
+      "n": 3,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.02259937888198773,
+      "expected_one_sided_loss": 0.028500000000000195,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1689296961119,
+      "n": 4,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.02375000000000016,
+      "expected_one_sided_loss": 0.028500000000000192,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1691632899250,
+      "n": 5,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.02058333333333347,
+      "expected_one_sided_loss": 0.028500000000000192,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1692536506231,
+      "n": 6,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.01758857142857155,
+      "expected_one_sided_loss": 0.0285000000000002,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1694616985566,
+      "n": 7,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.01534615384615395,
+      "expected_one_sided_loss": 0.028500000000000195,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1696769803108,
+      "n": 8,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.01360493827160503,
+      "expected_one_sided_loss": 0.0285000000000002,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1698462447875,
+      "n": 9,
+      "prices": [
+        0.48,
+        0.49
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.012214285714285797,
+      "expected_one_sided_loss": 0.028500000000000195,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1698465845628,
+      "n": 9,
+      "prices": [
+        0.48,
+        0.49
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.012214285714285797,
+      "expected_one_sided_loss": 0.028500000000000195,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1699101674764,
+      "n": 11,
+      "prices": [
+        0.48,
+        0.49
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.015158730158730354,
+      "expected_one_sided_loss": 0.03183333333333375,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1699658559497,
+      "n": 12,
+      "prices": [
+        0.48,
+        0.49
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.0,
+      "expected_net": -0.01601255886970196,
+      "expected_one_sided_loss": 0.032785714285714765,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1699662709833,
+      "n": 14,
+      "prices": [
+        0.48,
+        0.49
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.12093726379440664,
+      "expected_net": -0.01266817838246433,
+      "expected_one_sided_loss": 0.03278571428571476,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1699669584929,
+      "n": 15,
+      "prices": [
+        0.47,
+        0.48
+      ],
+      "net_pair_margin": 0.009999999999999945,
+      "probability_both": 0.17857142857142858,
+      "expected_net": -0.011875000000000238,
+      "expected_one_sided_loss": 0.03278571428571477,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1699724506602,
+      "n": 16,
+      "prices": [
+        0.45,
+        0.46
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.22408963585434175,
+      "expected_net": -0.010616246498599676,
+      "expected_one_sided_loss": 0.032785714285714765,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1701023249762,
+      "n": 17,
+      "prices": [
+        0.45,
+        0.46
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.29320987654320985,
+      "expected_net": -0.010526234567901494,
+      "expected_one_sided_loss": 0.032785714285714765,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1702210462185,
+      "n": 18,
+      "prices": [
+        0.45,
+        0.46
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.3007518796992481,
+      "expected_net": -0.008496240601503993,
+      "expected_one_sided_loss": 0.03278571428571477,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1721714180611,
+      "n": 28,
+      "prices": [
+        0.44,
+        0.45
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.3524734306904198,
+      "expected_net": -0.012806751280679218,
+      "expected_one_sided_loss": 0.03614816381790532,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1721717832816,
+      "n": 28,
+      "prices": [
+        0.44,
+        0.45
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.3524734306904198,
+      "expected_net": -0.012806751280679218,
+      "expected_one_sided_loss": 0.03614816381790532,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1721720966866,
+      "n": 28,
+      "prices": [
+        0.44,
+        0.45
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.3524734306904198,
+      "expected_net": -0.012806751280679218,
+      "expected_one_sided_loss": 0.03614816381790532,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1721725851721,
+      "n": 28,
+      "prices": [
+        0.44,
+        0.45
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.3524734306904198,
+      "expected_net": -0.012806751280679218,
+      "expected_one_sided_loss": 0.03614816381790532,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1721729623908,
+      "n": 28,
+      "prices": [
+        0.44,
+        0.45
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.3524734306904198,
+      "expected_net": -0.012806751280679218,
+      "expected_one_sided_loss": 0.03614816381790532,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1725332708256,
+      "n": 29,
+      "prices": [
+        0.44,
+        0.45
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.4023464458247067,
+      "expected_net": -0.01104209799862,
+      "expected_one_sided_loss": 0.03602310231023144,
+      "ready": false,
+      "qualifies": false,
+      "taken": false
+    },
+    {
+      "t": 1727034843292,
+      "n": 30,
+      "prices": [
+        0.44,
+        0.45
+      ],
+      "net_pair_margin": 0.01,
+      "probability_both": 0.3237753882915173,
+      "expected_net": -0.017947072879331314,
+      "expected_one_sided_loss": 0.04871346153846223,
+      "ready": true,
+      "qualifies": false,
+      "taken": false
+    }
+  ],
+  "ledger": [],
+  "shadows": [
+    {
+      "t": 1666796098723,
+      "net": -0.028500000000000192,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1666798893408,
+      "net": -0.028500000000000192,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1668433971063,
+      "net": -0.028500000000000192,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1670173932857,
+      "net": -0.028500000000000192,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1671574826844,
+      "net": 0.0,
+      "paired": false,
+      "filled": false,
+      "predicted": null
+    },
+    {
+      "t": 1673387154952,
+      "net": 0.0,
+      "paired": false,
+      "filled": false,
+      "predicted": null
+    },
+    {
+      "t": 1675248634848,
+      "net": 0.0,
+      "paired": false,
+      "filled": false,
+      "predicted": null
+    },
+    {
+      "t": 1677514100282,
+      "net": 0.0,
+      "paired": false,
+      "filled": false,
+      "predicted": null
+    },
+    {
+      "t": 1678539228903,
+      "net": 0.0,
+      "paired": false,
+      "filled": false,
+      "predicted": null
+    },
+    {
+      "t": 1680301929641,
+      "net": -0.03850000000000087,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1682340466470,
+      "net": -0.03850000000000087,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1683586150371,
+      "net": -0.03850000000000087,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1686029459890,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1687383680531,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1689296961119,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1691632899250,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1692536506231,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1694616985566,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1696769803108,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1698462447875,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1698465845628,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1699101674764,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1699658559497,
+      "net": -0.06820000000000093,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1699662709833,
+      "net": -0.06820000000000093,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1699669584929,
+      "net": -0.06810000000000205,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1699724506602,
+      "net": -0.03819999999999979,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1701023249762,
+      "net": -0.03819999999999979,
+      "paired": false,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1702210462185,
+      "net": 0.0,
+      "paired": false,
+      "filled": false,
+      "predicted": null
+    },
+    {
+      "t": 1721714180611,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1721717832816,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1721720966866,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1721725851721,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1721729623908,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1725332708256,
+      "net": 0.009999999999999787,
+      "paired": true,
+      "filled": true,
+      "predicted": null
+    },
+    {
+      "t": 1727034843292,
+      "net": -0.0677000000000012,
+      "paired": false,
+      "filled": true,
+      "predicted": {
+        "t": 1727034843292,
+        "n": 30,
+        "prices": [
+          0.44,
+          0.45
+        ],
+        "net_pair_margin": 0.01,
+        "probability_both": 0.3237753882915173,
+        "expected_net": -0.017947072879331314,
+        "expected_one_sided_loss": 0.04871346153846223,
+        "ready": true,
+        "qualifies": false,
+        "taken": false
+      }
+    }
+  ],
+  "unresolved": null
+}

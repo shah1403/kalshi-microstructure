@@ -1,0 +1,85 @@
+source,status,execution
+combined_paper/inspect_capture.py,parsed,see README; parsing is not a behavioral test
+combined_paper/record_live.py,parsed,see README; parsing is not a behavioral test
+combined_paper/recover_capture.py,parsed,see README; parsing is not a behavioral test
+combined_paper/replay_combined.py,parsed,see README; parsing is not a behavioral test
+combined_paper/test_combined.py,parsed,see README; parsing is not a behavioral test
+combined_paper/test_empty_snapshot.py,parsed,see README; parsing is not a behavioral test
+combined_paper/test_recovery.py,parsed,see README; parsing is not a behavioral test
+diagnostics/imbalance_threshold_test.py,parsed,see README; parsing is not a behavioral test
+historical/kalshi_rolling_fp_state.py,parsed,see README; parsing is not a behavioral test
+historical/locked_fp_trade_time_kalshi.py,parsed,see README; parsing is not a behavioral test
+kalshi_paper/paper_engine.py,parsed,see README; parsing is not a behavioral test
+kalshi_paper/test_paper.py,parsed,see README; parsing is not a behavioral test
+maker_project/audit_raw.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_replay.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/data_and_scores.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/distributions.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/execution.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/fees.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/latency_check.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/quote_model.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/report.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/run.py,parsed,see README; parsing is not a behavioral test
+maker_project/maker_v2/test_v2.py,parsed,see README; parsing is not a behavioral test
+reproduce.py,parsed,see README; parsing is not a behavioral test
+verify_results.py,parsed,see README; parsing is not a behavioral test
+historical/Kalshi_Paper_Bundle.zip::kalshi_paper/build_notebook.py,parsed,archived; not fully rerun
+historical/Kalshi_Paper_Bundle.zip::kalshi_paper/demo_synthetic.py,parsed,archived; not fully rerun
+historical/Kalshi_Paper_Bundle.zip::kalshi_paper/paper_engine.py,parsed,archived; not fully rerun
+historical/Kalshi_Paper_Bundle.zip::kalshi_paper/test_paper.py,parsed,archived; not fully rerun
+historical/Kalshi_Paper_Bundle.zip::kalshi_paper/validate_notebook.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::combined_paper/recover_capture.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::combined_paper/test_recovery.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::combined_paper/replay_combined.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::combined_paper/test_combined.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::combined_paper/record_live.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::combined_paper/run_bounded.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::kalshi_paper/paper_engine.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::kalshi_paper/test_paper.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::maker_project/audit_raw.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::maker_project/maker_replay.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::maker_project/maker_v2/distributions.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::maker_project/maker_v2/fees.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::maker_project/maker_v2/execution.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::maker_project/maker_v2/data_and_scores.py,parsed,archived; not fully rerun
+historical/Kalshi_Recovered_Replay.zip::maker_project/maker_v2/test_v2.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::combined_paper/record_live.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::combined_paper/replay_combined.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::combined_paper/test_combined.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::kalshi_paper/paper_engine.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::kalshi_paper/test_paper.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::maker_project/audit_raw.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::maker_project/maker_replay.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::maker_project/maker_v2/distributions.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::maker_project/maker_v2/fees.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::maker_project/maker_v2/execution.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::maker_project/maker_v2/data_and_scores.py,parsed,archived; not fully rerun
+historical/Kalshi_Three_Leg_Pilot.zip::maker_project/maker_v2/test_v2.py,parsed,archived; not fully rerun
+historical/kalshi_conditional_feature_search.zip::conditional_search.py,parsed,archived; not fully rerun
+historical/kalshi_conditional_feature_search.zip::conditional_search/inference.py,parsed,archived; not fully rerun
+historical/kalshi_external_sports_validation.zip::external_validation.py,parsed,archived; not fully rerun
+historical/kalshi_external_sports_validation.zip::rolling_calibration.py,parsed,archived; not fully rerun
+historical/kalshi_live_paper_bundle.zip::kalshi_live_fp_paper.py,parsed,archived; not fully rerun
+historical/kalshi_live_paper_bundle.zip::build_kalshi_seed.py,parsed,archived; not fully rerun
+historical/kalshi_next_move_strategy_results.zip::kalshi_next_move_strategy.py,parsed,archived; not fully rerun
+historical/kalshi_research_2026-09-21.zip::quant_test.py,parsed,archived; not fully rerun
+historical/kalshi_research_2026-09-21.zip::monte_carlo.py,parsed,archived; not fully rerun
+historical/kalshi_sports_test_results.zip::sports_v4/prepare.py,parsed,archived; not fully rerun
+historical/kalshi_sports_test_results.zip::sports_v4/diagnostics.py,parsed,archived; not fully rerun
+historical/kalshi_sports_test_results.zip::sports_v4/MLB/run.py,parsed,archived; not fully rerun
+historical/kalshi_sports_test_results.zip::sports_v4/NFL/run.py,parsed,archived; not fully rerun
+historical/kalshi_sports_test_results.zip::quant_test.py,parsed,archived; not fully rerun
+historical/kalshi_sports_test_results.zip::hawkes_v2/run.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_replay.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::audit_raw.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::test_replay.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/run.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/report.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/latency_check.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/fees.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/execution.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/distributions.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/quote_model.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/data_and_scores.py,parsed,archived; not fully rerun
+maker_project/maker_v2/maker_v2_reproducible.zip::maker_v2/test_v2.py,parsed,archived; not fully rerun

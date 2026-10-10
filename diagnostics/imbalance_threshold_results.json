@@ -1,0 +1,3839 @@
+{
+  "source": "combined_paper/active_30min_20260929T1640Z",
+  "variants": {
+    "all_nonzero_no_persistence": {
+      "settings": {
+        "strong_imbalance": 0.0,
+        "persistence_trades": 1,
+        "anchor_stride": 5,
+        "max_trades": 50
+      },
+      "pooled": {
+        "n": 1281,
+        "same": 94,
+        "opposite": 68,
+        "zero": 1119,
+        "p_same": 0.07338017174082748,
+        "p_opposite": 0.05308352849336456,
+        "p_zero": 0.8735362997658079,
+        "direction_accuracy_given_move": 0.5802469135802469,
+        "causal_predictor_comparison": {
+          "raw_imbalance_sign": {
+            "eligible_ready": 906,
+            "actual_moves": 88,
+            "direction_accuracy": 0.6704545454545454
+          },
+          "global_history": {
+            "name": "global_history",
+            "eligible_ready": 906,
+            "actual_moves": 88,
+            "directional_predictions": 88,
+            "ties": 0,
+            "direction_accuracy": 0.2840909090909091,
+            "direction_log_loss": 1.1692541506613798,
+            "agreement_with_initial_imbalance": 0.36363636363636365
+          },
+          "imbalance_only": {
+            "name": "imbalance_only",
+            "eligible_ready": 906,
+            "actual_moves": 88,
+            "directional_predictions": 67,
+            "ties": 21,
+            "direction_accuracy": 0.3283582089552239,
+            "direction_log_loss": 1.0114915979888912,
+            "agreement_with_initial_imbalance": 0.34328358208955223
+          },
+          "imbalance_and_previous_state": {
+            "name": "imbalance_and_previous_state",
+            "eligible_ready": 906,
+            "actual_moves": 88,
+            "directional_predictions": 58,
+            "ties": 30,
+            "direction_accuracy": 0.39655172413793105,
+            "direction_log_loss": 1.0711999388195452,
+            "agreement_with_initial_imbalance": 0.29310344827586204
+          },
+          "actual_action_rule": {
+            "signals": 55,
+            "signals_with_move": 10,
+            "correct_direction": 2,
+            "zero_outcomes": 45,
+            "direction_accuracy_given_move": 0.2
+          }
+        },
+        "magnitude_bands_same_schedule": {
+          "small_abs_lt_04": {
+            "n": 466,
+            "same": 18,
+            "opposite": 18,
+            "zero": 430,
+            "p_same": 0.03862660944206009,
+            "p_opposite": 0.03862660944206009,
+            "p_zero": 0.9227467811158798,
+            "direction_accuracy_given_move": 0.5
+          },
+          "medium_abs_04_to_08": {
+            "n": 265,
+            "same": 20,
+            "opposite": 15,
+            "zero": 230,
+            "p_same": 0.07547169811320754,
+            "p_opposite": 0.05660377358490566,
+            "p_zero": 0.8679245283018868,
+            "direction_accuracy_given_move": 0.5714285714285714
+          },
+          "large_abs_ge_08": {
+            "n": 550,
+            "same": 56,
+            "opposite": 35,
+            "zero": 459,
+            "p_same": 0.10181818181818182,
+            "p_opposite": 0.06363636363636363,
+            "p_zero": 0.8345454545454546,
+            "direction_accuracy_given_move": 0.6153846153846154
+          }
+        },
+        "weakened_below_08": {
+          "n": 1145,
+          "same": 94,
+          "opposite": 68,
+          "zero": 983,
+          "p_same": 0.08209606986899563,
+          "direction_accuracy_given_move": 0.5802469135802469
+        },
+        "crossed_hysteresis_04": {
+          "n": 1116,
+          "same": 92,
+          "opposite": 68,
+          "zero": 956,
+          "p_same": 0.08243727598566308,
+          "direction_accuracy_given_move": 0.575
+        },
+        "sign_flip": {
+          "n": 972,
+          "same": 87,
+          "opposite": 68,
+          "zero": 817,
+          "p_same": 0.08950617283950617,
+          "direction_accuracy_given_move": 0.5612903225806452
+        },
+        "strong_sign_flip": {
+          "n": 888,
+          "same": 67,
+          "opposite": 68,
+          "zero": 753,
+          "p_same": 0.07545045045045046,
+          "direction_accuracy_given_move": 0.4962962962962963
+        }
+      },
+      "markets": {
+        "KXAFCONGAME-26SEP29ZAMTOG-ZAM": {
+          "anchors": 118,
+          "matured": 108,
+          "same": 6,
+          "opposite": 8,
+          "zero": 94,
+          "p_same": 0.05555555555555555,
+          "p_opposite": 0.07407407407407407,
+          "p_zero": 0.8703703703703703,
+          "direction_accuracy_given_move": 0.42857142857142855,
+          "weakened_below_08": {
+            "n": 108,
+            "same": 6,
+            "opposite": 8,
+            "zero": 94,
+            "p_same": 0.05555555555555555,
+            "p_opposite": 0.07407407407407407,
+            "p_zero": 0.8703703703703703,
+            "direction_accuracy_given_move": 0.42857142857142855
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 108,
+            "same": 6,
+            "opposite": 8,
+            "zero": 94,
+            "p_same": 0.05555555555555555,
+            "p_opposite": 0.07407407407407407,
+            "p_zero": 0.8703703703703703,
+            "direction_accuracy_given_move": 0.42857142857142855
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 108,
+            "same": 6,
+            "opposite": 8,
+            "zero": 94,
+            "p_same": 0.05555555555555555,
+            "p_opposite": 0.07407407407407407,
+            "p_zero": 0.8703703703703703,
+            "direction_accuracy_given_move": 0.42857142857142855
+          },
+          "strong_sign_flip": {
+            "n": 107,
+            "same": 5,
+            "opposite": 8,
+            "zero": 94,
+            "p_same": 0.04672897196261682,
+            "p_opposite": 0.07476635514018691,
+            "p_zero": 0.8785046728971962,
+            "direction_accuracy_given_move": 0.38461538461538464
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 65,
+              "actual_moves": 3,
+              "direction_accuracy": 0.0
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 65,
+              "actual_moves": 3,
+              "directional_predictions": 3,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 3.1780538303479458,
+              "agreement_with_initial_imbalance": 1.0
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 65,
+              "actual_moves": 3,
+              "directional_predictions": 3,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 2.0228085294147036,
+              "agreement_with_initial_imbalance": 1.0
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 65,
+              "actual_moves": 3,
+              "directional_predictions": 3,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 1.9620346771500519,
+              "agreement_with_initial_imbalance": 1.0
+            },
+            "actual_action_rule": {
+              "signals": 13,
+              "signals_with_move": 3,
+              "correct_direction": 0,
+              "zero_outcomes": 10,
+              "direction_accuracy_given_move": 0.0
+            }
+          }
+        },
+        "KXITFWMATCH-26SEP29SOUHOV-HOV": {
+          "anchors": 215,
+          "matured": 210,
+          "same": 28,
+          "opposite": 24,
+          "zero": 158,
+          "p_same": 0.13333333333333333,
+          "p_opposite": 0.11428571428571428,
+          "p_zero": 0.7523809523809524,
+          "direction_accuracy_given_move": 0.5384615384615384,
+          "weakened_below_08": {
+            "n": 210,
+            "same": 28,
+            "opposite": 24,
+            "zero": 158,
+            "p_same": 0.13333333333333333,
+            "p_opposite": 0.11428571428571428,
+            "p_zero": 0.7523809523809524,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 210,
+            "same": 28,
+            "opposite": 24,
+            "zero": 158,
+            "p_same": 0.13333333333333333,
+            "p_opposite": 0.11428571428571428,
+            "p_zero": 0.7523809523809524,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 208,
+            "same": 28,
+            "opposite": 24,
+            "zero": 156,
+            "p_same": 0.1346153846153846,
+            "p_opposite": 0.11538461538461539,
+            "p_zero": 0.75,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "strong_sign_flip": {
+            "n": 185,
+            "same": 25,
+            "opposite": 24,
+            "zero": 136,
+            "p_same": 0.13513513513513514,
+            "p_opposite": 0.12972972972972974,
+            "p_zero": 0.7351351351351352,
+            "direction_accuracy_given_move": 0.5102040816326531
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 158,
+              "actual_moves": 33,
+              "direction_accuracy": 0.6666666666666666
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 158,
+              "actual_moves": 33,
+              "directional_predictions": 33,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 0.7911375855520095,
+              "agreement_with_initial_imbalance": 0.3333333333333333
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 158,
+              "actual_moves": 33,
+              "directional_predictions": 29,
+              "ties": 4,
+              "direction_accuracy": 0.20689655172413793,
+              "direction_log_loss": 0.9726946276999682,
+              "agreement_with_initial_imbalance": 0.3448275862068966
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 158,
+              "actual_moves": 33,
+              "directional_predictions": 26,
+              "ties": 7,
+              "direction_accuracy": 0.34615384615384615,
+              "direction_log_loss": 1.109501390609864,
+              "agreement_with_initial_imbalance": 0.2692307692307692
+            },
+            "actual_action_rule": {
+              "signals": 21,
+              "signals_with_move": 3,
+              "correct_direction": 2,
+              "zero_outcomes": 18,
+              "direction_accuracy_given_move": 0.6666666666666666
+            }
+          }
+        },
+        "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR": {
+          "anchors": 320,
+          "matured": 320,
+          "same": 12,
+          "opposite": 12,
+          "zero": 296,
+          "p_same": 0.0375,
+          "p_opposite": 0.0375,
+          "p_zero": 0.925,
+          "direction_accuracy_given_move": 0.5,
+          "weakened_below_08": {
+            "n": 320,
+            "same": 12,
+            "opposite": 12,
+            "zero": 296,
+            "p_same": 0.0375,
+            "p_opposite": 0.0375,
+            "p_zero": 0.925,
+            "direction_accuracy_given_move": 0.5
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 320,
+            "same": 12,
+            "opposite": 12,
+            "zero": 296,
+            "p_same": 0.0375,
+            "p_opposite": 0.0375,
+            "p_zero": 0.925,
+            "direction_accuracy_given_move": 0.5
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 240,
+            "same": 12,
+            "opposite": 12,
+            "zero": 216,
+            "p_same": 0.05,
+            "p_opposite": 0.05,
+            "p_zero": 0.9,
+            "direction_accuracy_given_move": 0.5
+          },
+          "strong_sign_flip": {
+            "n": 209,
+            "same": 8,
+            "opposite": 12,
+            "zero": 189,
+            "p_same": 0.03827751196172249,
+            "p_opposite": 0.05741626794258373,
+            "p_zero": 0.9043062200956937,
+            "direction_accuracy_given_move": 0.4
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 258,
+              "actual_moves": 20,
+              "direction_accuracy": 0.4
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 258,
+              "actual_moves": 20,
+              "directional_predictions": 20,
+              "ties": 0,
+              "direction_accuracy": 0.85,
+              "direction_log_loss": 0.4829163307739119,
+              "agreement_with_initial_imbalance": 0.45
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 258,
+              "actual_moves": 20,
+              "directional_predictions": 15,
+              "ties": 5,
+              "direction_accuracy": 0.7333333333333333,
+              "direction_log_loss": 0.5705573917310358,
+              "agreement_with_initial_imbalance": 0.4
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 258,
+              "actual_moves": 20,
+              "directional_predictions": 10,
+              "ties": 10,
+              "direction_accuracy": 0.9,
+              "direction_log_loss": 0.376300299914483,
+              "agreement_with_initial_imbalance": 0.3
+            },
+            "actual_action_rule": {
+              "signals": 1,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 1,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONGAME-26SEP29GBSNGR-GBS": {
+          "anchors": 112,
+          "matured": 104,
+          "same": 16,
+          "opposite": 2,
+          "zero": 86,
+          "p_same": 0.15384615384615385,
+          "p_opposite": 0.019230769230769232,
+          "p_zero": 0.8269230769230769,
+          "direction_accuracy_given_move": 0.8888888888888888,
+          "weakened_below_08": {
+            "n": 82,
+            "same": 16,
+            "opposite": 2,
+            "zero": 64,
+            "p_same": 0.1951219512195122,
+            "p_opposite": 0.024390243902439025,
+            "p_zero": 0.7804878048780488,
+            "direction_accuracy_given_move": 0.8888888888888888
+          },
+          "stayed_at_or_above_08": {
+            "n": 22,
+            "same": 0,
+            "opposite": 0,
+            "zero": 22,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 82,
+            "same": 16,
+            "opposite": 2,
+            "zero": 64,
+            "p_same": 0.1951219512195122,
+            "p_opposite": 0.024390243902439025,
+            "p_zero": 0.7804878048780488,
+            "direction_accuracy_given_move": 0.8888888888888888
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 22,
+            "same": 0,
+            "opposite": 0,
+            "zero": 22,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 82,
+            "same": 16,
+            "opposite": 2,
+            "zero": 64,
+            "p_same": 0.1951219512195122,
+            "p_opposite": 0.024390243902439025,
+            "p_zero": 0.7804878048780488,
+            "direction_accuracy_given_move": 0.8888888888888888
+          },
+          "strong_sign_flip": {
+            "n": 71,
+            "same": 6,
+            "opposite": 2,
+            "zero": 63,
+            "p_same": 0.08450704225352113,
+            "p_opposite": 0.028169014084507043,
+            "p_zero": 0.8873239436619719,
+            "direction_accuracy_given_move": 0.75
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 57,
+              "actual_moves": 11,
+              "direction_accuracy": 1.0
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 57,
+              "actual_moves": 11,
+              "directional_predictions": 11,
+              "ties": 0,
+              "direction_accuracy": 0.09090909090909091,
+              "direction_log_loss": 2.6371889176926797,
+              "agreement_with_initial_imbalance": 0.09090909090909091
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 57,
+              "actual_moves": 11,
+              "directional_predictions": 0,
+              "ties": 11,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 57,
+              "actual_moves": 11,
+              "directional_predictions": 0,
+              "ties": 11,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONGAME-26SEP29UGALBA-UGA": {
+          "anchors": 34,
+          "matured": 24,
+          "same": 5,
+          "opposite": 1,
+          "zero": 18,
+          "p_same": 0.20833333333333334,
+          "p_opposite": 0.041666666666666664,
+          "p_zero": 0.75,
+          "direction_accuracy_given_move": 0.8333333333333334,
+          "weakened_below_08": {
+            "n": 24,
+            "same": 5,
+            "opposite": 1,
+            "zero": 18,
+            "p_same": 0.20833333333333334,
+            "p_opposite": 0.041666666666666664,
+            "p_zero": 0.75,
+            "direction_accuracy_given_move": 0.8333333333333334
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 22,
+            "same": 3,
+            "opposite": 1,
+            "zero": 18,
+            "p_same": 0.13636363636363635,
+            "p_opposite": 0.045454545454545456,
+            "p_zero": 0.8181818181818182,
+            "direction_accuracy_given_move": 0.75
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 2,
+            "same": 2,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": 1.0,
+            "p_opposite": 0.0,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 1.0
+          },
+          "sign_flip": {
+            "n": 22,
+            "same": 3,
+            "opposite": 1,
+            "zero": 18,
+            "p_same": 0.13636363636363635,
+            "p_opposite": 0.045454545454545456,
+            "p_zero": 0.8181818181818182,
+            "direction_accuracy_given_move": 0.75
+          },
+          "strong_sign_flip": {
+            "n": 22,
+            "same": 3,
+            "opposite": 1,
+            "zero": 18,
+            "p_same": 0.13636363636363635,
+            "p_opposite": 0.045454545454545456,
+            "p_zero": 0.8181818181818182,
+            "direction_accuracy_given_move": 0.75
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXITFWMATCH-26SEP29NARNGI-NAR": {
+          "anchors": 22,
+          "matured": 13,
+          "same": 7,
+          "opposite": 6,
+          "zero": 0,
+          "p_same": 0.5384615384615384,
+          "p_opposite": 0.46153846153846156,
+          "p_zero": 0.0,
+          "direction_accuracy_given_move": 0.5384615384615384,
+          "weakened_below_08": {
+            "n": 13,
+            "same": 7,
+            "opposite": 6,
+            "zero": 0,
+            "p_same": 0.5384615384615384,
+            "p_opposite": 0.46153846153846156,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 13,
+            "same": 7,
+            "opposite": 6,
+            "zero": 0,
+            "p_same": 0.5384615384615384,
+            "p_opposite": 0.46153846153846156,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 13,
+            "same": 7,
+            "opposite": 6,
+            "zero": 0,
+            "p_same": 0.5384615384615384,
+            "p_opposite": 0.46153846153846156,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "strong_sign_flip": {
+            "n": 13,
+            "same": 7,
+            "opposite": 6,
+            "zero": 0,
+            "p_same": 0.5384615384615384,
+            "p_opposite": 0.46153846153846156,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI": {
+          "anchors": 200,
+          "matured": 191,
+          "same": 19,
+          "opposite": 12,
+          "zero": 160,
+          "p_same": 0.09947643979057591,
+          "p_opposite": 0.06282722513089005,
+          "p_zero": 0.837696335078534,
+          "direction_accuracy_given_move": 0.6129032258064516,
+          "weakened_below_08": {
+            "n": 191,
+            "same": 19,
+            "opposite": 12,
+            "zero": 160,
+            "p_same": 0.09947643979057591,
+            "p_opposite": 0.06282722513089005,
+            "p_zero": 0.837696335078534,
+            "direction_accuracy_given_move": 0.6129032258064516
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 191,
+            "same": 19,
+            "opposite": 12,
+            "zero": 160,
+            "p_same": 0.09947643979057591,
+            "p_opposite": 0.06282722513089005,
+            "p_zero": 0.837696335078534,
+            "direction_accuracy_given_move": 0.6129032258064516
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 186,
+            "same": 14,
+            "opposite": 12,
+            "zero": 160,
+            "p_same": 0.07526881720430108,
+            "p_opposite": 0.06451612903225806,
+            "p_zero": 0.8602150537634409,
+            "direction_accuracy_given_move": 0.5384615384615384
+          },
+          "strong_sign_flip": {
+            "n": 182,
+            "same": 12,
+            "opposite": 12,
+            "zero": 158,
+            "p_same": 0.06593406593406594,
+            "p_opposite": 0.06593406593406594,
+            "p_zero": 0.8681318681318682,
+            "direction_accuracy_given_move": 0.5
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 141,
+              "actual_moves": 21,
+              "direction_accuracy": 0.8571428571428571
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 141,
+              "actual_moves": 21,
+              "directional_predictions": 21,
+              "ties": 0,
+              "direction_accuracy": 0.3333333333333333,
+              "direction_log_loss": 1.3612027968496925,
+              "agreement_with_initial_imbalance": 0.38095238095238093
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 141,
+              "actual_moves": 21,
+              "directional_predictions": 20,
+              "ties": 1,
+              "direction_accuracy": 0.25,
+              "direction_log_loss": 1.2467503198873493,
+              "agreement_with_initial_imbalance": 0.2
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 141,
+              "actual_moves": 21,
+              "directional_predictions": 19,
+              "ties": 2,
+              "direction_accuracy": 0.2631578947368421,
+              "direction_log_loss": 1.2438659613201148,
+              "agreement_with_initial_imbalance": 0.21052631578947367
+            },
+            "actual_action_rule": {
+              "signals": 20,
+              "signals_with_move": 4,
+              "correct_direction": 0,
+              "zero_outcomes": 16,
+              "direction_accuracy_given_move": 0.0
+            }
+          }
+        },
+        "KXUEFANLGAME-26SEP29FINBLR-FIN": {
+          "anchors": 201,
+          "matured": 191,
+          "same": 0,
+          "opposite": 0,
+          "zero": 191,
+          "p_same": 0.0,
+          "p_opposite": 0.0,
+          "p_zero": 1.0,
+          "direction_accuracy_given_move": null,
+          "weakened_below_08": {
+            "n": 185,
+            "same": 0,
+            "opposite": 0,
+            "zero": 185,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_at_or_above_08": {
+            "n": 6,
+            "same": 0,
+            "opposite": 0,
+            "zero": 6,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 166,
+            "same": 0,
+            "opposite": 0,
+            "zero": 166,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 25,
+            "same": 0,
+            "opposite": 0,
+            "zero": 25,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 109,
+            "same": 0,
+            "opposite": 0,
+            "zero": 109,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 95,
+            "same": 0,
+            "opposite": 0,
+            "zero": 95,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 151,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 151,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 151,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 151,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONSPREAD-26SEP29GHAGAM-GHA2": {
+          "anchors": 14,
+          "matured": 4,
+          "same": 1,
+          "opposite": 3,
+          "zero": 0,
+          "p_same": 0.25,
+          "p_opposite": 0.75,
+          "p_zero": 0.0,
+          "direction_accuracy_given_move": 0.25,
+          "weakened_below_08": {
+            "n": 4,
+            "same": 1,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.25,
+            "p_opposite": 0.75,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.25
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 4,
+            "same": 1,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.25,
+            "p_opposite": 0.75,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.25
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 4,
+            "same": 1,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.25,
+            "p_opposite": 0.75,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.25
+          },
+          "strong_sign_flip": {
+            "n": 4,
+            "same": 1,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.25,
+            "p_opposite": 0.75,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.25
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXMLBGAME-26SEP291400PHIATL-ATL": {
+          "anchors": 126,
+          "matured": 116,
+          "same": 0,
+          "opposite": 0,
+          "zero": 116,
+          "p_same": 0.0,
+          "p_opposite": 0.0,
+          "p_zero": 1.0,
+          "direction_accuracy_given_move": null,
+          "weakened_below_08": {
+            "n": 8,
+            "same": 0,
+            "opposite": 0,
+            "zero": 8,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_at_or_above_08": {
+            "n": 108,
+            "same": 0,
+            "opposite": 0,
+            "zero": 108,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 116,
+            "same": 0,
+            "opposite": 0,
+            "zero": 116,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        }
+      }
+    },
+    "large_08_no_persistence": {
+      "settings": {
+        "strong_imbalance": 0.8,
+        "persistence_trades": 1,
+        "anchor_stride": 5,
+        "max_trades": 50
+      },
+      "pooled": {
+        "n": 637,
+        "same": 62,
+        "opposite": 42,
+        "zero": 533,
+        "p_same": 0.09733124018838304,
+        "p_opposite": 0.06593406593406594,
+        "p_zero": 0.8367346938775511,
+        "direction_accuracy_given_move": 0.5961538461538461,
+        "causal_predictor_comparison": {
+          "raw_imbalance_sign": {
+            "eligible_ready": 359,
+            "actual_moves": 57,
+            "direction_accuracy": 0.7017543859649122
+          },
+          "global_history": {
+            "name": "global_history",
+            "eligible_ready": 359,
+            "actual_moves": 57,
+            "directional_predictions": 49,
+            "ties": 8,
+            "direction_accuracy": 0.2653061224489796,
+            "direction_log_loss": 1.1928917207940304,
+            "agreement_with_initial_imbalance": 0.32653061224489793
+          },
+          "imbalance_only": {
+            "name": "imbalance_only",
+            "eligible_ready": 359,
+            "actual_moves": 57,
+            "directional_predictions": 54,
+            "ties": 3,
+            "direction_accuracy": 0.25925925925925924,
+            "direction_log_loss": 0.9940987802983925,
+            "agreement_with_initial_imbalance": 0.24074074074074073
+          },
+          "imbalance_and_previous_state": {
+            "name": "imbalance_and_previous_state",
+            "eligible_ready": 359,
+            "actual_moves": 57,
+            "directional_predictions": 53,
+            "ties": 4,
+            "direction_accuracy": 0.37735849056603776,
+            "direction_log_loss": 1.0550905729829658,
+            "agreement_with_initial_imbalance": 0.20754716981132076
+          },
+          "actual_action_rule": {
+            "signals": 0,
+            "signals_with_move": 0,
+            "correct_direction": 0,
+            "zero_outcomes": 0,
+            "direction_accuracy_given_move": null
+          }
+        },
+        "magnitude_bands_same_schedule": {
+          "small_abs_lt_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "medium_abs_04_to_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "large_abs_ge_08": {
+            "n": 637,
+            "same": 62,
+            "opposite": 42,
+            "zero": 533,
+            "p_same": 0.09733124018838304,
+            "p_opposite": 0.06593406593406594,
+            "p_zero": 0.8367346938775511,
+            "direction_accuracy_given_move": 0.5961538461538461
+          }
+        },
+        "weakened_below_08": {
+          "n": 499,
+          "same": 62,
+          "opposite": 42,
+          "zero": 395,
+          "p_same": 0.12424849699398798,
+          "direction_accuracy_given_move": 0.5961538461538461
+        },
+        "crossed_hysteresis_04": {
+          "n": 472,
+          "same": 60,
+          "opposite": 42,
+          "zero": 370,
+          "p_same": 0.1271186440677966,
+          "direction_accuracy_given_move": 0.5882352941176471
+        },
+        "sign_flip": {
+          "n": 459,
+          "same": 56,
+          "opposite": 42,
+          "zero": 361,
+          "p_same": 0.12200435729847495,
+          "direction_accuracy_given_move": 0.5714285714285714
+        },
+        "strong_sign_flip": {
+          "n": 433,
+          "same": 42,
+          "opposite": 42,
+          "zero": 349,
+          "p_same": 0.09699769053117784,
+          "direction_accuracy_given_move": 0.5
+        }
+      },
+      "markets": {
+        "KXAFCONGAME-26SEP29ZAMTOG-ZAM": {
+          "anchors": 70,
+          "matured": 66,
+          "same": 2,
+          "opposite": 0,
+          "zero": 64,
+          "p_same": 0.030303030303030304,
+          "p_opposite": 0.0,
+          "p_zero": 0.9696969696969697,
+          "direction_accuracy_given_move": 1.0,
+          "weakened_below_08": {
+            "n": 66,
+            "same": 2,
+            "opposite": 0,
+            "zero": 64,
+            "p_same": 0.030303030303030304,
+            "p_opposite": 0.0,
+            "p_zero": 0.9696969696969697,
+            "direction_accuracy_given_move": 1.0
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 66,
+            "same": 2,
+            "opposite": 0,
+            "zero": 64,
+            "p_same": 0.030303030303030304,
+            "p_opposite": 0.0,
+            "p_zero": 0.9696969696969697,
+            "direction_accuracy_given_move": 1.0
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 66,
+            "same": 2,
+            "opposite": 0,
+            "zero": 64,
+            "p_same": 0.030303030303030304,
+            "p_opposite": 0.0,
+            "p_zero": 0.9696969696969697,
+            "direction_accuracy_given_move": 1.0
+          },
+          "strong_sign_flip": {
+            "n": 66,
+            "same": 2,
+            "opposite": 0,
+            "zero": 64,
+            "p_same": 0.030303030303030304,
+            "p_opposite": 0.0,
+            "p_zero": 0.9696969696969697,
+            "direction_accuracy_given_move": 1.0
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 30,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 30,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 30,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 30,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXITFWMATCH-26SEP29SOUHOV-HOV": {
+          "anchors": 110,
+          "matured": 110,
+          "same": 19,
+          "opposite": 18,
+          "zero": 73,
+          "p_same": 0.17272727272727273,
+          "p_opposite": 0.16363636363636364,
+          "p_zero": 0.6636363636363637,
+          "direction_accuracy_given_move": 0.5135135135135135,
+          "weakened_below_08": {
+            "n": 110,
+            "same": 19,
+            "opposite": 18,
+            "zero": 73,
+            "p_same": 0.17272727272727273,
+            "p_opposite": 0.16363636363636364,
+            "p_zero": 0.6636363636363637,
+            "direction_accuracy_given_move": 0.5135135135135135
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 110,
+            "same": 19,
+            "opposite": 18,
+            "zero": 73,
+            "p_same": 0.17272727272727273,
+            "p_opposite": 0.16363636363636364,
+            "p_zero": 0.6636363636363637,
+            "direction_accuracy_given_move": 0.5135135135135135
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 109,
+            "same": 19,
+            "opposite": 18,
+            "zero": 72,
+            "p_same": 0.1743119266055046,
+            "p_opposite": 0.1651376146788991,
+            "p_zero": 0.6605504587155964,
+            "direction_accuracy_given_move": 0.5135135135135135
+          },
+          "strong_sign_flip": {
+            "n": 103,
+            "same": 19,
+            "opposite": 18,
+            "zero": 66,
+            "p_same": 0.18446601941747573,
+            "p_opposite": 0.17475728155339806,
+            "p_zero": 0.6407766990291263,
+            "direction_accuracy_given_move": 0.5135135135135135
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 76,
+              "actual_moves": 27,
+              "direction_accuracy": 0.5925925925925926
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 76,
+              "actual_moves": 27,
+              "directional_predictions": 19,
+              "ties": 8,
+              "direction_accuracy": 0.10526315789473684,
+              "direction_log_loss": 0.8612663275462961,
+              "agreement_with_initial_imbalance": 0.5789473684210527
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 76,
+              "actual_moves": 27,
+              "directional_predictions": 25,
+              "ties": 2,
+              "direction_accuracy": 0.2,
+              "direction_log_loss": 0.9538491064427461,
+              "agreement_with_initial_imbalance": 0.4
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 76,
+              "actual_moves": 27,
+              "directional_predictions": 26,
+              "ties": 1,
+              "direction_accuracy": 0.4230769230769231,
+              "direction_log_loss": 1.1909602213301358,
+              "agreement_with_initial_imbalance": 0.3076923076923077
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR": {
+          "anchors": 63,
+          "matured": 63,
+          "same": 2,
+          "opposite": 10,
+          "zero": 51,
+          "p_same": 0.031746031746031744,
+          "p_opposite": 0.15873015873015872,
+          "p_zero": 0.8095238095238095,
+          "direction_accuracy_given_move": 0.16666666666666666,
+          "weakened_below_08": {
+            "n": 63,
+            "same": 2,
+            "opposite": 10,
+            "zero": 51,
+            "p_same": 0.031746031746031744,
+            "p_opposite": 0.15873015873015872,
+            "p_zero": 0.8095238095238095,
+            "direction_accuracy_given_move": 0.16666666666666666
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 63,
+            "same": 2,
+            "opposite": 10,
+            "zero": 51,
+            "p_same": 0.031746031746031744,
+            "p_opposite": 0.15873015873015872,
+            "p_zero": 0.8095238095238095,
+            "direction_accuracy_given_move": 0.16666666666666666
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 61,
+            "same": 2,
+            "opposite": 10,
+            "zero": 49,
+            "p_same": 0.03278688524590164,
+            "p_opposite": 0.16393442622950818,
+            "p_zero": 0.8032786885245902,
+            "direction_accuracy_given_move": 0.16666666666666666
+          },
+          "strong_sign_flip": {
+            "n": 57,
+            "same": 0,
+            "opposite": 10,
+            "zero": 47,
+            "p_same": 0.0,
+            "p_opposite": 0.17543859649122806,
+            "p_zero": 0.8245614035087719,
+            "direction_accuracy_given_move": 0.0
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 28,
+              "actual_moves": 8,
+              "direction_accuracy": 0.25
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 28,
+              "actual_moves": 8,
+              "directional_predictions": 8,
+              "ties": 0,
+              "direction_accuracy": 1.0,
+              "direction_log_loss": 0.26056872971582373,
+              "agreement_with_initial_imbalance": 0.25
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 28,
+              "actual_moves": 8,
+              "directional_predictions": 8,
+              "ties": 0,
+              "direction_accuracy": 0.75,
+              "direction_log_loss": 0.4294739168766267,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 28,
+              "actual_moves": 8,
+              "directional_predictions": 6,
+              "ties": 2,
+              "direction_accuracy": 1.0,
+              "direction_log_loss": 0.11053376879553872,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONGAME-26SEP29GBSNGR-GBS": {
+          "anchors": 66,
+          "matured": 65,
+          "same": 15,
+          "opposite": 1,
+          "zero": 49,
+          "p_same": 0.23076923076923078,
+          "p_opposite": 0.015384615384615385,
+          "p_zero": 0.7538461538461538,
+          "direction_accuracy_given_move": 0.9375,
+          "weakened_below_08": {
+            "n": 43,
+            "same": 15,
+            "opposite": 1,
+            "zero": 27,
+            "p_same": 0.3488372093023256,
+            "p_opposite": 0.023255813953488372,
+            "p_zero": 0.627906976744186,
+            "direction_accuracy_given_move": 0.9375
+          },
+          "stayed_at_or_above_08": {
+            "n": 22,
+            "same": 0,
+            "opposite": 0,
+            "zero": 22,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 43,
+            "same": 15,
+            "opposite": 1,
+            "zero": 27,
+            "p_same": 0.3488372093023256,
+            "p_opposite": 0.023255813953488372,
+            "p_zero": 0.627906976744186,
+            "direction_accuracy_given_move": 0.9375
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 22,
+            "same": 0,
+            "opposite": 0,
+            "zero": 22,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 43,
+            "same": 15,
+            "opposite": 1,
+            "zero": 27,
+            "p_same": 0.3488372093023256,
+            "p_opposite": 0.023255813953488372,
+            "p_zero": 0.627906976744186,
+            "direction_accuracy_given_move": 0.9375
+          },
+          "strong_sign_flip": {
+            "n": 32,
+            "same": 5,
+            "opposite": 1,
+            "zero": 26,
+            "p_same": 0.15625,
+            "p_opposite": 0.03125,
+            "p_zero": 0.8125,
+            "direction_accuracy_given_move": 0.8333333333333334
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 33,
+              "actual_moves": 10,
+              "direction_accuracy": 1.0
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 33,
+              "actual_moves": 10,
+              "directional_predictions": 10,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 2.639057329615259,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 33,
+              "actual_moves": 10,
+              "directional_predictions": 10,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 1.3862943611198906,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 33,
+              "actual_moves": 10,
+              "directional_predictions": 10,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 1.3862943611198906,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONGAME-26SEP29UGALBA-UGA": {
+          "anchors": 12,
+          "matured": 8,
+          "same": 2,
+          "opposite": 0,
+          "zero": 6,
+          "p_same": 0.25,
+          "p_opposite": 0.0,
+          "p_zero": 0.75,
+          "direction_accuracy_given_move": 1.0,
+          "weakened_below_08": {
+            "n": 8,
+            "same": 2,
+            "opposite": 0,
+            "zero": 6,
+            "p_same": 0.25,
+            "p_opposite": 0.0,
+            "p_zero": 0.75,
+            "direction_accuracy_given_move": 1.0
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 6,
+            "same": 0,
+            "opposite": 0,
+            "zero": 6,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 2,
+            "same": 2,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": 1.0,
+            "p_opposite": 0.0,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 1.0
+          },
+          "sign_flip": {
+            "n": 6,
+            "same": 0,
+            "opposite": 0,
+            "zero": 6,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 6,
+            "same": 0,
+            "opposite": 0,
+            "zero": 6,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXITFWMATCH-26SEP29NARNGI-NAR": {
+          "anchors": 16,
+          "matured": 10,
+          "same": 7,
+          "opposite": 3,
+          "zero": 0,
+          "p_same": 0.7,
+          "p_opposite": 0.3,
+          "p_zero": 0.0,
+          "direction_accuracy_given_move": 0.7,
+          "weakened_below_08": {
+            "n": 10,
+            "same": 7,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.7,
+            "p_opposite": 0.3,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 10,
+            "same": 7,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.7,
+            "p_opposite": 0.3,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 10,
+            "same": 7,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.7,
+            "p_opposite": 0.3,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7
+          },
+          "strong_sign_flip": {
+            "n": 10,
+            "same": 7,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.7,
+            "p_opposite": 0.3,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI": {
+          "anchors": 122,
+          "matured": 120,
+          "same": 15,
+          "opposite": 7,
+          "zero": 98,
+          "p_same": 0.125,
+          "p_opposite": 0.058333333333333334,
+          "p_zero": 0.8166666666666667,
+          "direction_accuracy_given_move": 0.6818181818181818,
+          "weakened_below_08": {
+            "n": 119,
+            "same": 15,
+            "opposite": 7,
+            "zero": 97,
+            "p_same": 0.12605042016806722,
+            "p_opposite": 0.058823529411764705,
+            "p_zero": 0.8151260504201681,
+            "direction_accuracy_given_move": 0.6818181818181818
+          },
+          "stayed_at_or_above_08": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 119,
+            "same": 15,
+            "opposite": 7,
+            "zero": 97,
+            "p_same": 0.12605042016806722,
+            "p_opposite": 0.058823529411764705,
+            "p_zero": 0.8151260504201681,
+            "direction_accuracy_given_move": 0.6818181818181818
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 115,
+            "same": 11,
+            "opposite": 7,
+            "zero": 97,
+            "p_same": 0.09565217391304348,
+            "p_opposite": 0.06086956521739131,
+            "p_zero": 0.8434782608695652,
+            "direction_accuracy_given_move": 0.6111111111111112
+          },
+          "strong_sign_flip": {
+            "n": 113,
+            "same": 9,
+            "opposite": 7,
+            "zero": 97,
+            "p_same": 0.07964601769911504,
+            "p_opposite": 0.061946902654867256,
+            "p_zero": 0.8584070796460177,
+            "direction_accuracy_given_move": 0.5625
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 80,
+              "actual_moves": 12,
+              "direction_accuracy": 1.0
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 80,
+              "actual_moves": 12,
+              "directional_predictions": 12,
+              "ties": 0,
+              "direction_accuracy": 0.25,
+              "direction_log_loss": 1.1343759134707239,
+              "agreement_with_initial_imbalance": 0.25
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 80,
+              "actual_moves": 12,
+              "directional_predictions": 11,
+              "ties": 1,
+              "direction_accuracy": 0.2727272727272727,
+              "direction_log_loss": 1.139670138984785,
+              "agreement_with_initial_imbalance": 0.2727272727272727
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 80,
+              "actual_moves": 12,
+              "directional_predictions": 11,
+              "ties": 1,
+              "direction_accuracy": 0.2727272727272727,
+              "direction_log_loss": 0.9480625808674114,
+              "agreement_with_initial_imbalance": 0.2727272727272727
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXUEFANLGAME-26SEP29FINBLR-FIN": {
+          "anchors": 83,
+          "matured": 76,
+          "same": 0,
+          "opposite": 0,
+          "zero": 76,
+          "p_same": 0.0,
+          "p_opposite": 0.0,
+          "p_zero": 1.0,
+          "direction_accuracy_given_move": null,
+          "weakened_below_08": {
+            "n": 69,
+            "same": 0,
+            "opposite": 0,
+            "zero": 69,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_at_or_above_08": {
+            "n": 7,
+            "same": 0,
+            "opposite": 0,
+            "zero": 7,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 52,
+            "same": 0,
+            "opposite": 0,
+            "zero": 52,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 24,
+            "same": 0,
+            "opposite": 0,
+            "zero": 24,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 46,
+            "same": 0,
+            "opposite": 0,
+            "zero": 46,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 43,
+            "same": 0,
+            "opposite": 0,
+            "zero": 43,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 36,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 36,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 36,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 36,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONSPREAD-26SEP29GHAGAM-GHA2": {
+          "anchors": 11,
+          "matured": 3,
+          "same": 0,
+          "opposite": 3,
+          "zero": 0,
+          "p_same": 0.0,
+          "p_opposite": 1.0,
+          "p_zero": 0.0,
+          "direction_accuracy_given_move": 0.0,
+          "weakened_below_08": {
+            "n": 3,
+            "same": 0,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.0,
+            "p_opposite": 1.0,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.0
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 3,
+            "same": 0,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.0,
+            "p_opposite": 1.0,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.0
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 3,
+            "same": 0,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.0,
+            "p_opposite": 1.0,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.0
+          },
+          "strong_sign_flip": {
+            "n": 3,
+            "same": 0,
+            "opposite": 3,
+            "zero": 0,
+            "p_same": 0.0,
+            "p_opposite": 1.0,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.0
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXMLBGAME-26SEP291400PHIATL-ATL": {
+          "anchors": 124,
+          "matured": 116,
+          "same": 0,
+          "opposite": 0,
+          "zero": 116,
+          "p_same": 0.0,
+          "p_opposite": 0.0,
+          "p_zero": 1.0,
+          "direction_accuracy_given_move": null,
+          "weakened_below_08": {
+            "n": 8,
+            "same": 0,
+            "opposite": 0,
+            "zero": 8,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_at_or_above_08": {
+            "n": 108,
+            "same": 0,
+            "opposite": 0,
+            "zero": 108,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 116,
+            "same": 0,
+            "opposite": 0,
+            "zero": 116,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        }
+      }
+    },
+    "large_08_persistent_3": {
+      "settings": {
+        "strong_imbalance": 0.8,
+        "persistence_trades": 3,
+        "anchor_stride": 5,
+        "max_trades": 50
+      },
+      "pooled": {
+        "n": 502,
+        "same": 50,
+        "opposite": 27,
+        "zero": 425,
+        "p_same": 0.099601593625498,
+        "p_opposite": 0.053784860557768925,
+        "p_zero": 0.8466135458167331,
+        "direction_accuracy_given_move": 0.6493506493506493,
+        "causal_predictor_comparison": {
+          "raw_imbalance_sign": {
+            "eligible_ready": 224,
+            "actual_moves": 35,
+            "direction_accuracy": 0.7428571428571429
+          },
+          "global_history": {
+            "name": "global_history",
+            "eligible_ready": 224,
+            "actual_moves": 35,
+            "directional_predictions": 25,
+            "ties": 10,
+            "direction_accuracy": 0.24,
+            "direction_log_loss": 1.2876724183724486,
+            "agreement_with_initial_imbalance": 0.32
+          },
+          "imbalance_only": {
+            "name": "imbalance_only",
+            "eligible_ready": 224,
+            "actual_moves": 35,
+            "directional_predictions": 25,
+            "ties": 10,
+            "direction_accuracy": 0.36,
+            "direction_log_loss": 1.0616849812707196,
+            "agreement_with_initial_imbalance": 0.32
+          },
+          "imbalance_and_previous_state": {
+            "name": "imbalance_and_previous_state",
+            "eligible_ready": 224,
+            "actual_moves": 35,
+            "directional_predictions": 18,
+            "ties": 17,
+            "direction_accuracy": 0.5555555555555556,
+            "direction_log_loss": 0.9521846670167418,
+            "agreement_with_initial_imbalance": 0.16666666666666666
+          },
+          "actual_action_rule": {
+            "signals": 8,
+            "signals_with_move": 1,
+            "correct_direction": 1,
+            "zero_outcomes": 7,
+            "direction_accuracy_given_move": 1.0
+          }
+        },
+        "magnitude_bands_same_schedule": {
+          "small_abs_lt_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "medium_abs_04_to_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "large_abs_ge_08": {
+            "n": 502,
+            "same": 50,
+            "opposite": 27,
+            "zero": 425,
+            "p_same": 0.099601593625498,
+            "p_opposite": 0.053784860557768925,
+            "p_zero": 0.8466135458167331,
+            "direction_accuracy_given_move": 0.6493506493506493
+          }
+        },
+        "weakened_below_08": {
+          "n": 366,
+          "same": 50,
+          "opposite": 27,
+          "zero": 289,
+          "p_same": 0.1366120218579235,
+          "direction_accuracy_given_move": 0.6493506493506493
+        },
+        "crossed_hysteresis_04": {
+          "n": 340,
+          "same": 48,
+          "opposite": 27,
+          "zero": 265,
+          "p_same": 0.1411764705882353,
+          "direction_accuracy_given_move": 0.64
+        },
+        "sign_flip": {
+          "n": 327,
+          "same": 43,
+          "opposite": 27,
+          "zero": 257,
+          "p_same": 0.13149847094801223,
+          "direction_accuracy_given_move": 0.6142857142857143
+        },
+        "strong_sign_flip": {
+          "n": 305,
+          "same": 30,
+          "opposite": 27,
+          "zero": 248,
+          "p_same": 0.09836065573770492,
+          "direction_accuracy_given_move": 0.5263157894736842
+        }
+      },
+      "markets": {
+        "KXAFCONGAME-26SEP29ZAMTOG-ZAM": {
+          "anchors": 48,
+          "matured": 45,
+          "same": 1,
+          "opposite": 1,
+          "zero": 43,
+          "p_same": 0.022222222222222223,
+          "p_opposite": 0.022222222222222223,
+          "p_zero": 0.9555555555555556,
+          "direction_accuracy_given_move": 0.5,
+          "weakened_below_08": {
+            "n": 45,
+            "same": 1,
+            "opposite": 1,
+            "zero": 43,
+            "p_same": 0.022222222222222223,
+            "p_opposite": 0.022222222222222223,
+            "p_zero": 0.9555555555555556,
+            "direction_accuracy_given_move": 0.5
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 45,
+            "same": 1,
+            "opposite": 1,
+            "zero": 43,
+            "p_same": 0.022222222222222223,
+            "p_opposite": 0.022222222222222223,
+            "p_zero": 0.9555555555555556,
+            "direction_accuracy_given_move": 0.5
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 45,
+            "same": 1,
+            "opposite": 1,
+            "zero": 43,
+            "p_same": 0.022222222222222223,
+            "p_opposite": 0.022222222222222223,
+            "p_zero": 0.9555555555555556,
+            "direction_accuracy_given_move": 0.5
+          },
+          "strong_sign_flip": {
+            "n": 45,
+            "same": 1,
+            "opposite": 1,
+            "zero": 43,
+            "p_same": 0.022222222222222223,
+            "p_opposite": 0.022222222222222223,
+            "p_zero": 0.9555555555555556,
+            "direction_accuracy_given_move": 0.5
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 11,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 11,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 11,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 11,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXITFWMATCH-26SEP29SOUHOV-HOV": {
+          "anchors": 76,
+          "matured": 76,
+          "same": 14,
+          "opposite": 11,
+          "zero": 51,
+          "p_same": 0.18421052631578946,
+          "p_opposite": 0.14473684210526316,
+          "p_zero": 0.6710526315789473,
+          "direction_accuracy_given_move": 0.56,
+          "weakened_below_08": {
+            "n": 76,
+            "same": 14,
+            "opposite": 11,
+            "zero": 51,
+            "p_same": 0.18421052631578946,
+            "p_opposite": 0.14473684210526316,
+            "p_zero": 0.6710526315789473,
+            "direction_accuracy_given_move": 0.56
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 76,
+            "same": 14,
+            "opposite": 11,
+            "zero": 51,
+            "p_same": 0.18421052631578946,
+            "p_opposite": 0.14473684210526316,
+            "p_zero": 0.6710526315789473,
+            "direction_accuracy_given_move": 0.56
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 75,
+            "same": 14,
+            "opposite": 11,
+            "zero": 50,
+            "p_same": 0.18666666666666668,
+            "p_opposite": 0.14666666666666667,
+            "p_zero": 0.6666666666666666,
+            "direction_accuracy_given_move": 0.56
+          },
+          "strong_sign_flip": {
+            "n": 70,
+            "same": 14,
+            "opposite": 11,
+            "zero": 45,
+            "p_same": 0.2,
+            "p_opposite": 0.15714285714285714,
+            "p_zero": 0.6428571428571429,
+            "direction_accuracy_given_move": 0.56
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 42,
+              "actual_moves": 16,
+              "direction_accuracy": 0.75
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 42,
+              "actual_moves": 16,
+              "directional_predictions": 9,
+              "ties": 7,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 1.048324179123104,
+              "agreement_with_initial_imbalance": 0.4444444444444444
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 42,
+              "actual_moves": 16,
+              "directional_predictions": 16,
+              "ties": 0,
+              "direction_accuracy": 0.125,
+              "direction_log_loss": 1.3499932363957639,
+              "agreement_with_initial_imbalance": 0.375
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 42,
+              "actual_moves": 16,
+              "directional_predictions": 12,
+              "ties": 4,
+              "direction_accuracy": 0.3333333333333333,
+              "direction_log_loss": 1.3579778549873243,
+              "agreement_with_initial_imbalance": 0.16666666666666666
+            },
+            "actual_action_rule": {
+              "signals": 1,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 1,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR": {
+          "anchors": 44,
+          "matured": 44,
+          "same": 2,
+          "opposite": 9,
+          "zero": 33,
+          "p_same": 0.045454545454545456,
+          "p_opposite": 0.20454545454545456,
+          "p_zero": 0.75,
+          "direction_accuracy_given_move": 0.18181818181818182,
+          "weakened_below_08": {
+            "n": 44,
+            "same": 2,
+            "opposite": 9,
+            "zero": 33,
+            "p_same": 0.045454545454545456,
+            "p_opposite": 0.20454545454545456,
+            "p_zero": 0.75,
+            "direction_accuracy_given_move": 0.18181818181818182
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 44,
+            "same": 2,
+            "opposite": 9,
+            "zero": 33,
+            "p_same": 0.045454545454545456,
+            "p_opposite": 0.20454545454545456,
+            "p_zero": 0.75,
+            "direction_accuracy_given_move": 0.18181818181818182
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 43,
+            "same": 2,
+            "opposite": 9,
+            "zero": 32,
+            "p_same": 0.046511627906976744,
+            "p_opposite": 0.20930232558139536,
+            "p_zero": 0.7441860465116279,
+            "direction_accuracy_given_move": 0.18181818181818182
+          },
+          "strong_sign_flip": {
+            "n": 40,
+            "same": 0,
+            "opposite": 9,
+            "zero": 31,
+            "p_same": 0.0,
+            "p_opposite": 0.225,
+            "p_zero": 0.775,
+            "direction_accuracy_given_move": 0.0
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 12,
+              "actual_moves": 7,
+              "direction_accuracy": 0.2857142857142857
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 12,
+              "actual_moves": 7,
+              "directional_predictions": 4,
+              "ties": 3,
+              "direction_accuracy": 1.0,
+              "direction_log_loss": 0.33118776094659574,
+              "agreement_with_initial_imbalance": 0.5
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 12,
+              "actual_moves": 7,
+              "directional_predictions": 7,
+              "ties": 0,
+              "direction_accuracy": 0.7142857142857143,
+              "direction_log_loss": 0.6149294804024619,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 12,
+              "actual_moves": 7,
+              "directional_predictions": 5,
+              "ties": 2,
+              "direction_accuracy": 1.0,
+              "direction_log_loss": 0.14419748487222475,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONGAME-26SEP29GBSNGR-GBS": {
+          "anchors": 52,
+          "matured": 51,
+          "same": 13,
+          "opposite": 0,
+          "zero": 38,
+          "p_same": 0.2549019607843137,
+          "p_opposite": 0.0,
+          "p_zero": 0.7450980392156863,
+          "direction_accuracy_given_move": 1.0,
+          "weakened_below_08": {
+            "n": 29,
+            "same": 13,
+            "opposite": 0,
+            "zero": 16,
+            "p_same": 0.4482758620689655,
+            "p_opposite": 0.0,
+            "p_zero": 0.5517241379310345,
+            "direction_accuracy_given_move": 1.0
+          },
+          "stayed_at_or_above_08": {
+            "n": 22,
+            "same": 0,
+            "opposite": 0,
+            "zero": 22,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 29,
+            "same": 13,
+            "opposite": 0,
+            "zero": 16,
+            "p_same": 0.4482758620689655,
+            "p_opposite": 0.0,
+            "p_zero": 0.5517241379310345,
+            "direction_accuracy_given_move": 1.0
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 22,
+            "same": 0,
+            "opposite": 0,
+            "zero": 22,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 29,
+            "same": 13,
+            "opposite": 0,
+            "zero": 16,
+            "p_same": 0.4482758620689655,
+            "p_opposite": 0.0,
+            "p_zero": 0.5517241379310345,
+            "direction_accuracy_given_move": 1.0
+          },
+          "strong_sign_flip": {
+            "n": 18,
+            "same": 3,
+            "opposite": 0,
+            "zero": 15,
+            "p_same": 0.16666666666666666,
+            "p_opposite": 0.0,
+            "p_zero": 0.8333333333333334,
+            "direction_accuracy_given_move": 1.0
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 10,
+              "actual_moves": 10,
+              "direction_accuracy": 1.0
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 10,
+              "actual_moves": 10,
+              "directional_predictions": 10,
+              "ties": 0,
+              "direction_accuracy": 0.0,
+              "direction_log_loss": 2.0794415416798353,
+              "agreement_with_initial_imbalance": 0.0
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 10,
+              "actual_moves": 10,
+              "directional_predictions": 0,
+              "ties": 10,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 10,
+              "actual_moves": 10,
+              "directional_predictions": 0,
+              "ties": 10,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONGAME-26SEP29UGALBA-UGA": {
+          "anchors": 9,
+          "matured": 7,
+          "same": 2,
+          "opposite": 0,
+          "zero": 5,
+          "p_same": 0.2857142857142857,
+          "p_opposite": 0.0,
+          "p_zero": 0.7142857142857143,
+          "direction_accuracy_given_move": 1.0,
+          "weakened_below_08": {
+            "n": 7,
+            "same": 2,
+            "opposite": 0,
+            "zero": 5,
+            "p_same": 0.2857142857142857,
+            "p_opposite": 0.0,
+            "p_zero": 0.7142857142857143,
+            "direction_accuracy_given_move": 1.0
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 5,
+            "same": 0,
+            "opposite": 0,
+            "zero": 5,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 2,
+            "same": 2,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": 1.0,
+            "p_opposite": 0.0,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 1.0
+          },
+          "sign_flip": {
+            "n": 5,
+            "same": 0,
+            "opposite": 0,
+            "zero": 5,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 5,
+            "same": 0,
+            "opposite": 0,
+            "zero": 5,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXITFWMATCH-26SEP29NARNGI-NAR": {
+          "anchors": 12,
+          "matured": 7,
+          "same": 5,
+          "opposite": 2,
+          "zero": 0,
+          "p_same": 0.7142857142857143,
+          "p_opposite": 0.2857142857142857,
+          "p_zero": 0.0,
+          "direction_accuracy_given_move": 0.7142857142857143,
+          "weakened_below_08": {
+            "n": 7,
+            "same": 5,
+            "opposite": 2,
+            "zero": 0,
+            "p_same": 0.7142857142857143,
+            "p_opposite": 0.2857142857142857,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7142857142857143
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 7,
+            "same": 5,
+            "opposite": 2,
+            "zero": 0,
+            "p_same": 0.7142857142857143,
+            "p_opposite": 0.2857142857142857,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7142857142857143
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 7,
+            "same": 5,
+            "opposite": 2,
+            "zero": 0,
+            "p_same": 0.7142857142857143,
+            "p_opposite": 0.2857142857142857,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7142857142857143
+          },
+          "strong_sign_flip": {
+            "n": 7,
+            "same": 5,
+            "opposite": 2,
+            "zero": 0,
+            "p_same": 0.7142857142857143,
+            "p_opposite": 0.2857142857142857,
+            "p_zero": 0.0,
+            "direction_accuracy_given_move": 0.7142857142857143
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI": {
+          "anchors": 95,
+          "matured": 93,
+          "same": 13,
+          "opposite": 4,
+          "zero": 76,
+          "p_same": 0.13978494623655913,
+          "p_opposite": 0.043010752688172046,
+          "p_zero": 0.8172043010752689,
+          "direction_accuracy_given_move": 0.7647058823529411,
+          "weakened_below_08": {
+            "n": 92,
+            "same": 13,
+            "opposite": 4,
+            "zero": 75,
+            "p_same": 0.14130434782608695,
+            "p_opposite": 0.043478260869565216,
+            "p_zero": 0.8152173913043478,
+            "direction_accuracy_given_move": 0.7647058823529411
+          },
+          "stayed_at_or_above_08": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 92,
+            "same": 13,
+            "opposite": 4,
+            "zero": 75,
+            "p_same": 0.14130434782608695,
+            "p_opposite": 0.043478260869565216,
+            "p_zero": 0.8152173913043478,
+            "direction_accuracy_given_move": 0.7647058823529411
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 87,
+            "same": 8,
+            "opposite": 4,
+            "zero": 75,
+            "p_same": 0.09195402298850575,
+            "p_opposite": 0.04597701149425287,
+            "p_zero": 0.8620689655172413,
+            "direction_accuracy_given_move": 0.6666666666666666
+          },
+          "strong_sign_flip": {
+            "n": 86,
+            "same": 7,
+            "opposite": 4,
+            "zero": 75,
+            "p_same": 0.08139534883720931,
+            "p_opposite": 0.046511627906976744,
+            "p_zero": 0.872093023255814,
+            "direction_accuracy_given_move": 0.6363636363636364
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 51,
+              "actual_moves": 2,
+              "direction_accuracy": 1.0
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 51,
+              "actual_moves": 2,
+              "directional_predictions": 2,
+              "ties": 0,
+              "direction_accuracy": 1.0,
+              "direction_log_loss": 0.3188631933092687,
+              "agreement_with_initial_imbalance": 1.0
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 51,
+              "actual_moves": 2,
+              "directional_predictions": 2,
+              "ties": 0,
+              "direction_accuracy": 1.0,
+              "direction_log_loss": 0.3188631933092688,
+              "agreement_with_initial_imbalance": 1.0
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 51,
+              "actual_moves": 2,
+              "directional_predictions": 1,
+              "ties": 1,
+              "direction_accuracy": 1.0,
+              "direction_log_loss": 0.12260232209233227,
+              "agreement_with_initial_imbalance": 1.0
+            },
+            "actual_action_rule": {
+              "signals": 7,
+              "signals_with_move": 1,
+              "correct_direction": 1,
+              "zero_outcomes": 6,
+              "direction_accuracy_given_move": 1.0
+            }
+          }
+        },
+        "KXUEFANLGAME-26SEP29FINBLR-FIN": {
+          "anchors": 65,
+          "matured": 62,
+          "same": 0,
+          "opposite": 0,
+          "zero": 62,
+          "p_same": 0.0,
+          "p_opposite": 0.0,
+          "p_zero": 1.0,
+          "direction_accuracy_given_move": null,
+          "weakened_below_08": {
+            "n": 57,
+            "same": 0,
+            "opposite": 0,
+            "zero": 57,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_at_or_above_08": {
+            "n": 5,
+            "same": 0,
+            "opposite": 0,
+            "zero": 5,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 41,
+            "same": 0,
+            "opposite": 0,
+            "zero": 41,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 21,
+            "same": 0,
+            "opposite": 0,
+            "zero": 21,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 35,
+            "same": 0,
+            "opposite": 0,
+            "zero": 35,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 33,
+            "same": 0,
+            "opposite": 0,
+            "zero": 33,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 22,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 22,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 22,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 22,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXAFCONSPREAD-26SEP29GHAGAM-GHA2": {
+          "anchors": 9,
+          "matured": 1,
+          "same": 0,
+          "opposite": 0,
+          "zero": 1,
+          "p_same": 0.0,
+          "p_opposite": 0.0,
+          "p_zero": 1.0,
+          "direction_accuracy_given_move": null,
+          "weakened_below_08": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_at_or_above_08": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 1,
+            "same": 0,
+            "opposite": 0,
+            "zero": 1,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 0,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        },
+        "KXMLBGAME-26SEP291400PHIATL-ATL": {
+          "anchors": 123,
+          "matured": 116,
+          "same": 0,
+          "opposite": 0,
+          "zero": 116,
+          "p_same": 0.0,
+          "p_opposite": 0.0,
+          "p_zero": 1.0,
+          "direction_accuracy_given_move": null,
+          "weakened_below_08": {
+            "n": 8,
+            "same": 0,
+            "opposite": 0,
+            "zero": 8,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_at_or_above_08": {
+            "n": 108,
+            "same": 0,
+            "opposite": 0,
+            "zero": 108,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "crossed_hysteresis_04": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "stayed_inside_hysteresis_04": {
+            "n": 116,
+            "same": 0,
+            "opposite": 0,
+            "zero": 116,
+            "p_same": 0.0,
+            "p_opposite": 0.0,
+            "p_zero": 1.0,
+            "direction_accuracy_given_move": null
+          },
+          "sign_flip": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "strong_sign_flip": {
+            "n": 0,
+            "same": 0,
+            "opposite": 0,
+            "zero": 0,
+            "p_same": null,
+            "p_opposite": null,
+            "p_zero": null,
+            "direction_accuracy_given_move": null
+          },
+          "causal_predictor_comparison": {
+            "raw_imbalance_sign": {
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "direction_accuracy": null
+            },
+            "global_history": {
+              "name": "global_history",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_only": {
+              "name": "imbalance_only",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "imbalance_and_previous_state": {
+              "name": "imbalance_and_previous_state",
+              "eligible_ready": 76,
+              "actual_moves": 0,
+              "directional_predictions": 0,
+              "ties": 0,
+              "direction_accuracy": null,
+              "direction_log_loss": null,
+              "agreement_with_initial_imbalance": null
+            },
+            "actual_action_rule": {
+              "signals": 0,
+              "signals_with_move": 0,
+              "correct_direction": 0,
+              "zero_outcomes": 0,
+              "direction_accuracy_given_move": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

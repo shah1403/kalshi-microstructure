@@ -1,0 +1,7 @@
+# Versions used for this audit; optional legacy dependencies are not all pinned.
+numpy==2.3.5
+pandas==2.2.3
+scipy==1.17.0
+matplotlib==3.10.8
+zstandard==0.25.0
+scikit-learn==1.8.0

@@ -1,0 +1,42 @@
+...............
+----------------------------------------------------------------------
+Ran 15 tests in 0.008s
+
+OK
+{
+  "incomplete": true,
+  "start_wall": 100.0,
+  "end_wall": 102.0,
+  "messages": {
+    "metadata": 1,
+    "timer": 1
+  },
+  "planned_duration_seconds": 1800,
+  "recovered_seconds": 2.0,
+  "recovery": {
+    "source_path": "/tmp/tmpo90y2rn8/original.gz",
+    "source_sha256": "8790670a16a6a86be32fcc2180f4728b4ad1d9821d74c3c70d88abf1092c00da",
+    "complete_records": 2,
+    "trailing_incomplete_bytes_discarded": 0,
+    "gzip_footer_missing": true
+  },
+  "note": "Only complete messages recovered. No graceful stop or terminal fee check recorded."
+}
+{
+  "incomplete": true,
+  "start_wall": 100.0,
+  "end_wall": 100.0,
+  "messages": {
+    "metadata": 1
+  },
+  "planned_duration_seconds": 1800,
+  "recovered_seconds": 0.0,
+  "recovery": {
+    "source_path": "/tmp/tmp403ahsl0/original.gz",
+    "source_sha256": "e15b9a97dd44973fa049c1e4d3c38f3c4c396324e9f68ce6f0fb2cc738b1e4aa",
+    "complete_records": 1,
+    "trailing_incomplete_bytes_discarded": 17,
+    "gzip_footer_missing": true
+  },
+  "note": "Only complete messages recovered. No graceful stop or terminal fee check recorded."
+}

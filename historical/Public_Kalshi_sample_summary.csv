@@ -1,0 +1,12 @@
+metric,value
+observations,68.0
+sample span (minutes),39.54858886666667
+mean snapshot interval (s),35.41664674744776
+median snapshot interval (s),35.931723594
+estimated exponential lambda (/s),0.028235309997891412
+mean spread ($),0.07573529411764708
+median spread ($),0.08
+min spread ($),0.01
+max spread ($),0.13
+mid start ($),0.55
+mid end ($),0.495

@@ -1,0 +1,11 @@
+{
+  "maker_v2/run.py": "1b52d8dd0a5484f3dd80ca170a953b393d6d56e1b39757015e8c426bafdef386",
+  "maker_v2/report.py": "51f69a82a7d969f9d0be7860d859bd5879f315d34c7f56657d243bc18d821f4b",
+  "maker_v2/latency_check.py": "08e9c38fb57092918df66e3b798aa76c1bd8de0cf63fa9d8d4cd361c0fabbda0",
+  "maker_v2/fees.py": "21e1ed5e23fd19dc2d631483c3ae6459c2679773405c658d43a8c3a9b5947fec",
+  "maker_v2/execution.py": "afc68a6fd5e6bb0a2758de625771d078fe3c3e8aa14d25ea5897c60922f6a4e6",
+  "maker_v2/distributions.py": "af5f5a19546207784d9dab9e02c39fabec58c6afe91868f7c07a0af074bf2a94",
+  "maker_v2/quote_model.py": "45e19feffed07c2fb83b77b36c51651d90de704ee4055bbca3c6e9b8c85025ab",
+  "maker_v2/data_and_scores.py": "9cdb0f09e7acf906da5ddeb7176a66691f42d253659c2596e57cae31efcfead2",
+  "maker_v2/test_v2.py": "531b88f9763eb92a3793f48732d4487690eba153b5b1d70ff71ee40cc3f56a1a"
+}

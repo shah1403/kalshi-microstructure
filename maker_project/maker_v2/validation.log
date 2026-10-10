@@ -1,0 +1,18 @@
+test_bank_probability_normalization (test_v2.Tests.test_bank_probability_normalization) ... ok
+test_consistent_book_cannot_arbitrage (test_v2.Tests.test_consistent_book_cannot_arbitrage) ... ok
+test_crossed_not_certified (test_v2.Tests.test_crossed_not_certified) ... ok
+test_exit_delay_and_insufficient_depth (test_v2.Tests.test_exit_delay_and_insufficient_depth) ... ok
+test_fractional_fee_plus_cost_rounding (test_v2.Tests.test_fractional_fee_plus_cost_rounding) ... ok
+test_future_extension_leaves_earlier_forecasts_unchanged (test_v2.Tests.test_future_extension_leaves_earlier_forecasts_unchanged) ... ok
+test_gap_and_end_not_zero_labels (test_v2.Tests.test_gap_and_end_not_zero_labels) ... ok
+test_no_arrival_mass_not_dropped (test_v2.Tests.test_no_arrival_mass_not_dropped) ... ok
+test_pair_latency_and_hold_until_settlement (test_v2.Tests.test_pair_latency_and_hold_until_settlement) ... ok
+test_pair_second_leg_miss_unwinds_loss (test_v2.Tests.test_pair_second_leg_miss_unwinds_loss) ... ok
+test_partial_reprice_preserves_cost_basis (test_v2.Tests.test_partial_reprice_preserves_cost_basis) ... ok
+test_replace_resets_queue_and_cancel_race (test_v2.Tests.test_replace_resets_queue_and_cancel_race) ... ok
+test_wait_targets_and_side_size_joint (test_v2.Tests.test_wait_targets_and_side_size_joint) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.111s
+
+OK

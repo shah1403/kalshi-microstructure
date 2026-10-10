@@ -1,0 +1,5697 @@
+{
+  "config": {
+    "ticker": "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI",
+    "bankroll": 100.0,
+    "order_budget": 5.0,
+    "cash_fraction": 0.25,
+    "max_contracts": 20,
+    "mode": "imbalance_state",
+    "warmup": 30,
+    "min_cell": 1,
+    "strong_imbalance": 0.8,
+    "persistence_trades": 3,
+    "anchor_stride": 5,
+    "max_trades": 50,
+    "reference_q": 1,
+    "latency_ms": 5.0,
+    "depth_fraction": 0.5,
+    "adverse_slippage": 0.001,
+    "fee_quantum": "0.0001",
+    "fee_scope": "contract",
+    "max_book_age_s": 10.0,
+    "max_source_lag_s": 3.0,
+    "max_processing_lag_s": 1.0,
+    "max_hold_s": 300.0,
+    "close_buffer_s": 60.0,
+    "session_loss_limit": 10.0,
+    "late_diagnostic_trades": 500,
+    "max_pending_labels": 2000,
+    "plot_points": 2500
+  },
+  "fee_multiplier": 1.0,
+  "stats": {
+    "trade_messages": 2160,
+    "history_n": 93,
+    "anchors": 94,
+    "cell_n": 51,
+    "pending_labels": 1,
+    "closed_trades": 2,
+    "open_contracts": 0,
+    "gross_closed": 0.07999999999999996,
+    "fees_closed": 0.17309999999999998,
+    "net_closed": -0.09310000000000003,
+    "fees_paid_including_open": 0.17309999999999998,
+    "cash": 99.6113,
+    "liquidation_equity": 99.6113,
+    "max_dd_observed": 2.745999999999995,
+    "unmarkable_observations": 0,
+    "DA_percent": 100.0,
+    "DA_n": 1,
+    "traded_DA_percent": 100.0,
+    "traded_DA_n": 1,
+    "directional_signals_with_valid_labels": 7,
+    "correct_direction_hit_rate": 14.285714285714286,
+    "directional_signal_timeouts": 6,
+    "taken_censored": 0,
+    "taken_pending": 0,
+    "win_rate": 50.0,
+    "timeouts": 1,
+    "late_same_side": 6,
+    "connected": true,
+    "paused": false
+  },
+  "forecasts": [
+    {
+      "id": 0,
+      "t": 1587.7073199,
+      "start_count": 88,
+      "bucket": 0,
+      "state": null,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 0,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1639.678747202,
+      "hit_wait_trades": 33,
+      "hit_wait_s": 51.971427302000166
+    },
+    {
+      "id": 1,
+      "t": 1701.303889626,
+      "start_count": 164,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 1,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1770.019905882
+    },
+    {
+      "id": 2,
+      "t": 1752.928781009,
+      "start_count": 193,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 1,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1907.749655301
+    },
+    {
+      "id": 3,
+      "t": 1752.934444752,
+      "start_count": 198,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 1,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1909.155192442
+    },
+    {
+      "id": 4,
+      "t": 1770.01479787,
+      "start_count": 207,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 1,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1930.516316542,
+      "hit_wait_trades": 42,
+      "hit_wait_s": 160.50151867199997
+    },
+    {
+      "id": 5,
+      "t": 1770.017177249,
+      "start_count": 212,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 1,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1930.516316542,
+      "hit_wait_trades": 37,
+      "hit_wait_s": 160.49913929299987
+    },
+    {
+      "id": 6,
+      "t": 1871.275028903,
+      "start_count": 229,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 2,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 1958.095150181,
+      "hit_wait_trades": 24,
+      "hit_wait_s": 86.82012127799999
+    },
+    {
+      "id": 7,
+      "t": 2056.077831604,
+      "start_count": 287,
+      "bucket": 0,
+      "state": 1,
+      "pminus": 0.07692307692307693,
+      "pzero": 0.5384615384615384,
+      "pplus": 0.38461538461538464,
+      "cell_n": 5,
+      "history_n": 7,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2126.497324117
+    },
+    {
+      "id": 8,
+      "t": 2477.448288441,
+      "start_count": 857,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.2,
+      "pzero": 0.2,
+      "pplus": 0.6,
+      "cell_n": 1,
+      "history_n": 8,
+      "ready": false,
+      "side": 1,
+      "tier": "normal",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2493.740265794
+    },
+    {
+      "id": 9,
+      "t": 2547.004840788,
+      "start_count": 1048,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.14285714285714285,
+      "pzero": 0.42857142857142855,
+      "pplus": 0.42857142857142855,
+      "cell_n": 2,
+      "history_n": 9,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2548.332719187,
+      "hit_wait_trades": 42,
+      "hit_wait_s": 1.3278783989999283
+    },
+    {
+      "id": 10,
+      "t": 2549.11969759,
+      "start_count": 1093,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 9,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2564.125067991
+    },
+    {
+      "id": 11,
+      "t": 2554.835336025,
+      "start_count": 1100,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2564.128527784
+    },
+    {
+      "id": 12,
+      "t": 2554.83793387,
+      "start_count": 1105,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2564.132113722
+    },
+    {
+      "id": 13,
+      "t": 2557.725117048,
+      "start_count": 1110,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2568.241760192
+    },
+    {
+      "id": 14,
+      "t": 2557.729195183,
+      "start_count": 1115,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2569.071919275
+    },
+    {
+      "id": 15,
+      "t": 2557.732439413,
+      "start_count": 1120,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2571.530340573
+    },
+    {
+      "id": 16,
+      "t": 2557.735705242,
+      "start_count": 1125,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2571.535251037
+    },
+    {
+      "id": 17,
+      "t": 2560.845657704,
+      "start_count": 1130,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2573.617358039
+    },
+    {
+      "id": 18,
+      "t": 2560.849331483,
+      "start_count": 1135,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 10,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2581.059873096
+    },
+    {
+      "id": 19,
+      "t": 2571.530340573,
+      "start_count": 1170,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 15,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2588.141883152
+    },
+    {
+      "id": 20,
+      "t": 2571.535251037,
+      "start_count": 1175,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 16,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2589.821736354
+    },
+    {
+      "id": 21,
+      "t": 2581.059873096,
+      "start_count": 1185,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 18,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.820576334
+    },
+    {
+      "id": 22,
+      "t": 2581.064664387,
+      "start_count": 1190,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 19,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.82561208
+    },
+    {
+      "id": 23,
+      "t": 2581.068591006,
+      "start_count": 1195,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 19,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.846690417
+    },
+    {
+      "id": 24,
+      "t": 2582.853197159,
+      "start_count": 1201,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 19,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.85059081
+    },
+    {
+      "id": 25,
+      "t": 2582.860567403,
+      "start_count": 1206,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 19,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.851815204
+    },
+    {
+      "id": 26,
+      "t": 2582.861026795,
+      "start_count": 1211,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 19,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.854652639
+    },
+    {
+      "id": 27,
+      "t": 2588.138843302,
+      "start_count": 1216,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 3,
+      "history_n": 19,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.85804437
+    },
+    {
+      "id": 28,
+      "t": 2588.142354546,
+      "start_count": 1221,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.2727272727272727,
+      "pzero": 0.45454545454545453,
+      "pplus": 0.2727272727272727,
+      "cell_n": 4,
+      "history_n": 20,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 48,
+      "hit_wait_s": 5.737725730999955
+    },
+    {
+      "id": 29,
+      "t": 2590.140411456,
+      "start_count": 1226,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.23076923076923078,
+      "pzero": 0.5384615384615384,
+      "pplus": 0.23076923076923078,
+      "cell_n": 5,
+      "history_n": 21,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 43,
+      "hit_wait_s": 3.739668821000123
+    },
+    {
+      "id": 30,
+      "t": 2593.817746671,
+      "start_count": 1231,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.23076923076923078,
+      "pzero": 0.5384615384615384,
+      "pplus": 0.23076923076923078,
+      "cell_n": 5,
+      "history_n": 21,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 38,
+      "hit_wait_s": 0.06233360600026572
+    },
+    {
+      "id": 31,
+      "t": 2593.820850061,
+      "start_count": 1236,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.2,
+      "pzero": 0.6,
+      "pplus": 0.2,
+      "cell_n": 6,
+      "history_n": 22,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 33,
+      "hit_wait_s": 0.05923021600028733
+    },
+    {
+      "id": 32,
+      "t": 2593.825848092,
+      "start_count": 1241,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.17647058823529413,
+      "pzero": 0.6470588235294118,
+      "pplus": 0.17647058823529413,
+      "cell_n": 7,
+      "history_n": 23,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 28,
+      "hit_wait_s": 0.0542321850002736
+    },
+    {
+      "id": 33,
+      "t": 2593.846970006,
+      "start_count": 1246,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.15789473684210525,
+      "pzero": 0.6842105263157895,
+      "pplus": 0.15789473684210525,
+      "cell_n": 8,
+      "history_n": 24,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 23,
+      "hit_wait_s": 0.03311027100016872
+    },
+    {
+      "id": 34,
+      "t": 2593.85059081,
+      "start_count": 1251,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.15789473684210525,
+      "pzero": 0.6842105263157895,
+      "pplus": 0.15789473684210525,
+      "cell_n": 8,
+      "history_n": 24,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 18,
+      "hit_wait_s": 0.02948946700007582
+    },
+    {
+      "id": 35,
+      "t": 2593.851815204,
+      "start_count": 1256,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.14285714285714285,
+      "pzero": 0.7142857142857143,
+      "pplus": 0.14285714285714285,
+      "cell_n": 9,
+      "history_n": 25,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 13,
+      "hit_wait_s": 0.028265073000056873
+    },
+    {
+      "id": 36,
+      "t": 2593.854652639,
+      "start_count": 1261,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.13043478260869565,
+      "pzero": 0.7391304347826086,
+      "pplus": 0.13043478260869565,
+      "cell_n": 10,
+      "history_n": 26,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 8,
+      "hit_wait_s": 0.025427638000110164
+    },
+    {
+      "id": 37,
+      "t": 2593.85804437,
+      "start_count": 1266,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.12,
+      "pzero": 0.76,
+      "pplus": 0.12,
+      "cell_n": 11,
+      "history_n": 27,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2593.880080277,
+      "hit_wait_trades": 3,
+      "hit_wait_s": 0.02203590700037239
+    },
+    {
+      "id": 38,
+      "t": 2595.488314261,
+      "start_count": 1271,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 28,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2609.1458591
+    },
+    {
+      "id": 39,
+      "t": 2595.493083564,
+      "start_count": 1276,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 29,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2611.652227929
+    },
+    {
+      "id": 40,
+      "t": 2603.990669114,
+      "start_count": 1298,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 34,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2622.312412492
+    },
+    {
+      "id": 41,
+      "t": 2605.838797283,
+      "start_count": 1303,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 35,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2633.208902181
+    },
+    {
+      "id": 42,
+      "t": 2605.84450732,
+      "start_count": 1308,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 36,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2633.22115171
+    },
+    {
+      "id": 43,
+      "t": 2605.848217952,
+      "start_count": 1313,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 37,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2636.519069123
+    },
+    {
+      "id": 44,
+      "t": 2605.863822393,
+      "start_count": 1318,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 38,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2646.779336167,
+      "hit_wait_trades": 49,
+      "hit_wait_s": 40.91551377399992
+    },
+    {
+      "id": 45,
+      "t": 2629.994028795,
+      "start_count": 1351,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.48936170212765956,
+      "pzero": 0.44680851063829785,
+      "pplus": 0.06382978723404255,
+      "cell_n": 22,
+      "history_n": 41,
+      "ready": true,
+      "side": -1,
+      "tier": "normal",
+      "q_requested": 4,
+      "normal_q": 4,
+      "taken": true,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2685.819763294,
+      "late_same_side_wait": 113,
+      "late_same_side_seconds": 111.57885740100028
+    },
+    {
+      "id": 46,
+      "t": 2640.352413157,
+      "start_count": 1364,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.48936170212765956,
+      "pzero": 0.44680851063829785,
+      "pplus": 0.06382978723404255,
+      "cell_n": 22,
+      "history_n": 44,
+      "ready": true,
+      "side": -1,
+      "tier": "normal",
+      "q_requested": 4,
+      "normal_q": 4,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2686.094221873,
+      "late_same_side_wait": 100,
+      "late_same_side_seconds": 101.22047303900035
+    },
+    {
+      "id": 47,
+      "t": 2651.691778346,
+      "start_count": 1369,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.10344827586206896,
+      "pzero": 0.8620689655172413,
+      "pplus": 0.034482758620689655,
+      "cell_n": 13,
+      "history_n": 45,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2689.92291312
+    },
+    {
+      "id": 48,
+      "t": 2661.574049078,
+      "start_count": 1374,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.10344827586206896,
+      "pzero": 0.8620689655172413,
+      "pplus": 0.034482758620689655,
+      "cell_n": 13,
+      "history_n": 45,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2699.777188756
+    },
+    {
+      "id": 49,
+      "t": 2670.022138737,
+      "start_count": 1379,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.10344827586206896,
+      "pzero": 0.8620689655172413,
+      "pplus": 0.034482758620689655,
+      "cell_n": 13,
+      "history_n": 45,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2702.989744765
+    },
+    {
+      "id": 50,
+      "t": 2674.476634559,
+      "start_count": 1384,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.10344827586206896,
+      "pzero": 0.8620689655172413,
+      "pplus": 0.034482758620689655,
+      "cell_n": 13,
+      "history_n": 45,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2705.791212033
+    },
+    {
+      "id": 51,
+      "t": 2685.81521861,
+      "start_count": 1394,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.10344827586206896,
+      "pzero": 0.8620689655172413,
+      "pplus": 0.034482758620689655,
+      "cell_n": 13,
+      "history_n": 45,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2710.537760125
+    },
+    {
+      "id": 52,
+      "t": 2685.818502295,
+      "start_count": 1399,
+      "bucket": 0,
+      "state": -1,
+      "pminus": 0.10344827586206896,
+      "pzero": 0.8620689655172413,
+      "pplus": 0.034482758620689655,
+      "cell_n": 13,
+      "history_n": 45,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2711.385394546
+    },
+    {
+      "id": 53,
+      "t": 2686.088685319,
+      "start_count": 1405,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 46,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2728.490496688
+    },
+    {
+      "id": 54,
+      "t": 2686.091737098,
+      "start_count": 1410,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.3333333333333333,
+      "pplus": 0.3333333333333333,
+      "cell_n": 0,
+      "history_n": 46,
+      "ready": false,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2739.547997112
+    },
+    {
+      "id": 55,
+      "t": 2700.20448099,
+      "start_count": 1425,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.45098039215686275,
+      "pzero": 0.49019607843137253,
+      "pplus": 0.058823529411764705,
+      "cell_n": 24,
+      "history_n": 49,
+      "ready": true,
+      "side": -1,
+      "tier": "reduced_45",
+      "q_requested": 1,
+      "normal_q": 3,
+      "taken": true,
+      "y": -1,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2741.572886196,
+      "hit_wait_trades": 39,
+      "hit_wait_s": 41.36840520600026
+    },
+    {
+      "id": 56,
+      "t": 2711.385394546,
+      "start_count": 1449,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.45098039215686275,
+      "pzero": 0.49019607843137253,
+      "pplus": 0.058823529411764705,
+      "cell_n": 24,
+      "history_n": 52,
+      "ready": true,
+      "side": -1,
+      "tier": "reduced_45",
+      "q_requested": 1,
+      "normal_q": 3,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2756.648933943,
+      "late_same_side_wait": 78,
+      "late_same_side_seconds": 48.24720229400009
+    },
+    {
+      "id": 57,
+      "t": 2725.226751679,
+      "start_count": 1454,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.45098039215686275,
+      "pzero": 0.49019607843137253,
+      "pplus": 0.058823529411764705,
+      "cell_n": 24,
+      "history_n": 53,
+      "ready": true,
+      "side": -1,
+      "tier": "reduced_45",
+      "q_requested": 1,
+      "normal_q": 3,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2756.651882733,
+      "late_same_side_wait": 73,
+      "late_same_side_seconds": 34.40584516100034
+    },
+    {
+      "id": 58,
+      "t": 2739.542893094,
+      "start_count": 1459,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.45098039215686275,
+      "pzero": 0.49019607843137253,
+      "pplus": 0.058823529411764705,
+      "cell_n": 24,
+      "history_n": 54,
+      "ready": true,
+      "side": -1,
+      "tier": "reduced_45",
+      "q_requested": 1,
+      "normal_q": 3,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2756.658187101,
+      "late_same_side_wait": 69,
+      "late_same_side_seconds": 20.760262815999795
+    },
+    {
+      "id": 59,
+      "t": 2739.551112111,
+      "start_count": 1464,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.45098039215686275,
+      "pzero": 0.49019607843137253,
+      "pplus": 0.058823529411764705,
+      "cell_n": 24,
+      "history_n": 55,
+      "ready": true,
+      "side": -1,
+      "tier": "reduced_45",
+      "q_requested": 1,
+      "normal_q": 3,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2756.669636034,
+      "late_same_side_wait": 64,
+      "late_same_side_seconds": 20.75204379900015
+    },
+    {
+      "id": 60,
+      "t": 2756.616559981,
+      "start_count": 1481,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.1111111111111111,
+      "pzero": 0.7777777777777778,
+      "pplus": 0.1111111111111111,
+      "cell_n": 3,
+      "history_n": 56,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2760.304434062
+    },
+    {
+      "id": 61,
+      "t": 2756.620819041,
+      "start_count": 1486,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.1111111111111111,
+      "pzero": 0.7777777777777778,
+      "pplus": 0.1111111111111111,
+      "cell_n": 3,
+      "history_n": 56,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2770.117706483
+    },
+    {
+      "id": 62,
+      "t": 2756.625118106,
+      "start_count": 1491,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.1111111111111111,
+      "pzero": 0.7777777777777778,
+      "pplus": 0.1111111111111111,
+      "cell_n": 3,
+      "history_n": 56,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2775.051744631
+    },
+    {
+      "id": 63,
+      "t": 2756.630447062,
+      "start_count": 1496,
+      "bucket": 4,
+      "state": -1,
+      "pminus": 0.1111111111111111,
+      "pzero": 0.7777777777777778,
+      "pplus": 0.1111111111111111,
+      "cell_n": 3,
+      "history_n": 56,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2781.60962284
+    },
+    {
+      "id": 64,
+      "t": 2760.304434062,
+      "start_count": 1531,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.14285714285714285,
+      "pzero": 0.7142857142857143,
+      "pplus": 0.14285714285714285,
+      "cell_n": 2,
+      "history_n": 60,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2792.259898329
+    },
+    {
+      "id": 65,
+      "t": 2789.562138731,
+      "start_count": 1574,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.4098360655737705,
+      "pzero": 0.5409836065573771,
+      "pplus": 0.04918032786885246,
+      "cell_n": 29,
+      "history_n": 64,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2798.681152566
+    },
+    {
+      "id": 66,
+      "t": 2798.691861512,
+      "start_count": 1630,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3968253968253968,
+      "pzero": 0.5555555555555556,
+      "pplus": 0.047619047619047616,
+      "cell_n": 30,
+      "history_n": 66,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2820.698069194
+    },
+    {
+      "id": 67,
+      "t": 2854.022220247,
+      "start_count": 1740,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.38461538461538464,
+      "pzero": 0.5692307692307692,
+      "pplus": 0.046153846153846156,
+      "cell_n": 31,
+      "history_n": 67,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "hit_t": 2859.846209736
+    },
+    {
+      "id": 68,
+      "t": 2854.023553747,
+      "start_count": 1745,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.38461538461538464,
+      "pzero": 0.5692307692307692,
+      "pplus": 0.046153846153846156,
+      "cell_n": 31,
+      "history_n": 67,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2863.400805947
+    },
+    {
+      "id": 69,
+      "t": 2858.657976813,
+      "start_count": 1750,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.38461538461538464,
+      "pzero": 0.5692307692307692,
+      "pplus": 0.046153846153846156,
+      "cell_n": 31,
+      "history_n": 67,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2863.419020745
+    },
+    {
+      "id": 70,
+      "t": 2858.658625027,
+      "start_count": 1755,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.38461538461538464,
+      "pzero": 0.5692307692307692,
+      "pplus": 0.046153846153846156,
+      "cell_n": 31,
+      "history_n": 67,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2865.058797572
+    },
+    {
+      "id": 71,
+      "t": 2858.661516788,
+      "start_count": 1760,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.38461538461538464,
+      "pzero": 0.5692307692307692,
+      "pplus": 0.046153846153846156,
+      "cell_n": 31,
+      "history_n": 67,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2868.933175192
+    },
+    {
+      "id": 72,
+      "t": 2884.615144773,
+      "start_count": 1821,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.6266666666666667,
+      "pplus": 0.04,
+      "cell_n": 36,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2930.404232419
+    },
+    {
+      "id": 73,
+      "t": 2884.86383477,
+      "start_count": 1826,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.6266666666666667,
+      "pplus": 0.04,
+      "cell_n": 36,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2930.411451551
+    },
+    {
+      "id": 74,
+      "t": 2896.573287808,
+      "start_count": 1831,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.6266666666666667,
+      "pplus": 0.04,
+      "cell_n": 36,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2930.430416005
+    },
+    {
+      "id": 75,
+      "t": 2911.290891348,
+      "start_count": 1838,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.6266666666666667,
+      "pplus": 0.04,
+      "cell_n": 36,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2935.423466588
+    },
+    {
+      "id": 76,
+      "t": 2911.292215081,
+      "start_count": 1843,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.6266666666666667,
+      "pplus": 0.04,
+      "cell_n": 36,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2936.369840707
+    },
+    {
+      "id": 77,
+      "t": 2913.370267337,
+      "start_count": 1852,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.3333333333333333,
+      "pzero": 0.6266666666666667,
+      "pplus": 0.04,
+      "cell_n": 36,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2936.385584124
+    },
+    {
+      "id": 78,
+      "t": 2930.395235348,
+      "start_count": 1862,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.1111111111111111,
+      "pzero": 0.7777777777777778,
+      "pplus": 0.1111111111111111,
+      "cell_n": 3,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2936.687009091
+    },
+    {
+      "id": 79,
+      "t": 2930.399477744,
+      "start_count": 1867,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.1111111111111111,
+      "pzero": 0.7777777777777778,
+      "pplus": 0.1111111111111111,
+      "cell_n": 3,
+      "history_n": 72,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2939.932066179
+    },
+    {
+      "id": 80,
+      "t": 2930.40534674,
+      "start_count": 1872,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.1111111111111111,
+      "pzero": 0.7777777777777778,
+      "pplus": 0.1111111111111111,
+      "cell_n": 3,
+      "history_n": 73,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2939.934618641
+    },
+    {
+      "id": 81,
+      "t": 2936.684147637,
+      "start_count": 1908,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.28735632183908044,
+      "pzero": 0.6781609195402298,
+      "pplus": 0.034482758620689655,
+      "cell_n": 42,
+      "history_n": 78,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2962.359328675
+    },
+    {
+      "id": 82,
+      "t": 2936.687442158,
+      "start_count": 1913,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.28735632183908044,
+      "pzero": 0.6781609195402298,
+      "pplus": 0.034482758620689655,
+      "cell_n": 42,
+      "history_n": 79,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2964.841711019
+    },
+    {
+      "id": 83,
+      "t": 2951.001127924,
+      "start_count": 1927,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.28735632183908044,
+      "pzero": 0.6781609195402298,
+      "pplus": 0.034482758620689655,
+      "cell_n": 42,
+      "history_n": 81,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2973.979953108
+    },
+    {
+      "id": 84,
+      "t": 2964.931353078,
+      "start_count": 1966,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.27472527472527475,
+      "pzero": 0.6923076923076923,
+      "pplus": 0.03296703296703297,
+      "cell_n": 44,
+      "history_n": 83,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 2999.443388174
+    },
+    {
+      "id": 85,
+      "t": 2987.48463963,
+      "start_count": 2003,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.06666666666666667,
+      "pzero": 0.8666666666666667,
+      "pplus": 0.06666666666666667,
+      "cell_n": 6,
+      "history_n": 84,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3055.612091843
+    },
+    {
+      "id": 86,
+      "t": 2999.443771498,
+      "start_count": 2018,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.2631578947368421,
+      "pzero": 0.7052631578947368,
+      "pplus": 0.031578947368421054,
+      "cell_n": 46,
+      "history_n": 85,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3072.645956803
+    },
+    {
+      "id": 87,
+      "t": 3012.081652082,
+      "start_count": 2024,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.2631578947368421,
+      "pzero": 0.7052631578947368,
+      "pplus": 0.031578947368421054,
+      "cell_n": 46,
+      "history_n": 85,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3076.851755091
+    },
+    {
+      "id": 88,
+      "t": 3019.266079567,
+      "start_count": 2029,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.2631578947368421,
+      "pzero": 0.7052631578947368,
+      "pplus": 0.031578947368421054,
+      "cell_n": 46,
+      "history_n": 85,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3078.051423014
+    },
+    {
+      "id": 89,
+      "t": 3055.610120892,
+      "start_count": 2050,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.2631578947368421,
+      "pzero": 0.7052631578947368,
+      "pplus": 0.031578947368421054,
+      "cell_n": 46,
+      "history_n": 85,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3097.902562038
+    },
+    {
+      "id": 90,
+      "t": 3056.027673482,
+      "start_count": 2056,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.058823529411764705,
+      "pzero": 0.8823529411764706,
+      "pplus": 0.058823529411764705,
+      "cell_n": 7,
+      "history_n": 86,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3099.984617534
+    },
+    {
+      "id": 91,
+      "t": 3071.056422906,
+      "start_count": 2061,
+      "bucket": 4,
+      "state": 0,
+      "pminus": 0.058823529411764705,
+      "pzero": 0.8823529411764706,
+      "pplus": 0.058823529411764705,
+      "cell_n": 7,
+      "history_n": 86,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3109.256621383
+    },
+    {
+      "id": 92,
+      "t": 3075.684360577,
+      "start_count": 2071,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.25773195876288657,
+      "pzero": 0.711340206185567,
+      "pplus": 0.030927835051546393,
+      "cell_n": 47,
+      "history_n": 87,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": 0,
+      "label_status": "matured",
+      "imbalance_changed": true,
+      "hit_t": 3133.930860229
+    },
+    {
+      "id": 93,
+      "t": 3196.587995844,
+      "start_count": 2136,
+      "bucket": 0,
+      "state": 0,
+      "pminus": 0.23809523809523808,
+      "pzero": 0.7333333333333333,
+      "pplus": 0.02857142857142857,
+      "cell_n": 51,
+      "history_n": 93,
+      "ready": true,
+      "side": 0,
+      "tier": "abstain",
+      "q_requested": 0,
+      "normal_q": 0,
+      "taken": false,
+      "y": -1,
+      "label_status": "pending",
+      "imbalance_changed": true,
+      "hit_t": 3230.800926391,
+      "hit_wait_trades": 12,
+      "hit_wait_s": 34.212930546999814
+    }
+  ],
+  "trades": [
+    {
+      "id": 45,
+      "side": -1,
+      "q": 4,
+      "t": 2629.994028795,
+      "due": 2629.999028795,
+      "start_count": 1351,
+      "tier": "normal",
+      "entry": [
+        [
+          4,
+          0.551
+        ]
+      ],
+      "entry_t": 2630.198579598,
+      "entry_fee": 0.0696,
+      "exit_due": 2685.824763294,
+      "gap_exposed": false,
+      "retry_rev": -1,
+      "exit_reason": "50_trade_timeout",
+      "exit_signal_t": 2685.819763294,
+      "exit": [
+        [
+          4,
+          0.559
+        ]
+      ],
+      "exit_t": 2685.826598803,
+      "gross": 0.03200000000000003,
+      "fees": 0.13879999999999998,
+      "net": -0.10679999999999996,
+      "exit_delay_ms": 6.835508999756712,
+      "wait_trades": 50
+    },
+    {
+      "id": 55,
+      "side": -1,
+      "q": 1,
+      "t": 2700.20448099,
+      "due": 2700.20948099,
+      "start_count": 1425,
+      "tier": "reduced_45",
+      "entry": [
+        [
+          1,
+          0.551
+        ]
+      ],
+      "entry_t": 2700.219258385,
+      "entry_fee": 0.0174,
+      "exit_due": 2741.5778861960002,
+      "gap_exposed": false,
+      "retry_rev": -1,
+      "exit_reason": "profit_opportunity",
+      "exit_signal_t": 2741.572886196,
+      "exit": [
+        [
+          1,
+          0.599
+        ]
+      ],
+      "exit_t": 2741.579733192,
+      "gross": 0.04799999999999993,
+      "fees": 0.0343,
+      "net": 0.013699999999999934,
+      "exit_delay_ms": 6.846995999694627,
+      "wait_trades": 39
+    }
+  ],
+  "events": [
+    {
+      "t": 1454.444483208,
+      "kind": "imbalance_locked",
+      "trade_count": 3,
+      "mid": 0.385,
+      "imbalance": -0.9060150375939849
+    },
+    {
+      "t": 1454.448252807,
+      "kind": "imbalance_unlocked",
+      "trade_count": 7,
+      "mid": 0.35
+    },
+    {
+      "t": 1473.515338996,
+      "kind": "imbalance_locked",
+      "trade_count": 18,
+      "mid": 0.32999999999999996,
+      "imbalance": -0.8312710911136109
+    },
+    {
+      "t": 1478.439699948,
+      "kind": "imbalance_unlocked",
+      "trade_count": 20,
+      "mid": 0.33499999999999996
+    },
+    {
+      "t": 1534.526070263,
+      "kind": "imbalance_locked",
+      "trade_count": 57,
+      "mid": 0.355,
+      "imbalance": -0.9718736477715275
+    },
+    {
+      "t": 1537.381296366,
+      "kind": "imbalance_unlocked",
+      "trade_count": 58,
+      "mid": 0.35
+    },
+    {
+      "t": 1537.443547017,
+      "kind": "imbalance_locked",
+      "trade_count": 62,
+      "mid": 0.355,
+      "imbalance": -0.969125393651231
+    },
+    {
+      "t": 1543.103485052,
+      "kind": "imbalance_unlocked",
+      "trade_count": 64,
+      "mid": 0.35
+    },
+    {
+      "t": 1549.821915698,
+      "kind": "imbalance_locked",
+      "trade_count": 70,
+      "mid": 0.36,
+      "imbalance": -0.9497849354806441
+    },
+    {
+      "t": 1549.953715646,
+      "kind": "imbalance_unlocked",
+      "trade_count": 71,
+      "mid": 0.355
+    },
+    {
+      "t": 1557.679978066,
+      "kind": "imbalance_locked",
+      "trade_count": 75,
+      "mid": 0.36,
+      "imbalance": -0.8911239094485943
+    },
+    {
+      "t": 1560.640342671,
+      "kind": "imbalance_unlocked",
+      "trade_count": 77,
+      "mid": 0.355
+    },
+    {
+      "t": 1587.7073199,
+      "kind": "imbalance_locked",
+      "trade_count": 88,
+      "mid": 0.32499999999999996,
+      "imbalance": -0.9129569557585122
+    },
+    {
+      "t": 1587.7073199,
+      "kind": "anchor",
+      "trade_count": 88,
+      "mid": 0.32499999999999996,
+      "anchor_id": 0,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1588.061248503,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 91,
+      "mid": 0.32499999999999996,
+      "anchor_id": 0
+    },
+    {
+      "t": 1590.982920227,
+      "kind": "imbalance_unlocked",
+      "trade_count": 92,
+      "mid": 0.355
+    },
+    {
+      "t": 1600.731242906,
+      "kind": "imbalance_locked",
+      "trade_count": 103,
+      "mid": 0.365,
+      "imbalance": -0.8228
+    },
+    {
+      "t": 1602.309514548,
+      "kind": "imbalance_unlocked",
+      "trade_count": 105,
+      "mid": 0.36
+    },
+    {
+      "t": 1604.313631826,
+      "kind": "imbalance_locked",
+      "trade_count": 110,
+      "mid": 0.365,
+      "imbalance": -0.8197927005874026
+    },
+    {
+      "t": 1606.112658334,
+      "kind": "imbalance_unlocked",
+      "trade_count": 112,
+      "mid": 0.36
+    },
+    {
+      "t": 1608.007360502,
+      "kind": "imbalance_locked",
+      "trade_count": 115,
+      "mid": 0.365,
+      "imbalance": -0.8197927005874026
+    },
+    {
+      "t": 1631.300616992,
+      "kind": "imbalance_unlocked",
+      "trade_count": 116,
+      "mid": 0.44000000000000006
+    },
+    {
+      "t": 1636.078008846,
+      "kind": "imbalance_locked",
+      "trade_count": 119,
+      "mid": 0.43000000000000005,
+      "imbalance": 0.8114776822844469
+    },
+    {
+      "t": 1637.206839299,
+      "kind": "imbalance_unlocked",
+      "trade_count": 121,
+      "mid": 0.43500000000000005
+    },
+    {
+      "t": 1639.678747202,
+      "kind": "untraded_move",
+      "trade_count": 121,
+      "mid": 0.465,
+      "anchor_id": 0,
+      "side": 1
+    },
+    {
+      "t": 1701.303889626,
+      "kind": "imbalance_locked",
+      "trade_count": 164,
+      "mid": 0.405,
+      "imbalance": -0.959822069163438
+    },
+    {
+      "t": 1701.303889626,
+      "kind": "anchor",
+      "trade_count": 164,
+      "mid": 0.405,
+      "anchor_id": 1,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1702.539156564,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 164,
+      "mid": 0.4,
+      "anchor_id": 1
+    },
+    {
+      "t": 1703.92403936,
+      "kind": "imbalance_unlocked",
+      "trade_count": 165,
+      "mid": 0.395
+    },
+    {
+      "t": 1731.912608747,
+      "kind": "imbalance_locked",
+      "trade_count": 174,
+      "mid": 0.4,
+      "imbalance": 0.9682481862611171
+    },
+    {
+      "t": 1736.666609986,
+      "kind": "imbalance_unlocked",
+      "trade_count": 184,
+      "mid": 0.4
+    },
+    {
+      "t": 1752.928781009,
+      "kind": "imbalance_locked",
+      "trade_count": 193,
+      "mid": 0.375,
+      "imbalance": -0.8495779145155344
+    },
+    {
+      "t": 1752.928781009,
+      "kind": "anchor",
+      "trade_count": 193,
+      "mid": 0.375,
+      "anchor_id": 2,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1752.934444752,
+      "kind": "anchor",
+      "trade_count": 198,
+      "mid": 0.375,
+      "anchor_id": 3,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1753.425502976,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 202,
+      "mid": 0.38,
+      "anchor_id": 2
+    },
+    {
+      "t": 1753.425502976,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 202,
+      "mid": 0.38,
+      "anchor_id": 3
+    },
+    {
+      "t": 1765.89571,
+      "kind": "imbalance_unlocked",
+      "trade_count": 203,
+      "mid": 0.375
+    },
+    {
+      "t": 1770.01479787,
+      "kind": "imbalance_locked",
+      "trade_count": 207,
+      "mid": 0.365,
+      "imbalance": -0.8459142921298236
+    },
+    {
+      "t": 1770.01479787,
+      "kind": "anchor",
+      "trade_count": 207,
+      "mid": 0.365,
+      "anchor_id": 4,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1770.017177249,
+      "kind": "anchor",
+      "trade_count": 212,
+      "mid": 0.365,
+      "anchor_id": 5,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1770.019905882,
+      "kind": "label_timeout",
+      "trade_count": 214,
+      "mid": 0.365,
+      "anchor_id": 1
+    },
+    {
+      "t": 1770.483088783,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 215,
+      "mid": 0.365,
+      "anchor_id": 4
+    },
+    {
+      "t": 1770.483088783,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 215,
+      "mid": 0.365,
+      "anchor_id": 5
+    },
+    {
+      "t": 1782.344227106,
+      "kind": "imbalance_unlocked",
+      "trade_count": 216,
+      "mid": 0.37
+    },
+    {
+      "t": 1871.275028903,
+      "kind": "imbalance_locked",
+      "trade_count": 229,
+      "mid": 0.385,
+      "imbalance": -0.8584723592228846
+    },
+    {
+      "t": 1871.275028903,
+      "kind": "anchor",
+      "trade_count": 229,
+      "mid": 0.385,
+      "anchor_id": 6,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 1875.395060051,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 229,
+      "mid": 0.385,
+      "anchor_id": 6
+    },
+    {
+      "t": 1881.543090355,
+      "kind": "imbalance_unlocked",
+      "trade_count": 233,
+      "mid": 0.385
+    },
+    {
+      "t": 1907.749655301,
+      "kind": "label_timeout",
+      "trade_count": 243,
+      "mid": 0.4,
+      "anchor_id": 2
+    },
+    {
+      "t": 1909.155192442,
+      "kind": "label_timeout",
+      "trade_count": 248,
+      "mid": 0.4,
+      "anchor_id": 3
+    },
+    {
+      "t": 1930.516316542,
+      "kind": "untraded_move",
+      "trade_count": 249,
+      "mid": 0.42000000000000004,
+      "anchor_id": 4,
+      "side": 1
+    },
+    {
+      "t": 1930.516316542,
+      "kind": "untraded_move",
+      "trade_count": 249,
+      "mid": 0.42000000000000004,
+      "anchor_id": 5,
+      "side": 1
+    },
+    {
+      "t": 1943.480467306,
+      "kind": "imbalance_locked",
+      "trade_count": 252,
+      "mid": 0.42999999999999994,
+      "imbalance": -0.8370467386503815
+    },
+    {
+      "t": 1952.413167202,
+      "kind": "imbalance_unlocked",
+      "trade_count": 253,
+      "mid": 0.43499999999999994
+    },
+    {
+      "t": 1958.095150181,
+      "kind": "untraded_move",
+      "trade_count": 253,
+      "mid": 0.43999999999999995,
+      "anchor_id": 6,
+      "side": 1
+    },
+    {
+      "t": 2044.37131932,
+      "kind": "imbalance_locked",
+      "trade_count": 278,
+      "mid": 0.44999999999999996,
+      "imbalance": -0.8227065673245314
+    },
+    {
+      "t": 2053.826829384,
+      "kind": "imbalance_unlocked",
+      "trade_count": 282,
+      "mid": 0.44499999999999995
+    },
+    {
+      "t": 2056.077831604,
+      "kind": "imbalance_locked",
+      "trade_count": 287,
+      "mid": 0.43499999999999994,
+      "imbalance": -0.9446008487029128
+    },
+    {
+      "t": 2056.077831604,
+      "kind": "anchor",
+      "trade_count": 287,
+      "mid": 0.43499999999999994,
+      "anchor_id": 7,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 5
+    },
+    {
+      "t": 2056.477118826,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 287,
+      "mid": 0.42999999999999994,
+      "anchor_id": 7
+    },
+    {
+      "t": 2061.200947914,
+      "kind": "imbalance_unlocked",
+      "trade_count": 288,
+      "mid": 0.43499999999999994
+    },
+    {
+      "t": 2126.497324117,
+      "kind": "label_timeout",
+      "trade_count": 337,
+      "mid": 0.48,
+      "anchor_id": 7
+    },
+    {
+      "t": 2127.682241146,
+      "kind": "imbalance_locked",
+      "trade_count": 341,
+      "mid": 0.47,
+      "imbalance": 0.8021978021977998
+    },
+    {
+      "t": 2128.641440963,
+      "kind": "imbalance_unlocked",
+      "trade_count": 343,
+      "mid": 0.475
+    },
+    {
+      "t": 2141.517796027,
+      "kind": "imbalance_locked",
+      "trade_count": 363,
+      "mid": 0.43499999999999994,
+      "imbalance": 0.999772778913883
+    },
+    {
+      "t": 2143.096288348,
+      "kind": "imbalance_unlocked",
+      "trade_count": 366,
+      "mid": 0.45999999999999996
+    },
+    {
+      "t": 2152.649112898,
+      "kind": "imbalance_locked",
+      "trade_count": 385,
+      "mid": 0.47,
+      "imbalance": 0.8759786063095885
+    },
+    {
+      "t": 2153.497711091,
+      "kind": "imbalance_unlocked",
+      "trade_count": 388,
+      "mid": 0.475
+    },
+    {
+      "t": 2213.875189652,
+      "kind": "imbalance_locked",
+      "trade_count": 452,
+      "mid": 0.515,
+      "imbalance": 0.8599727808861334
+    },
+    {
+      "t": 2215.790902785,
+      "kind": "imbalance_unlocked",
+      "trade_count": 460,
+      "mid": 0.48
+    },
+    {
+      "t": 2237.000559556,
+      "kind": "imbalance_locked",
+      "trade_count": 497,
+      "mid": 0.49,
+      "imbalance": -0.9995745586045524
+    },
+    {
+      "t": 2239.044209691,
+      "kind": "imbalance_unlocked",
+      "trade_count": 498,
+      "mid": 0.49
+    },
+    {
+      "t": 2253.514713566,
+      "kind": "imbalance_locked",
+      "trade_count": 549,
+      "mid": 0.475,
+      "imbalance": 0.9506233798296506
+    },
+    {
+      "t": 2254.540754392,
+      "kind": "imbalance_unlocked",
+      "trade_count": 555,
+      "mid": 0.495
+    },
+    {
+      "t": 2259.410455451,
+      "kind": "imbalance_locked",
+      "trade_count": 598,
+      "mid": 0.515,
+      "imbalance": -0.9998540359071669
+    },
+    {
+      "t": 2261.312779887,
+      "kind": "imbalance_unlocked",
+      "trade_count": 600,
+      "mid": 0.495
+    },
+    {
+      "t": 2262.72262107,
+      "kind": "imbalance_locked",
+      "trade_count": 605,
+      "mid": 0.485,
+      "imbalance": 0.9583333333333334
+    },
+    {
+      "t": 2265.544800501,
+      "kind": "imbalance_unlocked",
+      "trade_count": 609,
+      "mid": 0.495
+    },
+    {
+      "t": 2272.641173744,
+      "kind": "imbalance_locked",
+      "trade_count": 622,
+      "mid": 0.47,
+      "imbalance": 0.950012496875781
+    },
+    {
+      "t": 2281.535815825,
+      "kind": "imbalance_unlocked",
+      "trade_count": 638,
+      "mid": 0.48
+    },
+    {
+      "t": 2291.225742949,
+      "kind": "imbalance_locked",
+      "trade_count": 674,
+      "mid": 0.48,
+      "imbalance": 0.9365180130138073
+    },
+    {
+      "t": 2294.218055122,
+      "kind": "imbalance_unlocked",
+      "trade_count": 677,
+      "mid": 0.49
+    },
+    {
+      "t": 2339.2134225,
+      "kind": "imbalance_locked",
+      "trade_count": 711,
+      "mid": 0.61,
+      "imbalance": 0.9957142857144516
+    },
+    {
+      "t": 2341.695915053,
+      "kind": "imbalance_unlocked",
+      "trade_count": 715,
+      "mid": 0.575
+    },
+    {
+      "t": 2362.906174867,
+      "kind": "imbalance_locked",
+      "trade_count": 733,
+      "mid": 0.57,
+      "imbalance": 0.8095238095238095
+    },
+    {
+      "t": 2365.574723927,
+      "kind": "imbalance_unlocked",
+      "trade_count": 734,
+      "mid": 0.585
+    },
+    {
+      "t": 2377.315145876,
+      "kind": "imbalance_locked",
+      "trade_count": 741,
+      "mid": 0.6,
+      "imbalance": -0.9480856586632057
+    },
+    {
+      "t": 2379.293834029,
+      "kind": "imbalance_unlocked",
+      "trade_count": 743,
+      "mid": 0.605
+    },
+    {
+      "t": 2398.338474532,
+      "kind": "imbalance_locked",
+      "trade_count": 752,
+      "mid": 0.635,
+      "imbalance": -0.9815447079450033
+    },
+    {
+      "t": 2404.69924473,
+      "kind": "imbalance_unlocked",
+      "trade_count": 758,
+      "mid": 0.54
+    },
+    {
+      "t": 2464.557099402,
+      "kind": "imbalance_locked",
+      "trade_count": 823,
+      "mid": 0.645,
+      "imbalance": 0.8
+    },
+    {
+      "t": 2469.819751679,
+      "kind": "imbalance_unlocked",
+      "trade_count": 837,
+      "mid": 0.655
+    },
+    {
+      "t": 2477.448288441,
+      "kind": "imbalance_locked",
+      "trade_count": 857,
+      "mid": 0.6599999999999999,
+      "imbalance": -0.999506538366642
+    },
+    {
+      "t": 2477.448288441,
+      "kind": "anchor",
+      "trade_count": 857,
+      "mid": 0.6599999999999999,
+      "anchor_id": 8,
+      "side": 1,
+      "tier": "normal",
+      "cell_n": 1
+    },
+    {
+      "t": 2479.425211634,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 858,
+      "mid": 0.655,
+      "anchor_id": 8
+    },
+    {
+      "t": 2483.569629582,
+      "kind": "imbalance_unlocked",
+      "trade_count": 862,
+      "mid": 0.655
+    },
+    {
+      "t": 2483.904218613,
+      "kind": "imbalance_locked",
+      "trade_count": 865,
+      "mid": 0.665,
+      "imbalance": -0.8694589463692454
+    },
+    {
+      "t": 2484.57220626,
+      "kind": "imbalance_unlocked",
+      "trade_count": 878,
+      "mid": 0.6499999999999999
+    },
+    {
+      "t": 2488.478234326,
+      "kind": "imbalance_locked",
+      "trade_count": 891,
+      "mid": 0.6499999999999999,
+      "imbalance": -0.997780244173141
+    },
+    {
+      "t": 2489.888085085,
+      "kind": "imbalance_unlocked",
+      "trade_count": 893,
+      "mid": 0.6499999999999999
+    },
+    {
+      "t": 2493.736773472,
+      "kind": "imbalance_locked",
+      "trade_count": 904,
+      "mid": 0.6399999999999999,
+      "imbalance": 0.9748311847759361
+    },
+    {
+      "t": 2493.740265794,
+      "kind": "label_timeout",
+      "trade_count": 907,
+      "mid": 0.6399999999999999,
+      "anchor_id": 8
+    },
+    {
+      "t": 2494.106660253,
+      "kind": "imbalance_unlocked",
+      "trade_count": 908,
+      "mid": 0.6499999999999999
+    },
+    {
+      "t": 2498.1079077,
+      "kind": "imbalance_locked",
+      "trade_count": 916,
+      "mid": 0.6399999999999999,
+      "imbalance": 0.9157471326846769
+    },
+    {
+      "t": 2499.18316072,
+      "kind": "imbalance_unlocked",
+      "trade_count": 921,
+      "mid": 0.63
+    },
+    {
+      "t": 2519.697793056,
+      "kind": "imbalance_locked",
+      "trade_count": 969,
+      "mid": 0.6399999999999999,
+      "imbalance": 0.942070963070239
+    },
+    {
+      "t": 2520.943804509,
+      "kind": "imbalance_unlocked",
+      "trade_count": 975,
+      "mid": 0.6399999999999999
+    },
+    {
+      "t": 2547.004840788,
+      "kind": "imbalance_locked",
+      "trade_count": 1048,
+      "mid": 0.63,
+      "imbalance": -0.9998039600078418
+    },
+    {
+      "t": 2547.004840788,
+      "kind": "anchor",
+      "trade_count": 1048,
+      "mid": 0.63,
+      "anchor_id": 9,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 2
+    },
+    {
+      "t": 2548.141779148,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1051,
+      "mid": 0.625,
+      "anchor_id": 9
+    },
+    {
+      "t": 2548.153026825,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1052,
+      "mid": 0.6000000000000001
+    },
+    {
+      "t": 2548.184744481,
+      "kind": "imbalance_locked",
+      "trade_count": 1085,
+      "mid": 0.585,
+      "imbalance": -0.821444513882689
+    },
+    {
+      "t": 2548.332719187,
+      "kind": "untraded_move",
+      "trade_count": 1090,
+      "mid": 0.555,
+      "anchor_id": 9,
+      "side": -1
+    },
+    {
+      "t": 2549.118509605,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1091,
+      "mid": 0.56
+    },
+    {
+      "t": 2549.11969759,
+      "kind": "imbalance_locked",
+      "trade_count": 1093,
+      "mid": 0.56,
+      "imbalance": 0.9047709741929341
+    },
+    {
+      "t": 2549.11969759,
+      "kind": "anchor",
+      "trade_count": 1093,
+      "mid": 0.56,
+      "anchor_id": 10,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2549.176404691,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1093,
+      "mid": 0.56,
+      "anchor_id": 10
+    },
+    {
+      "t": 2554.834488521,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1098,
+      "mid": 0.56
+    },
+    {
+      "t": 2554.835336025,
+      "kind": "imbalance_locked",
+      "trade_count": 1100,
+      "mid": 0.56,
+      "imbalance": -0.9999954725625974
+    },
+    {
+      "t": 2554.835336025,
+      "kind": "anchor",
+      "trade_count": 1100,
+      "mid": 0.56,
+      "anchor_id": 11,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2554.83793387,
+      "kind": "anchor",
+      "trade_count": 1105,
+      "mid": 0.56,
+      "anchor_id": 12,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2554.844371112,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1106,
+      "mid": 0.555,
+      "anchor_id": 11
+    },
+    {
+      "t": 2554.844371112,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1106,
+      "mid": 0.555,
+      "anchor_id": 12
+    },
+    {
+      "t": 2557.725117048,
+      "kind": "anchor",
+      "trade_count": 1110,
+      "mid": 0.525,
+      "anchor_id": 13,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2557.729195183,
+      "kind": "anchor",
+      "trade_count": 1115,
+      "mid": 0.525,
+      "anchor_id": 14,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2557.732439413,
+      "kind": "anchor",
+      "trade_count": 1120,
+      "mid": 0.525,
+      "anchor_id": 15,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2557.735705242,
+      "kind": "anchor",
+      "trade_count": 1125,
+      "mid": 0.525,
+      "anchor_id": 16,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2558.035713559,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1127,
+      "mid": 0.525,
+      "anchor_id": 13
+    },
+    {
+      "t": 2558.035713559,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1127,
+      "mid": 0.525,
+      "anchor_id": 14
+    },
+    {
+      "t": 2558.035713559,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1127,
+      "mid": 0.525,
+      "anchor_id": 15
+    },
+    {
+      "t": 2558.035713559,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1127,
+      "mid": 0.525,
+      "anchor_id": 16
+    },
+    {
+      "t": 2558.541833303,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1128,
+      "mid": 0.525
+    },
+    {
+      "t": 2560.845657704,
+      "kind": "imbalance_locked",
+      "trade_count": 1130,
+      "mid": 0.535,
+      "imbalance": 0.9327000300156568
+    },
+    {
+      "t": 2560.845657704,
+      "kind": "anchor",
+      "trade_count": 1130,
+      "mid": 0.535,
+      "anchor_id": 17,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2560.849331483,
+      "kind": "anchor",
+      "trade_count": 1135,
+      "mid": 0.535,
+      "anchor_id": 18,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2560.852561651,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1137,
+      "mid": 0.54,
+      "anchor_id": 17
+    },
+    {
+      "t": 2560.852561651,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1137,
+      "mid": 0.54,
+      "anchor_id": 18
+    },
+    {
+      "t": 2563.953512185,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1139,
+      "mid": 0.545
+    },
+    {
+      "t": 2564.125067991,
+      "kind": "label_timeout",
+      "trade_count": 1143,
+      "mid": 0.545,
+      "anchor_id": 10
+    },
+    {
+      "t": 2564.128527784,
+      "kind": "label_timeout",
+      "trade_count": 1150,
+      "mid": 0.545,
+      "anchor_id": 11
+    },
+    {
+      "t": 2564.132113722,
+      "kind": "label_timeout",
+      "trade_count": 1155,
+      "mid": 0.545,
+      "anchor_id": 12
+    },
+    {
+      "t": 2568.241760192,
+      "kind": "label_timeout",
+      "trade_count": 1160,
+      "mid": 0.555,
+      "anchor_id": 13
+    },
+    {
+      "t": 2569.071919275,
+      "kind": "label_timeout",
+      "trade_count": 1165,
+      "mid": 0.555,
+      "anchor_id": 14
+    },
+    {
+      "t": 2571.530340573,
+      "kind": "label_timeout",
+      "trade_count": 1170,
+      "mid": 0.555,
+      "anchor_id": 15
+    },
+    {
+      "t": 2571.530340573,
+      "kind": "imbalance_locked",
+      "trade_count": 1170,
+      "mid": 0.555,
+      "imbalance": -0.9999916717677088
+    },
+    {
+      "t": 2571.530340573,
+      "kind": "anchor",
+      "trade_count": 1170,
+      "mid": 0.555,
+      "anchor_id": 19,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2571.535251037,
+      "kind": "label_timeout",
+      "trade_count": 1175,
+      "mid": 0.555,
+      "anchor_id": 16
+    },
+    {
+      "t": 2571.535251037,
+      "kind": "anchor",
+      "trade_count": 1175,
+      "mid": 0.555,
+      "anchor_id": 20,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2572.831609773,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1179,
+      "mid": 0.555,
+      "anchor_id": 19
+    },
+    {
+      "t": 2572.831609773,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1179,
+      "mid": 0.555,
+      "anchor_id": 20
+    },
+    {
+      "t": 2573.617358039,
+      "kind": "label_timeout",
+      "trade_count": 1180,
+      "mid": 0.555,
+      "anchor_id": 17
+    },
+    {
+      "t": 2573.617358039,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1180,
+      "mid": 0.555
+    },
+    {
+      "t": 2581.059873096,
+      "kind": "label_timeout",
+      "trade_count": 1185,
+      "mid": 0.5650000000000001,
+      "anchor_id": 18
+    },
+    {
+      "t": 2581.059873096,
+      "kind": "imbalance_locked",
+      "trade_count": 1185,
+      "mid": 0.5650000000000001,
+      "imbalance": -0.9999944966044048
+    },
+    {
+      "t": 2581.059873096,
+      "kind": "anchor",
+      "trade_count": 1185,
+      "mid": 0.5650000000000001,
+      "anchor_id": 21,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2581.064664387,
+      "kind": "anchor",
+      "trade_count": 1190,
+      "mid": 0.5650000000000001,
+      "anchor_id": 22,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2581.068591006,
+      "kind": "anchor",
+      "trade_count": 1195,
+      "mid": 0.5650000000000001,
+      "anchor_id": 23,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2581.201703608,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1196,
+      "mid": 0.55,
+      "anchor_id": 21
+    },
+    {
+      "t": 2581.201703608,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1196,
+      "mid": 0.55,
+      "anchor_id": 22
+    },
+    {
+      "t": 2581.201703608,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1196,
+      "mid": 0.55,
+      "anchor_id": 23
+    },
+    {
+      "t": 2581.20244239,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1197,
+      "mid": 0.55
+    },
+    {
+      "t": 2582.853197159,
+      "kind": "imbalance_locked",
+      "trade_count": 1201,
+      "mid": 0.5650000000000001,
+      "imbalance": -0.9999945117065299
+    },
+    {
+      "t": 2582.853197159,
+      "kind": "anchor",
+      "trade_count": 1201,
+      "mid": 0.5650000000000001,
+      "anchor_id": 24,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2582.860567403,
+      "kind": "anchor",
+      "trade_count": 1206,
+      "mid": 0.5650000000000001,
+      "anchor_id": 25,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2582.861026795,
+      "kind": "anchor",
+      "trade_count": 1211,
+      "mid": 0.5650000000000001,
+      "anchor_id": 26,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2588.138843302,
+      "kind": "anchor",
+      "trade_count": 1216,
+      "mid": 0.5650000000000001,
+      "anchor_id": 27,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2588.141883152,
+      "kind": "label_timeout",
+      "trade_count": 1220,
+      "mid": 0.5650000000000001,
+      "anchor_id": 19
+    },
+    {
+      "t": 2588.142354546,
+      "kind": "anchor",
+      "trade_count": 1221,
+      "mid": 0.5650000000000001,
+      "anchor_id": 28,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 4
+    },
+    {
+      "t": 2589.815734263,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1221,
+      "mid": 0.56,
+      "anchor_id": 24
+    },
+    {
+      "t": 2589.815734263,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1221,
+      "mid": 0.56,
+      "anchor_id": 25
+    },
+    {
+      "t": 2589.815734263,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1221,
+      "mid": 0.56,
+      "anchor_id": 26
+    },
+    {
+      "t": 2589.815734263,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1221,
+      "mid": 0.56,
+      "anchor_id": 27
+    },
+    {
+      "t": 2589.815734263,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1221,
+      "mid": 0.56,
+      "anchor_id": 28
+    },
+    {
+      "t": 2589.821736354,
+      "kind": "label_timeout",
+      "trade_count": 1225,
+      "mid": 0.5650000000000001,
+      "anchor_id": 20
+    },
+    {
+      "t": 2590.140411456,
+      "kind": "anchor",
+      "trade_count": 1226,
+      "mid": 0.56,
+      "anchor_id": 29,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 5
+    },
+    {
+      "t": 2593.817746671,
+      "kind": "anchor",
+      "trade_count": 1231,
+      "mid": 0.56,
+      "anchor_id": 30,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 5
+    },
+    {
+      "t": 2593.820576334,
+      "kind": "label_timeout",
+      "trade_count": 1235,
+      "mid": 0.56,
+      "anchor_id": 21
+    },
+    {
+      "t": 2593.820850061,
+      "kind": "anchor",
+      "trade_count": 1236,
+      "mid": 0.56,
+      "anchor_id": 31,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2593.82561208,
+      "kind": "label_timeout",
+      "trade_count": 1240,
+      "mid": 0.56,
+      "anchor_id": 22
+    },
+    {
+      "t": 2593.825848092,
+      "kind": "anchor",
+      "trade_count": 1241,
+      "mid": 0.56,
+      "anchor_id": 32,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 7
+    },
+    {
+      "t": 2593.828330317,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1243,
+      "mid": 0.555,
+      "anchor_id": 29
+    },
+    {
+      "t": 2593.828330317,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1243,
+      "mid": 0.555,
+      "anchor_id": 30
+    },
+    {
+      "t": 2593.828330317,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1243,
+      "mid": 0.555,
+      "anchor_id": 31
+    },
+    {
+      "t": 2593.828330317,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1243,
+      "mid": 0.555,
+      "anchor_id": 32
+    },
+    {
+      "t": 2593.846690417,
+      "kind": "label_timeout",
+      "trade_count": 1245,
+      "mid": 0.555,
+      "anchor_id": 23
+    },
+    {
+      "t": 2593.846970006,
+      "kind": "anchor",
+      "trade_count": 1246,
+      "mid": 0.555,
+      "anchor_id": 33,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 8
+    },
+    {
+      "t": 2593.85059081,
+      "kind": "label_timeout",
+      "trade_count": 1251,
+      "mid": 0.555,
+      "anchor_id": 24
+    },
+    {
+      "t": 2593.85059081,
+      "kind": "anchor",
+      "trade_count": 1251,
+      "mid": 0.555,
+      "anchor_id": 34,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 8
+    },
+    {
+      "t": 2593.851815204,
+      "kind": "label_timeout",
+      "trade_count": 1256,
+      "mid": 0.555,
+      "anchor_id": 25
+    },
+    {
+      "t": 2593.851815204,
+      "kind": "anchor",
+      "trade_count": 1256,
+      "mid": 0.555,
+      "anchor_id": 35,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 9
+    },
+    {
+      "t": 2593.854652639,
+      "kind": "label_timeout",
+      "trade_count": 1261,
+      "mid": 0.555,
+      "anchor_id": 26
+    },
+    {
+      "t": 2593.854652639,
+      "kind": "anchor",
+      "trade_count": 1261,
+      "mid": 0.555,
+      "anchor_id": 36,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 10
+    },
+    {
+      "t": 2593.85804437,
+      "kind": "label_timeout",
+      "trade_count": 1266,
+      "mid": 0.555,
+      "anchor_id": 27
+    },
+    {
+      "t": 2593.85804437,
+      "kind": "anchor",
+      "trade_count": 1266,
+      "mid": 0.555,
+      "anchor_id": 37,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 11
+    },
+    {
+      "t": 2593.862142304,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1269,
+      "mid": 0.55,
+      "anchor_id": 33
+    },
+    {
+      "t": 2593.862142304,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1269,
+      "mid": 0.55,
+      "anchor_id": 34
+    },
+    {
+      "t": 2593.862142304,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1269,
+      "mid": 0.55,
+      "anchor_id": 35
+    },
+    {
+      "t": 2593.862142304,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1269,
+      "mid": 0.55,
+      "anchor_id": 36
+    },
+    {
+      "t": 2593.862142304,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1269,
+      "mid": 0.55,
+      "anchor_id": 37
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 28,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 29,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 30,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 31,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 32,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 33,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 34,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 35,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 36,
+      "side": -1
+    },
+    {
+      "t": 2593.880080277,
+      "kind": "untraded_move",
+      "trade_count": 1269,
+      "mid": 0.485,
+      "anchor_id": 37,
+      "side": -1
+    },
+    {
+      "t": 2595.488314261,
+      "kind": "anchor",
+      "trade_count": 1271,
+      "mid": 0.495,
+      "anchor_id": 38,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2595.493083564,
+      "kind": "anchor",
+      "trade_count": 1276,
+      "mid": 0.495,
+      "anchor_id": 39,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2595.759574462,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1278,
+      "mid": 0.495,
+      "anchor_id": 38
+    },
+    {
+      "t": 2595.759574462,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1278,
+      "mid": 0.495,
+      "anchor_id": 39
+    },
+    {
+      "t": 2598.505731188,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1279,
+      "mid": 0.49
+    },
+    {
+      "t": 2603.990669114,
+      "kind": "imbalance_locked",
+      "trade_count": 1298,
+      "mid": 0.495,
+      "imbalance": -0.9999828078258773
+    },
+    {
+      "t": 2603.990669114,
+      "kind": "anchor",
+      "trade_count": 1298,
+      "mid": 0.495,
+      "anchor_id": 40,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2605.838797283,
+      "kind": "anchor",
+      "trade_count": 1303,
+      "mid": 0.495,
+      "anchor_id": 41,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2605.84450732,
+      "kind": "anchor",
+      "trade_count": 1308,
+      "mid": 0.495,
+      "anchor_id": 42,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2605.848217952,
+      "kind": "anchor",
+      "trade_count": 1313,
+      "mid": 0.495,
+      "anchor_id": 43,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2605.863822393,
+      "kind": "anchor",
+      "trade_count": 1318,
+      "mid": 0.495,
+      "anchor_id": 44,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2609.143617771,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1319,
+      "mid": 0.49,
+      "anchor_id": 40
+    },
+    {
+      "t": 2609.143617771,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1319,
+      "mid": 0.49,
+      "anchor_id": 41
+    },
+    {
+      "t": 2609.143617771,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1319,
+      "mid": 0.49,
+      "anchor_id": 42
+    },
+    {
+      "t": 2609.143617771,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1319,
+      "mid": 0.49,
+      "anchor_id": 43
+    },
+    {
+      "t": 2609.143617771,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1319,
+      "mid": 0.49,
+      "anchor_id": 44
+    },
+    {
+      "t": 2609.145710482,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1320,
+      "mid": 0.485
+    },
+    {
+      "t": 2609.1458591,
+      "kind": "label_timeout",
+      "trade_count": 1321,
+      "mid": 0.485,
+      "anchor_id": 38
+    },
+    {
+      "t": 2611.652227929,
+      "kind": "label_timeout",
+      "trade_count": 1326,
+      "mid": 0.48,
+      "anchor_id": 39
+    },
+    {
+      "t": 2622.312412492,
+      "kind": "label_timeout",
+      "trade_count": 1348,
+      "mid": 0.45499999999999996,
+      "anchor_id": 40
+    },
+    {
+      "t": 2629.994028795,
+      "kind": "imbalance_locked",
+      "trade_count": 1351,
+      "mid": 0.45499999999999996,
+      "imbalance": -0.8652242668200115
+    },
+    {
+      "t": 2629.994028795,
+      "kind": "anchor",
+      "trade_count": 1351,
+      "mid": 0.45499999999999996,
+      "anchor_id": 45,
+      "side": -1,
+      "tier": "normal",
+      "cell_n": 22
+    },
+    {
+      "t": 2630.198579598,
+      "kind": "entry",
+      "trade_count": 1351,
+      "mid": 0.45499999999999996,
+      "anchor_id": 45,
+      "side": -1,
+      "q": 4,
+      "price": 0.551,
+      "entry_delay_ms": 204.55080300007467
+    },
+    {
+      "t": 2630.261701691,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1351,
+      "mid": 0.44999999999999996,
+      "anchor_id": 45
+    },
+    {
+      "t": 2633.20820053,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1352,
+      "mid": 0.44999999999999996
+    },
+    {
+      "t": 2633.208902181,
+      "kind": "label_timeout",
+      "trade_count": 1353,
+      "mid": 0.44999999999999996,
+      "anchor_id": 41
+    },
+    {
+      "t": 2633.22115171,
+      "kind": "label_timeout",
+      "trade_count": 1358,
+      "mid": 0.44999999999999996,
+      "anchor_id": 42
+    },
+    {
+      "t": 2636.519069123,
+      "kind": "label_timeout",
+      "trade_count": 1363,
+      "mid": 0.44499999999999995,
+      "anchor_id": 43
+    },
+    {
+      "t": 2640.352413157,
+      "kind": "imbalance_locked",
+      "trade_count": 1364,
+      "mid": 0.44499999999999995,
+      "imbalance": -0.909194507830455
+    },
+    {
+      "t": 2640.352413157,
+      "kind": "anchor",
+      "trade_count": 1364,
+      "mid": 0.44499999999999995,
+      "anchor_id": 46,
+      "side": -1,
+      "tier": "normal",
+      "cell_n": 22
+    },
+    {
+      "t": 2646.779336167,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1367,
+      "mid": 0.43499999999999994,
+      "anchor_id": 46
+    },
+    {
+      "t": 2646.779336167,
+      "kind": "untraded_move",
+      "trade_count": 1367,
+      "mid": 0.43499999999999994,
+      "anchor_id": 44,
+      "side": -1
+    },
+    {
+      "t": 2651.691778346,
+      "kind": "anchor",
+      "trade_count": 1369,
+      "mid": 0.43499999999999994,
+      "anchor_id": 47,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 13
+    },
+    {
+      "t": 2661.574049078,
+      "kind": "anchor",
+      "trade_count": 1374,
+      "mid": 0.43499999999999994,
+      "anchor_id": 48,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 13
+    },
+    {
+      "t": 2670.022138737,
+      "kind": "anchor",
+      "trade_count": 1379,
+      "mid": 0.43499999999999994,
+      "anchor_id": 49,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 13
+    },
+    {
+      "t": 2674.476634559,
+      "kind": "anchor",
+      "trade_count": 1384,
+      "mid": 0.43499999999999994,
+      "anchor_id": 50,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 13
+    },
+    {
+      "t": 2679.318936128,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1386,
+      "mid": 0.42500000000000004,
+      "anchor_id": 47
+    },
+    {
+      "t": 2679.318936128,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1386,
+      "mid": 0.42500000000000004,
+      "anchor_id": 48
+    },
+    {
+      "t": 2679.318936128,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1386,
+      "mid": 0.42500000000000004,
+      "anchor_id": 49
+    },
+    {
+      "t": 2679.318936128,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1386,
+      "mid": 0.42500000000000004,
+      "anchor_id": 50
+    },
+    {
+      "t": 2679.320409993,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1387,
+      "mid": 0.42500000000000004
+    },
+    {
+      "t": 2685.81521861,
+      "kind": "imbalance_locked",
+      "trade_count": 1394,
+      "mid": 0.42999999999999994,
+      "imbalance": -0.9887468318255714
+    },
+    {
+      "t": 2685.81521861,
+      "kind": "anchor",
+      "trade_count": 1394,
+      "mid": 0.42999999999999994,
+      "anchor_id": 51,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 13
+    },
+    {
+      "t": 2685.818502295,
+      "kind": "anchor",
+      "trade_count": 1399,
+      "mid": 0.42999999999999994,
+      "anchor_id": 52,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 13
+    },
+    {
+      "t": 2685.819763294,
+      "kind": "label_timeout",
+      "trade_count": 1401,
+      "mid": 0.42999999999999994,
+      "anchor_id": 45
+    },
+    {
+      "t": 2685.819763294,
+      "kind": "exit_signal",
+      "trade_count": 1401,
+      "mid": 0.42999999999999994,
+      "reason": "50_trade_timeout",
+      "side": -1
+    },
+    {
+      "t": 2685.826598803,
+      "kind": "exit",
+      "trade_count": 1401,
+      "mid": 0.42999999999999994,
+      "anchor_id": 45,
+      "side": -1,
+      "net": -0.10679999999999996,
+      "reason": "50_trade_timeout",
+      "price": 0.559
+    },
+    {
+      "t": 2685.835147275,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1401,
+      "mid": 0.42500000000000004,
+      "anchor_id": 51
+    },
+    {
+      "t": 2685.835147275,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1401,
+      "mid": 0.42500000000000004,
+      "anchor_id": 52
+    },
+    {
+      "t": 2686.087720439,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1403,
+      "mid": 0.43499999999999994
+    },
+    {
+      "t": 2686.088685319,
+      "kind": "imbalance_locked",
+      "trade_count": 1405,
+      "mid": 0.43499999999999994,
+      "imbalance": 0.980717018388252
+    },
+    {
+      "t": 2686.088685319,
+      "kind": "anchor",
+      "trade_count": 1405,
+      "mid": 0.43499999999999994,
+      "anchor_id": 53,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2686.091737098,
+      "kind": "anchor",
+      "trade_count": 1410,
+      "mid": 0.43499999999999994,
+      "anchor_id": 54,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 0
+    },
+    {
+      "t": 2686.094221873,
+      "kind": "label_timeout",
+      "trade_count": 1414,
+      "mid": 0.43499999999999994,
+      "anchor_id": 46
+    },
+    {
+      "t": 2686.102993701,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1414,
+      "mid": 0.43999999999999995,
+      "anchor_id": 53
+    },
+    {
+      "t": 2686.102993701,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1414,
+      "mid": 0.43999999999999995,
+      "anchor_id": 54
+    },
+    {
+      "t": 2689.753473616,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1415,
+      "mid": 0.44499999999999995
+    },
+    {
+      "t": 2689.92291312,
+      "kind": "label_timeout",
+      "trade_count": 1419,
+      "mid": 0.44499999999999995,
+      "anchor_id": 47
+    },
+    {
+      "t": 2699.777188756,
+      "kind": "label_timeout",
+      "trade_count": 1424,
+      "mid": 0.45499999999999996,
+      "anchor_id": 48
+    },
+    {
+      "t": 2700.20448099,
+      "kind": "imbalance_locked",
+      "trade_count": 1425,
+      "mid": 0.45499999999999996,
+      "imbalance": -0.8952227564198514
+    },
+    {
+      "t": 2700.20448099,
+      "kind": "anchor",
+      "trade_count": 1425,
+      "mid": 0.45499999999999996,
+      "anchor_id": 55,
+      "side": -1,
+      "tier": "reduced_45",
+      "cell_n": 24
+    },
+    {
+      "t": 2700.219258385,
+      "kind": "entry",
+      "trade_count": 1425,
+      "mid": 0.45499999999999996,
+      "anchor_id": 55,
+      "side": -1,
+      "q": 1,
+      "price": 0.551,
+      "entry_delay_ms": 14.777395000237448
+    },
+    {
+      "t": 2702.989744765,
+      "kind": "label_timeout",
+      "trade_count": 1429,
+      "mid": 0.45499999999999996,
+      "anchor_id": 49
+    },
+    {
+      "t": 2703.879287571,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1429,
+      "mid": 0.44999999999999996,
+      "anchor_id": 55
+    },
+    {
+      "t": 2705.791212033,
+      "kind": "label_timeout",
+      "trade_count": 1434,
+      "mid": 0.44499999999999995,
+      "anchor_id": 50
+    },
+    {
+      "t": 2705.850944018,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1438,
+      "mid": 0.43999999999999995
+    },
+    {
+      "t": 2710.537760125,
+      "kind": "label_timeout",
+      "trade_count": 1444,
+      "mid": 0.41500000000000004,
+      "anchor_id": 51
+    },
+    {
+      "t": 2711.385394546,
+      "kind": "label_timeout",
+      "trade_count": 1449,
+      "mid": 0.41500000000000004,
+      "anchor_id": 52
+    },
+    {
+      "t": 2711.385394546,
+      "kind": "imbalance_locked",
+      "trade_count": 1449,
+      "mid": 0.41500000000000004,
+      "imbalance": -0.8142336238792115
+    },
+    {
+      "t": 2711.385394546,
+      "kind": "anchor",
+      "trade_count": 1449,
+      "mid": 0.41500000000000004,
+      "anchor_id": 56,
+      "side": -1,
+      "tier": "reduced_45",
+      "cell_n": 24
+    },
+    {
+      "t": 2712.431826669,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1449,
+      "mid": 0.41500000000000004,
+      "anchor_id": 56
+    },
+    {
+      "t": 2725.226751679,
+      "kind": "anchor",
+      "trade_count": 1454,
+      "mid": 0.41500000000000004,
+      "anchor_id": 57,
+      "side": -1,
+      "tier": "reduced_45",
+      "cell_n": 24
+    },
+    {
+      "t": 2728.490496688,
+      "kind": "label_timeout",
+      "trade_count": 1455,
+      "mid": 0.41500000000000004,
+      "anchor_id": 53
+    },
+    {
+      "t": 2736.497176883,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1458,
+      "mid": 0.41500000000000004,
+      "anchor_id": 57
+    },
+    {
+      "t": 2739.542893094,
+      "kind": "anchor",
+      "trade_count": 1459,
+      "mid": 0.41000000000000003,
+      "anchor_id": 58,
+      "side": -1,
+      "tier": "reduced_45",
+      "cell_n": 24
+    },
+    {
+      "t": 2739.547997112,
+      "kind": "label_timeout",
+      "trade_count": 1460,
+      "mid": 0.41000000000000003,
+      "anchor_id": 54
+    },
+    {
+      "t": 2739.551112111,
+      "kind": "anchor",
+      "trade_count": 1464,
+      "mid": 0.41000000000000003,
+      "anchor_id": 59,
+      "side": -1,
+      "tier": "reduced_45",
+      "cell_n": 24
+    },
+    {
+      "t": 2740.029936463,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1464,
+      "mid": 0.405,
+      "anchor_id": 58
+    },
+    {
+      "t": 2740.029936463,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1464,
+      "mid": 0.405,
+      "anchor_id": 59
+    },
+    {
+      "t": 2741.572886196,
+      "kind": "right_move",
+      "trade_count": 1464,
+      "mid": 0.395,
+      "anchor_id": 55,
+      "side": -1
+    },
+    {
+      "t": 2741.572886196,
+      "kind": "late_same_side",
+      "trade_count": 1464,
+      "mid": 0.395,
+      "anchor_id": 45
+    },
+    {
+      "t": 2741.572886196,
+      "kind": "late_same_side",
+      "trade_count": 1464,
+      "mid": 0.395,
+      "anchor_id": 46
+    },
+    {
+      "t": 2741.572886196,
+      "kind": "exit_signal",
+      "trade_count": 1464,
+      "mid": 0.395,
+      "reason": "profit_opportunity",
+      "side": -1
+    },
+    {
+      "t": 2741.579733192,
+      "kind": "exit",
+      "trade_count": 1464,
+      "mid": 0.395,
+      "anchor_id": 55,
+      "side": -1,
+      "net": 0.013699999999999934,
+      "reason": "profit_opportunity",
+      "price": 0.599
+    },
+    {
+      "t": 2741.654654638,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1465,
+      "mid": 0.395
+    },
+    {
+      "t": 2756.616559981,
+      "kind": "imbalance_locked",
+      "trade_count": 1481,
+      "mid": 0.39,
+      "imbalance": 0.9067231056706061
+    },
+    {
+      "t": 2756.616559981,
+      "kind": "anchor",
+      "trade_count": 1481,
+      "mid": 0.39,
+      "anchor_id": 60,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2756.620819041,
+      "kind": "anchor",
+      "trade_count": 1486,
+      "mid": 0.39,
+      "anchor_id": 61,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2756.625118106,
+      "kind": "anchor",
+      "trade_count": 1491,
+      "mid": 0.39,
+      "anchor_id": 62,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2756.630447062,
+      "kind": "anchor",
+      "trade_count": 1496,
+      "mid": 0.39,
+      "anchor_id": 63,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2756.64010367,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1496,
+      "mid": 0.4,
+      "anchor_id": 60
+    },
+    {
+      "t": 2756.64010367,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1496,
+      "mid": 0.4,
+      "anchor_id": 61
+    },
+    {
+      "t": 2756.64010367,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1496,
+      "mid": 0.4,
+      "anchor_id": 62
+    },
+    {
+      "t": 2756.64010367,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1496,
+      "mid": 0.4,
+      "anchor_id": 63
+    },
+    {
+      "t": 2756.645140012,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1497,
+      "mid": 0.4
+    },
+    {
+      "t": 2756.648933943,
+      "kind": "label_timeout",
+      "trade_count": 1499,
+      "mid": 0.4,
+      "anchor_id": 56
+    },
+    {
+      "t": 2756.651882733,
+      "kind": "label_timeout",
+      "trade_count": 1504,
+      "mid": 0.4,
+      "anchor_id": 57
+    },
+    {
+      "t": 2756.658187101,
+      "kind": "label_timeout",
+      "trade_count": 1509,
+      "mid": 0.4,
+      "anchor_id": 58
+    },
+    {
+      "t": 2756.669636034,
+      "kind": "label_timeout",
+      "trade_count": 1514,
+      "mid": 0.405,
+      "anchor_id": 59
+    },
+    {
+      "t": 2759.63259684,
+      "kind": "late_same_side",
+      "trade_count": 1527,
+      "mid": 0.365,
+      "anchor_id": 56
+    },
+    {
+      "t": 2759.63259684,
+      "kind": "late_same_side",
+      "trade_count": 1527,
+      "mid": 0.365,
+      "anchor_id": 57
+    },
+    {
+      "t": 2760.30315591,
+      "kind": "late_same_side",
+      "trade_count": 1528,
+      "mid": 0.345,
+      "anchor_id": 58
+    },
+    {
+      "t": 2760.30315591,
+      "kind": "late_same_side",
+      "trade_count": 1528,
+      "mid": 0.345,
+      "anchor_id": 59
+    },
+    {
+      "t": 2760.304434062,
+      "kind": "label_timeout",
+      "trade_count": 1531,
+      "mid": 0.345,
+      "anchor_id": 60
+    },
+    {
+      "t": 2760.304434062,
+      "kind": "imbalance_locked",
+      "trade_count": 1531,
+      "mid": 0.345,
+      "imbalance": 0.9669825311354304
+    },
+    {
+      "t": 2760.304434062,
+      "kind": "anchor",
+      "trade_count": 1531,
+      "mid": 0.345,
+      "anchor_id": 64,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 2
+    },
+    {
+      "t": 2760.304982434,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1531,
+      "mid": 0.345,
+      "anchor_id": 64
+    },
+    {
+      "t": 2762.306988804,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1532,
+      "mid": 0.345
+    },
+    {
+      "t": 2770.117706483,
+      "kind": "label_timeout",
+      "trade_count": 1536,
+      "mid": 0.345,
+      "anchor_id": 61
+    },
+    {
+      "t": 2775.051744631,
+      "kind": "label_timeout",
+      "trade_count": 1541,
+      "mid": 0.345,
+      "anchor_id": 62
+    },
+    {
+      "t": 2781.60962284,
+      "kind": "label_timeout",
+      "trade_count": 1546,
+      "mid": 0.35,
+      "anchor_id": 63
+    },
+    {
+      "t": 2789.562138731,
+      "kind": "imbalance_locked",
+      "trade_count": 1574,
+      "mid": 0.365,
+      "imbalance": -0.9636011839333316
+    },
+    {
+      "t": 2789.562138731,
+      "kind": "anchor",
+      "trade_count": 1574,
+      "mid": 0.365,
+      "anchor_id": 65,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 29
+    },
+    {
+      "t": 2792.23516668,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1575,
+      "mid": 0.355,
+      "anchor_id": 65
+    },
+    {
+      "t": 2792.259898329,
+      "kind": "label_timeout",
+      "trade_count": 1581,
+      "mid": 0.33999999999999997,
+      "anchor_id": 64
+    },
+    {
+      "t": 2792.271608658,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1592,
+      "mid": 0.32999999999999996
+    },
+    {
+      "t": 2798.643217868,
+      "kind": "imbalance_locked",
+      "trade_count": 1606,
+      "mid": 0.355,
+      "imbalance": -0.999333555481506
+    },
+    {
+      "t": 2798.681152566,
+      "kind": "label_timeout",
+      "trade_count": 1624,
+      "mid": 0.365,
+      "anchor_id": 65
+    },
+    {
+      "t": 2798.691861512,
+      "kind": "anchor",
+      "trade_count": 1630,
+      "mid": 0.345,
+      "anchor_id": 66,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 30
+    },
+    {
+      "t": 2798.69466221,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1630,
+      "mid": 0.38,
+      "anchor_id": 66
+    },
+    {
+      "t": 2798.775266802,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1631,
+      "mid": 0.385
+    },
+    {
+      "t": 2798.837796485,
+      "kind": "imbalance_locked",
+      "trade_count": 1634,
+      "mid": 0.395,
+      "imbalance": -0.9410195806318711
+    },
+    {
+      "t": 2803.40367213,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1635,
+      "mid": 0.395
+    },
+    {
+      "t": 2816.815054105,
+      "kind": "imbalance_locked",
+      "trade_count": 1643,
+      "mid": 0.405,
+      "imbalance": -0.999771036061836
+    },
+    {
+      "t": 2820.698069194,
+      "kind": "label_timeout",
+      "trade_count": 1680,
+      "mid": 0.42,
+      "anchor_id": 66
+    },
+    {
+      "t": 2820.70388762,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1685,
+      "mid": 0.44499999999999995
+    },
+    {
+      "t": 2844.44989549,
+      "kind": "imbalance_locked",
+      "trade_count": 1726,
+      "mid": 0.46499999999999997,
+      "imbalance": -0.9956691682140068
+    },
+    {
+      "t": 2844.773773875,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1736,
+      "mid": 0.45999999999999996
+    },
+    {
+      "t": 2854.022220247,
+      "kind": "imbalance_locked",
+      "trade_count": 1740,
+      "mid": 0.44999999999999996,
+      "imbalance": -0.9997795171425408
+    },
+    {
+      "t": 2854.022220247,
+      "kind": "anchor",
+      "trade_count": 1740,
+      "mid": 0.44999999999999996,
+      "anchor_id": 67,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 31
+    },
+    {
+      "t": 2854.023553747,
+      "kind": "anchor",
+      "trade_count": 1745,
+      "mid": 0.44999999999999996,
+      "anchor_id": 68,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 31
+    },
+    {
+      "t": 2858.657976813,
+      "kind": "anchor",
+      "trade_count": 1750,
+      "mid": 0.44999999999999996,
+      "anchor_id": 69,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 31
+    },
+    {
+      "t": 2858.658625027,
+      "kind": "anchor",
+      "trade_count": 1755,
+      "mid": 0.44999999999999996,
+      "anchor_id": 70,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 31
+    },
+    {
+      "t": 2858.661516788,
+      "kind": "anchor",
+      "trade_count": 1760,
+      "mid": 0.44999999999999996,
+      "anchor_id": 71,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 31
+    },
+    {
+      "t": 2859.846209736,
+      "kind": "label_timeout",
+      "trade_count": 1790,
+      "mid": 0.45999999999999996,
+      "anchor_id": 67
+    },
+    {
+      "t": 2859.867018706,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1790,
+      "mid": 0.48,
+      "anchor_id": 68
+    },
+    {
+      "t": 2859.867018706,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1790,
+      "mid": 0.48,
+      "anchor_id": 69
+    },
+    {
+      "t": 2859.867018706,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1790,
+      "mid": 0.48,
+      "anchor_id": 70
+    },
+    {
+      "t": 2859.867018706,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1790,
+      "mid": 0.48,
+      "anchor_id": 71
+    },
+    {
+      "t": 2859.869515676,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1791,
+      "mid": 0.48
+    },
+    {
+      "t": 2863.400805947,
+      "kind": "label_timeout",
+      "trade_count": 1795,
+      "mid": 0.475,
+      "anchor_id": 68
+    },
+    {
+      "t": 2863.419020745,
+      "kind": "label_timeout",
+      "trade_count": 1800,
+      "mid": 0.485,
+      "anchor_id": 69
+    },
+    {
+      "t": 2865.058797572,
+      "kind": "label_timeout",
+      "trade_count": 1805,
+      "mid": 0.49,
+      "anchor_id": 70
+    },
+    {
+      "t": 2868.933175192,
+      "kind": "label_timeout",
+      "trade_count": 1810,
+      "mid": 0.485,
+      "anchor_id": 71
+    },
+    {
+      "t": 2884.615144773,
+      "kind": "imbalance_locked",
+      "trade_count": 1821,
+      "mid": 0.495,
+      "imbalance": -0.8834061734682984
+    },
+    {
+      "t": 2884.615144773,
+      "kind": "anchor",
+      "trade_count": 1821,
+      "mid": 0.495,
+      "anchor_id": 72,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 36
+    },
+    {
+      "t": 2884.86383477,
+      "kind": "anchor",
+      "trade_count": 1826,
+      "mid": 0.495,
+      "anchor_id": 73,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 36
+    },
+    {
+      "t": 2896.573287808,
+      "kind": "anchor",
+      "trade_count": 1831,
+      "mid": 0.495,
+      "anchor_id": 74,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 36
+    },
+    {
+      "t": 2896.843453912,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1831,
+      "mid": 0.495,
+      "anchor_id": 72
+    },
+    {
+      "t": 2896.843453912,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1831,
+      "mid": 0.495,
+      "anchor_id": 73
+    },
+    {
+      "t": 2896.843453912,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1831,
+      "mid": 0.495,
+      "anchor_id": 74
+    },
+    {
+      "t": 2903.301876772,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1832,
+      "mid": 0.495
+    },
+    {
+      "t": 2911.290891348,
+      "kind": "imbalance_locked",
+      "trade_count": 1838,
+      "mid": 0.51,
+      "imbalance": -0.99532710280374
+    },
+    {
+      "t": 2911.290891348,
+      "kind": "anchor",
+      "trade_count": 1838,
+      "mid": 0.51,
+      "anchor_id": 75,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 36
+    },
+    {
+      "t": 2911.292215081,
+      "kind": "anchor",
+      "trade_count": 1843,
+      "mid": 0.51,
+      "anchor_id": 76,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 36
+    },
+    {
+      "t": 2912.472900972,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1846,
+      "mid": 0.505,
+      "anchor_id": 75
+    },
+    {
+      "t": 2912.472900972,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1846,
+      "mid": 0.505,
+      "anchor_id": 76
+    },
+    {
+      "t": 2912.47756829,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1847,
+      "mid": 0.5
+    },
+    {
+      "t": 2912.47813389,
+      "kind": "imbalance_locked",
+      "trade_count": 1849,
+      "mid": 0.5,
+      "imbalance": 0.8611027869343522
+    },
+    {
+      "t": 2912.579776895,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1850,
+      "mid": 0.475
+    },
+    {
+      "t": 2913.370267337,
+      "kind": "imbalance_locked",
+      "trade_count": 1852,
+      "mid": 0.475,
+      "imbalance": -0.9976309165994676
+    },
+    {
+      "t": 2913.370267337,
+      "kind": "anchor",
+      "trade_count": 1852,
+      "mid": 0.475,
+      "anchor_id": 77,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 36
+    },
+    {
+      "t": 2916.053607804,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1854,
+      "mid": 0.475,
+      "anchor_id": 77
+    },
+    {
+      "t": 2916.192175085,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1855,
+      "mid": 0.475
+    },
+    {
+      "t": 2930.395235348,
+      "kind": "imbalance_locked",
+      "trade_count": 1862,
+      "mid": 0.475,
+      "imbalance": 0.9339695075134927
+    },
+    {
+      "t": 2930.395235348,
+      "kind": "anchor",
+      "trade_count": 1862,
+      "mid": 0.475,
+      "anchor_id": 78,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2930.399477744,
+      "kind": "anchor",
+      "trade_count": 1867,
+      "mid": 0.475,
+      "anchor_id": 79,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2930.404232419,
+      "kind": "label_timeout",
+      "trade_count": 1871,
+      "mid": 0.475,
+      "anchor_id": 72
+    },
+    {
+      "t": 2930.40534674,
+      "kind": "anchor",
+      "trade_count": 1872,
+      "mid": 0.475,
+      "anchor_id": 80,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 3
+    },
+    {
+      "t": 2930.411451551,
+      "kind": "label_timeout",
+      "trade_count": 1876,
+      "mid": 0.475,
+      "anchor_id": 73
+    },
+    {
+      "t": 2930.414374044,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1876,
+      "mid": 0.48,
+      "anchor_id": 78
+    },
+    {
+      "t": 2930.414374044,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1876,
+      "mid": 0.48,
+      "anchor_id": 79
+    },
+    {
+      "t": 2930.414374044,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1876,
+      "mid": 0.48,
+      "anchor_id": 80
+    },
+    {
+      "t": 2930.427144261,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1877,
+      "mid": 0.485
+    },
+    {
+      "t": 2930.430416005,
+      "kind": "label_timeout",
+      "trade_count": 1881,
+      "mid": 0.485,
+      "anchor_id": 74
+    },
+    {
+      "t": 2935.423466588,
+      "kind": "label_timeout",
+      "trade_count": 1888,
+      "mid": 0.48,
+      "anchor_id": 75
+    },
+    {
+      "t": 2936.36944061,
+      "kind": "imbalance_locked",
+      "trade_count": 1892,
+      "mid": 0.485,
+      "imbalance": -0.8667005546668342
+    },
+    {
+      "t": 2936.369840707,
+      "kind": "label_timeout",
+      "trade_count": 1893,
+      "mid": 0.485,
+      "anchor_id": 76
+    },
+    {
+      "t": 2936.385584124,
+      "kind": "label_timeout",
+      "trade_count": 1902,
+      "mid": 0.49,
+      "anchor_id": 77
+    },
+    {
+      "t": 2936.684147637,
+      "kind": "anchor",
+      "trade_count": 1908,
+      "mid": 0.515,
+      "anchor_id": 81,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 42
+    },
+    {
+      "t": 2936.687009091,
+      "kind": "label_timeout",
+      "trade_count": 1912,
+      "mid": 0.515,
+      "anchor_id": 78
+    },
+    {
+      "t": 2936.687442158,
+      "kind": "anchor",
+      "trade_count": 1913,
+      "mid": 0.515,
+      "anchor_id": 82,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 42
+    },
+    {
+      "t": 2936.692446239,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1915,
+      "mid": 0.515,
+      "anchor_id": 81
+    },
+    {
+      "t": 2936.692446239,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1915,
+      "mid": 0.515,
+      "anchor_id": 82
+    },
+    {
+      "t": 2939.930996833,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1916,
+      "mid": 0.515
+    },
+    {
+      "t": 2939.932066179,
+      "kind": "label_timeout",
+      "trade_count": 1917,
+      "mid": 0.515,
+      "anchor_id": 79
+    },
+    {
+      "t": 2939.934618641,
+      "kind": "label_timeout",
+      "trade_count": 1922,
+      "mid": 0.515,
+      "anchor_id": 80
+    },
+    {
+      "t": 2951.001127924,
+      "kind": "imbalance_locked",
+      "trade_count": 1927,
+      "mid": 0.525,
+      "imbalance": -0.97481821901854
+    },
+    {
+      "t": 2951.001127924,
+      "kind": "anchor",
+      "trade_count": 1927,
+      "mid": 0.525,
+      "anchor_id": 83,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 42
+    },
+    {
+      "t": 2951.016949874,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1930,
+      "mid": 0.525,
+      "anchor_id": 83
+    },
+    {
+      "t": 2956.713069333,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1931,
+      "mid": 0.52
+    },
+    {
+      "t": 2962.359328675,
+      "kind": "label_timeout",
+      "trade_count": 1958,
+      "mid": 0.53,
+      "anchor_id": 81
+    },
+    {
+      "t": 2964.841711019,
+      "kind": "label_timeout",
+      "trade_count": 1963,
+      "mid": 0.52,
+      "anchor_id": 82
+    },
+    {
+      "t": 2964.931353078,
+      "kind": "imbalance_locked",
+      "trade_count": 1966,
+      "mid": 0.505,
+      "imbalance": -0.9885452790799568
+    },
+    {
+      "t": 2964.931353078,
+      "kind": "anchor",
+      "trade_count": 1966,
+      "mid": 0.505,
+      "anchor_id": 84,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 44
+    },
+    {
+      "t": 2964.932069851,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 1967,
+      "mid": 0.495,
+      "anchor_id": 84
+    },
+    {
+      "t": 2965.306722565,
+      "kind": "imbalance_unlocked",
+      "trade_count": 1968,
+      "mid": 0.485
+    },
+    {
+      "t": 2973.979953108,
+      "kind": "label_timeout",
+      "trade_count": 1977,
+      "mid": 0.49,
+      "anchor_id": 83
+    },
+    {
+      "t": 2987.48463963,
+      "kind": "imbalance_locked",
+      "trade_count": 2003,
+      "mid": 0.495,
+      "imbalance": 0.9910825753522383
+    },
+    {
+      "t": 2987.48463963,
+      "kind": "anchor",
+      "trade_count": 2003,
+      "mid": 0.495,
+      "anchor_id": 85,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 6
+    },
+    {
+      "t": 2987.485150351,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2003,
+      "mid": 0.5,
+      "anchor_id": 85
+    },
+    {
+      "t": 2987.804351766,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2004,
+      "mid": 0.5
+    },
+    {
+      "t": 2999.443388174,
+      "kind": "label_timeout",
+      "trade_count": 2016,
+      "mid": 0.475,
+      "anchor_id": 84
+    },
+    {
+      "t": 2999.443771498,
+      "kind": "imbalance_locked",
+      "trade_count": 2018,
+      "mid": 0.475,
+      "imbalance": -0.9689674705925184
+    },
+    {
+      "t": 2999.443771498,
+      "kind": "anchor",
+      "trade_count": 2018,
+      "mid": 0.475,
+      "anchor_id": 86,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 46
+    },
+    {
+      "t": 2999.449614993,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2018,
+      "mid": 0.47,
+      "anchor_id": 86
+    },
+    {
+      "t": 3000.034934273,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2019,
+      "mid": 0.46499999999999997
+    },
+    {
+      "t": 3012.081652082,
+      "kind": "imbalance_locked",
+      "trade_count": 2024,
+      "mid": 0.46499999999999997,
+      "imbalance": -0.9401636014089995
+    },
+    {
+      "t": 3012.081652082,
+      "kind": "anchor",
+      "trade_count": 2024,
+      "mid": 0.46499999999999997,
+      "anchor_id": 87,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 46
+    },
+    {
+      "t": 3019.266079567,
+      "kind": "anchor",
+      "trade_count": 2029,
+      "mid": 0.46499999999999997,
+      "anchor_id": 88,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 46
+    },
+    {
+      "t": 3020.422574935,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2029,
+      "mid": 0.45999999999999996,
+      "anchor_id": 87
+    },
+    {
+      "t": 3020.422574935,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2029,
+      "mid": 0.45999999999999996,
+      "anchor_id": 88
+    },
+    {
+      "t": 3024.042808368,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2030,
+      "mid": 0.46499999999999997
+    },
+    {
+      "t": 3055.610120892,
+      "kind": "imbalance_locked",
+      "trade_count": 2050,
+      "mid": 0.475,
+      "imbalance": -0.8452833024619045
+    },
+    {
+      "t": 3055.610120892,
+      "kind": "anchor",
+      "trade_count": 2050,
+      "mid": 0.475,
+      "anchor_id": 89,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 46
+    },
+    {
+      "t": 3055.612091843,
+      "kind": "label_timeout",
+      "trade_count": 2053,
+      "mid": 0.475,
+      "anchor_id": 85
+    },
+    {
+      "t": 3055.612493405,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2053,
+      "mid": 0.475,
+      "anchor_id": 89
+    },
+    {
+      "t": 3056.026272673,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2054,
+      "mid": 0.475
+    },
+    {
+      "t": 3056.027673482,
+      "kind": "imbalance_locked",
+      "trade_count": 2056,
+      "mid": 0.475,
+      "imbalance": 0.9995950131194428
+    },
+    {
+      "t": 3056.027673482,
+      "kind": "anchor",
+      "trade_count": 2056,
+      "mid": 0.475,
+      "anchor_id": 90,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 7
+    },
+    {
+      "t": 3069.832148222,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2058,
+      "mid": 0.475,
+      "anchor_id": 90
+    },
+    {
+      "t": 3071.056422906,
+      "kind": "anchor",
+      "trade_count": 2061,
+      "mid": 0.475,
+      "anchor_id": 91,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 7
+    },
+    {
+      "t": 3071.062990248,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2062,
+      "mid": 0.48,
+      "anchor_id": 91
+    },
+    {
+      "t": 3072.641280865,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2063,
+      "mid": 0.485
+    },
+    {
+      "t": 3072.645956803,
+      "kind": "label_timeout",
+      "trade_count": 2068,
+      "mid": 0.485,
+      "anchor_id": 86
+    },
+    {
+      "t": 3075.684360577,
+      "kind": "imbalance_locked",
+      "trade_count": 2071,
+      "mid": 0.485,
+      "imbalance": -0.9966516956495857
+    },
+    {
+      "t": 3075.684360577,
+      "kind": "anchor",
+      "trade_count": 2071,
+      "mid": 0.485,
+      "anchor_id": 92,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 47
+    },
+    {
+      "t": 3075.697777958,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2072,
+      "mid": 0.48,
+      "anchor_id": 92
+    },
+    {
+      "t": 3076.847929107,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2073,
+      "mid": 0.48
+    },
+    {
+      "t": 3076.851755091,
+      "kind": "label_timeout",
+      "trade_count": 2074,
+      "mid": 0.48,
+      "anchor_id": 87
+    },
+    {
+      "t": 3078.051423014,
+      "kind": "label_timeout",
+      "trade_count": 2079,
+      "mid": 0.48,
+      "anchor_id": 88
+    },
+    {
+      "t": 3097.902562038,
+      "kind": "label_timeout",
+      "trade_count": 2100,
+      "mid": 0.48,
+      "anchor_id": 89
+    },
+    {
+      "t": 3099.984617534,
+      "kind": "label_timeout",
+      "trade_count": 2106,
+      "mid": 0.45499999999999996,
+      "anchor_id": 90
+    },
+    {
+      "t": 3109.256621383,
+      "kind": "label_timeout",
+      "trade_count": 2111,
+      "mid": 0.45499999999999996,
+      "anchor_id": 91
+    },
+    {
+      "t": 3133.930860229,
+      "kind": "label_timeout",
+      "trade_count": 2121,
+      "mid": 0.45499999999999996,
+      "anchor_id": 92
+    },
+    {
+      "t": 3196.587995844,
+      "kind": "imbalance_locked",
+      "trade_count": 2136,
+      "mid": 0.45499999999999996,
+      "imbalance": -0.9800772687303145
+    },
+    {
+      "t": 3196.587995844,
+      "kind": "anchor",
+      "trade_count": 2136,
+      "mid": 0.45499999999999996,
+      "anchor_id": 93,
+      "side": 0,
+      "tier": "abstain",
+      "cell_n": 51
+    },
+    {
+      "t": 3211.398435152,
+      "kind": "anchor_imbalance_changed",
+      "trade_count": 2137,
+      "mid": 0.44999999999999996,
+      "anchor_id": 93
+    },
+    {
+      "t": 3211.399009295,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2138,
+      "mid": 0.44999999999999996
+    },
+    {
+      "t": 3230.800926391,
+      "kind": "untraded_move",
+      "trade_count": 2148,
+      "mid": 0.405,
+      "anchor_id": 93,
+      "side": -1
+    },
+    {
+      "t": 3231.050869697,
+      "kind": "imbalance_locked",
+      "trade_count": 2152,
+      "mid": 0.395,
+      "imbalance": 0.8456688782257977
+    },
+    {
+      "t": 3235.093391142,
+      "kind": "imbalance_unlocked",
+      "trade_count": 2153,
+      "mid": 0.395
+    }
+  ],
+  "open_position": null,
+  "pending_order": null,
+  "counts": {
+    "(0, None)": [
+      0,
+      0,
+      1
+    ],
+    "('all',)": [
+      13,
+      76,
+      4
+    ],
+    "(0,)": [
+      13,
+      60,
+      4
+    ],
+    "(0, 1)": [
+      0,
+      4,
+      2
+    ],
+    "(0, 0)": [
+      12,
+      38,
+      1
+    ],
+    "(4, -1)": [
+      0,
+      7,
+      0
+    ],
+    "(0, -1)": [
+      1,
+      18,
+      0
+    ],
+    "(4,)": [
+      0,
+      16,
+      0
+    ],
+    "(4, 0)": [
+      0,
+      9,
+      0
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "state": "completed_after_parser_fix",
+  "capture_complete": true,
+  "capture_records": 418577,
+  "capture_trades": 11248,
+  "capture_orderbook_deltas": 398705,
+  "initial_replay_error": "ValueError: missing fixed-point fields on a live empty orderbook snapshot",
+  "fix": "Treat omitted fixed-point sides as empty only on identified snapshot messages; clear prior depth; reject legacy or malformed side payloads",
+  "tests_passed": 37,
+  "results_file": "combined_results.json"
+}

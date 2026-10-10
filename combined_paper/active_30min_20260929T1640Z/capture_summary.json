@@ -1,0 +1,2037 @@
+{
+  "start_wall": 1790700039.2781887,
+  "end_wall": 1790701890.8189352,
+  "messages": {
+    "subscribed": 3,
+    "orderbook_snapshot": 13,
+    "orderbook_delta": 398705,
+    "trade": 11248,
+    "event_lifecycle": 76,
+    "market_lifecycle_v2": 8524
+  },
+  "metadata": {
+    "KXAFCONGAME-26SEP29ZAMTOG-ZAM": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-15T00:01:20.79008Z",
+        "custom_strike": {
+          "soccer_team": "5fca7692-84f6-4593-897b-4890ee7a23a3"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONGAME-26SEP29ZAMTOG",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.6200",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.3900",
+        "no_bid_dollars": "0.3800",
+        "no_sub_title": "Zambia",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "90439.02",
+        "open_time": "2026-09-15T00:06:00Z",
+        "previous_price_dollars": "0.4800",
+        "previous_yes_ask_dollars": "0.4800",
+        "previous_yes_bid_dollars": "0.4700",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Zambia wins the Zambia vs Togo professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Zambia vs Togo professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXAFCONGAME-26SEP29ZAMTOG-ZAM",
+        "title": "Zambia wins",
+        "updated_time": "2026-09-15T00:06:00.365732Z",
+        "volume_24h_fp": "120442.04",
+        "volume_fp": "135082.46",
+        "yes_ask_dollars": "0.6200",
+        "yes_ask_size_fp": "14.39",
+        "yes_bid_dollars": "0.6100",
+        "yes_bid_size_fp": "148.69",
+        "yes_sub_title": "Zambia"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:55.179584Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONGAME",
+        "title": "AFCON Game Winner",
+        "resolved_event_ticker": "KXAFCONGAME-26SEP29ZAMTOG"
+      }
+    },
+    "KXITFWMATCH-26SEP29SOUHOV-HOV": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-13T15:00:00Z",
+        "created_time": "2026-09-29T01:02:53.015304Z",
+        "custom_strike": {
+          "tennis_competitor": "de74892d-256d-4267-9105-c638f290970f"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXITFWMATCH-26SEP29SOUHOV",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T21:00:00Z",
+        "expiration_time": "2026-10-13T15:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.5600",
+        "latest_expiration_time": "2026-10-13T15:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.4500",
+        "no_bid_dollars": "0.4400",
+        "no_sub_title": "Liv Hovde",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T21:00:00Z",
+        "open_interest_fp": "73221.90",
+        "open_time": "2026-09-29T01:12:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Liv Hovde wins the Soulie vs Hovde professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Soulie vs Hovde professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), all markets will resolve to $0.50. If a player withdraws or forfeits after a match has started, that player will resolve to No. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXITFWMATCH-26SEP29SOUHOV-HOV",
+        "title": "Liv Hovde wins",
+        "updated_time": "2026-09-29T15:12:00.046923Z",
+        "volume_24h_fp": "58012.59",
+        "volume_fp": "111591.98",
+        "yes_ask_dollars": "0.5600",
+        "yes_ask_size_fp": "2206.76",
+        "yes_bid_dollars": "0.5500",
+        "yes_bid_size_fp": "9624.53",
+        "yes_sub_title": "Liv Hovde"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.459465Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXITFWMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), all markets will resolve to **$0.50**. If a player withdraws or forfeits after a match has started, that player will resolve to **No**.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ITF",
+            "url": "https://www.itftennis.com/en/"
+          },
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com"
+          },
+          {
+            "name": "Flashscore",
+            "url": "https://www.flashscoreusa.com/tennis/itf-men-singles/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXITFWMATCH",
+        "title": "ITF Women's Match",
+        "resolved_event_ticker": "KXITFWMATCH-26SEP29SOUHOV"
+      }
+    },
+    "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-13T11:30:00Z",
+        "created_time": "2026-09-28T23:31:05.96062Z",
+        "custom_strike": {
+          "tennis_competitor": "11aa49d3-5526-4f7a-967a-f2f485462584"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXATPCHALLENGERMATCH-26SEP29MARLOK",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T14:30:00Z",
+        "expiration_time": "2026-10-13T11:30:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.3900",
+        "latest_expiration_time": "2026-10-13T11:30:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.6200",
+        "no_bid_dollars": "0.6100",
+        "no_sub_title": "Pol Martin Tiffon",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T14:30:00Z",
+        "open_interest_fp": "1204421.38",
+        "open_time": "2026-09-28T23:40:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Pol Martin Tiffon wins the Martin Tiffon vs Lokoli professional tennis match in the 2026 ATP Challenger Bari Round Of 32 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Martin Tiffon vs Lokoli professional tennis match in the 2026 ATP Challenger Bari Round Of 32 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR",
+        "title": "Pol Martin Tiffon wins",
+        "updated_time": "2026-09-29T13:26:39.407009Z",
+        "volume_24h_fp": "2371317.32",
+        "volume_fp": "2676595.56",
+        "yes_ask_dollars": "0.3900",
+        "yes_ask_size_fp": "49049.89",
+        "yes_bid_dollars": "0.3800",
+        "yes_bid_size_fp": "53796.28",
+        "yes_sub_title": "Pol Martin Tiffon"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.153127Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXATPCHALLENGERMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), the market will resolve to a fair price for each player in accordance with the rules. If a player withdraws or forfeits after a match has started, that player will resolve to no.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ATP",
+            "url": "https://www.atptour.com/"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXATPCHALLENGERMATCH",
+        "title": "Challenger ATP ",
+        "resolved_event_ticker": "KXATPCHALLENGERMATCH-26SEP29MARLOK"
+      }
+    },
+    "KXAFCONGAME-26SEP29GBSNGR-GBS": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-15T00:01:21.876696Z",
+        "custom_strike": {
+          "soccer_team": "d0521004-1cda-4a44-a135-bea820a9fdfc"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONGAME-26SEP29GBSNGR",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.3700",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.6300",
+        "no_bid_dollars": "0.6200",
+        "no_sub_title": "Guinea-Bissau",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "39401.58",
+        "open_time": "2026-09-15T00:06:00Z",
+        "previous_price_dollars": "0.1200",
+        "previous_yes_ask_dollars": "0.1200",
+        "previous_yes_bid_dollars": "0.1100",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Guinea-Bissau wins the Guinea-Bissau vs Nigeria professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Guinea-Bissau vs Nigeria professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXAFCONGAME-26SEP29GBSNGR-GBS",
+        "title": "Guinea-Bissau wins",
+        "updated_time": "2026-09-15T00:06:00.365732Z",
+        "volume_24h_fp": "45597.19",
+        "volume_fp": "60953.76",
+        "yes_ask_dollars": "0.3800",
+        "yes_ask_size_fp": "149.45",
+        "yes_bid_dollars": "0.3700",
+        "yes_bid_size_fp": "79.00",
+        "yes_sub_title": "Guinea-Bissau"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:55.179584Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONGAME",
+        "title": "AFCON Game Winner",
+        "resolved_event_ticker": "KXAFCONGAME-26SEP29GBSNGR"
+      }
+    },
+    "KXAFCONGAME-26SEP29UGALBA-UGA": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-15T00:01:22.429456Z",
+        "custom_strike": {
+          "soccer_team": "2683c6d9-4dd6-44d8-92a8-54e34206d583"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONGAME-26SEP29UGALBA",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.4100",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.5900",
+        "no_bid_dollars": "0.5800",
+        "no_sub_title": "Uganda",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "37589.65",
+        "open_time": "2026-09-15T00:06:00Z",
+        "previous_price_dollars": "0.4800",
+        "previous_yes_ask_dollars": "0.4900",
+        "previous_yes_bid_dollars": "0.4800",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Uganda wins the Uganda vs Libya professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Uganda vs Libya professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXAFCONGAME-26SEP29UGALBA-UGA",
+        "title": "Uganda wins",
+        "updated_time": "2026-09-15T00:06:00.365732Z",
+        "volume_24h_fp": "41671.91",
+        "volume_fp": "50555.89",
+        "yes_ask_dollars": "0.4200",
+        "yes_ask_size_fp": "3049.24",
+        "yes_bid_dollars": "0.4100",
+        "yes_bid_size_fp": "585.00",
+        "yes_sub_title": "Uganda"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:55.179584Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONGAME",
+        "title": "AFCON Game Winner",
+        "resolved_event_ticker": "KXAFCONGAME-26SEP29UGALBA"
+      }
+    },
+    "KXITFWMATCH-26SEP29NARNGI-NAR": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-13T15:00:00Z",
+        "created_time": "2026-09-29T01:02:50.57346Z",
+        "custom_strike": {
+          "tennis_competitor": "39abd9f1-bdd5-4b61-95f7-66f579809200"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXITFWMATCH-26SEP29NARNGI",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T21:00:00Z",
+        "expiration_time": "2026-10-13T15:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.4200",
+        "latest_expiration_time": "2026-10-13T15:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.6700",
+        "no_bid_dollars": "0.5800",
+        "no_sub_title": "Charlotte Narti",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T21:00:00Z",
+        "open_interest_fp": "9929.08",
+        "open_time": "2026-09-29T01:12:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Charlotte Narti wins the Narti vs Ngijol Carre professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Narti vs Ngijol Carre professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), all markets will resolve to $0.50. If a player withdraws or forfeits after a match has started, that player will resolve to No. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXITFWMATCH-26SEP29NARNGI-NAR",
+        "title": "Charlotte Narti wins",
+        "updated_time": "2026-09-29T15:11:59.518459Z",
+        "volume_24h_fp": "16792.67",
+        "volume_fp": "20136.47",
+        "yes_ask_dollars": "0.4200",
+        "yes_ask_size_fp": "39.00",
+        "yes_bid_dollars": "0.3300",
+        "yes_bid_size_fp": "36.00",
+        "yes_sub_title": "Charlotte Narti"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.459465Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXITFWMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), all markets will resolve to **$0.50**. If a player withdraws or forfeits after a match has started, that player will resolve to **No**.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ITF",
+            "url": "https://www.itftennis.com/en/"
+          },
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com"
+          },
+          {
+            "name": "Flashscore",
+            "url": "https://www.flashscoreusa.com/tennis/itf-men-singles/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXITFWMATCH",
+        "title": "ITF Women's Match",
+        "resolved_event_ticker": "KXITFWMATCH-26SEP29NARNGI"
+      }
+    },
+    "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-13T15:00:00Z",
+        "created_time": "2026-09-29T15:10:51.625785Z",
+        "custom_strike": {
+          "tennis_competitor": "ecc0846c-05db-4864-8eef-be65c04269dc"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXATPCHALLENGERMATCH-26SEP29FERLEI",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T18:00:00Z",
+        "expiration_time": "2026-10-13T15:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.2500",
+        "latest_expiration_time": "2026-10-13T15:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.7500",
+        "no_bid_dollars": "0.7000",
+        "no_sub_title": "Wilson Leite",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T18:00:00Z",
+        "open_interest_fp": "26875.04",
+        "open_time": "2026-09-29T15:20:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Wilson Leite wins the Fernandez vs Leite professional tennis match in the 2026 ATP Challenger Curitiba Round Of 32 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Fernandez vs Leite professional tennis match in the 2026 ATP Challenger Curitiba Round Of 32 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI",
+        "title": "Wilson Leite wins",
+        "updated_time": "2026-09-29T16:26:26.207316Z",
+        "volume_24h_fp": "12983.57",
+        "volume_fp": "43654.48",
+        "yes_ask_dollars": "0.3000",
+        "yes_ask_size_fp": "46.00",
+        "yes_bid_dollars": "0.2500",
+        "yes_bid_size_fp": "34.00",
+        "yes_sub_title": "Wilson Leite"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.153127Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXATPCHALLENGERMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), the market will resolve to a fair price for each player in accordance with the rules. If a player withdraws or forfeits after a match has started, that player will resolve to no.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ATP",
+            "url": "https://www.atptour.com/"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXATPCHALLENGERMATCH",
+        "title": "Challenger ATP ",
+        "resolved_event_ticker": "KXATPCHALLENGERMATCH-26SEP29FERLEI"
+      }
+    },
+    "KXUEFANLGAME-26SEP29FINBLR-FIN": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-21T16:02:16.806434Z",
+        "custom_strike": {
+          "soccer_team": "e3442894-2403-489a-90f3-55b45eb737d7"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXUEFANLGAME-26SEP29FINBLR",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.5600",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.4600",
+        "no_bid_dollars": "0.4500",
+        "no_sub_title": "Finland",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "524949.32",
+        "open_time": "2026-09-21T16:06:00Z",
+        "previous_price_dollars": "0.6100",
+        "previous_yes_ask_dollars": "0.6100",
+        "previous_yes_bid_dollars": "0.6000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Finland wins the Finland vs Belarus professional UEFA Nations League soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Finland vs Belarus professional UEFA Nations League soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXUEFANLGAME-26SEP29FINBLR-FIN",
+        "title": "Finland wins",
+        "updated_time": "2026-09-21T16:06:01.233722Z",
+        "volume_24h_fp": "526402.06",
+        "volume_fp": "605714.84",
+        "yes_ask_dollars": "0.5500",
+        "yes_ask_size_fp": "9817.14",
+        "yes_bid_dollars": "0.5400",
+        "yes_bid_size_fp": "3.00",
+        "yes_sub_title": "Finland"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:54.311819Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXUEFANLGAME",
+        "title": "UEFA Nations League Game",
+        "resolved_event_ticker": "KXUEFANLGAME-26SEP29FINBLR"
+      }
+    },
+    "KXAFCONSPREAD-26SEP29GHAGAM-GHA2": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-23T00:04:10.061266Z",
+        "custom_strike": {
+          "soccer_team": "5c4b405e-5b26-47cf-bb23-acd90eda9e99"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONSPREAD-26SEP29GHAGAM",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T20:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "floor_strike": 1.5,
+        "last_price_dollars": "0.4400",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.5600",
+        "no_bid_dollars": "0.5500",
+        "no_sub_title": "Ghana wins by more than 1.5 goals",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T20:00:00Z",
+        "open_interest_fp": "11049.25",
+        "open_time": "2026-09-23T00:06:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.3700",
+        "previous_yes_bid_dollars": "0.3500",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Ghana wins by more than 1.5 goals in the Ghana vs Gambia professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 30,
+        "status": "active",
+        "strike_type": "greater",
+        "ticker": "KXAFCONSPREAD-26SEP29GHAGAM-GHA2",
+        "title": "Ghana wins by more than 1.5 goals?",
+        "updated_time": "2026-09-29T16:33:58.323553Z",
+        "volume_24h_fp": "14997.51",
+        "volume_fp": "18482.14",
+        "yes_ask_dollars": "0.4500",
+        "yes_ask_size_fp": "961.09",
+        "yes_bid_dollars": "0.4400",
+        "yes_bid_size_fp": "508.00",
+        "yes_sub_title": "Ghana wins by more than 1.5 goals"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERSPREAD.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERSPREAD.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T23:27:54.314854Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERSPREAD-bulk-2026-04-23",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Spread"
+        },
+        "settlement_sources": [
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          },
+          {
+            "name": "ESPN",
+            "url": "https://espn.com"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONSPREAD",
+        "title": "Spread",
+        "resolved_event_ticker": "KXAFCONSPREAD-26SEP29GHAGAM"
+      }
+    },
+    "KXMLBGAME-26SEP291400PHIATL-ATL": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-02T18:00:00Z",
+        "created_time": "2026-09-28T01:45:45.096301Z",
+        "custom_strike": {
+          "baseball_team": "aa47177d-346b-4467-b8d2-dc49e284a2e6"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXMLBGAME-26SEP291400PHIATL",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T21:00:00Z",
+        "expiration_time": "2026-10-02T18:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.6400",
+        "latest_expiration_time": "2026-10-02T18:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.3700",
+        "no_bid_dollars": "0.3600",
+        "no_sub_title": "Atlanta",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T21:00:00Z",
+        "open_interest_fp": "534524.71",
+        "open_time": "2026-09-28T01:55:00Z",
+        "previous_price_dollars": "0.6600",
+        "previous_yes_ask_dollars": "0.6600",
+        "previous_yes_bid_dollars": "0.6500",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Atlanta wins the Philadelphia vs Atlanta professional baseball game originally scheduled for Sep 29, 2026 at 2:00 PM EDT, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Philadelphia vs Atlanta professional baseball game originally scheduled for Sep 29, 2026 at 2:00 PM EDT. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two days). If the game is cancelled or rescheduled to over two days away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 120,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXMLBGAME-26SEP291400PHIATL-ATL",
+        "title": "Atlanta wins",
+        "updated_time": "2026-09-28T01:55:00.851675Z",
+        "volume_24h_fp": "513090.78",
+        "volume_fp": "559256.60",
+        "yes_ask_dollars": "0.6400",
+        "yes_ask_size_fp": "2180114.28",
+        "yes_bid_dollars": "0.6300",
+        "yes_bid_size_fp": "56454.66",
+        "yes_sub_title": "Atlanta"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/BASEBALLGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/BASEBALLGAMEWIN.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 0.5,
+        "fee_type": "quadratic_with_maker_fees",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-29T03:11:56.979968Z",
+        "product_metadata": {
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          },
+          {
+            "name": "the Governing League",
+            "url": "https://www.mlb.com/"
+          }
+        ],
+        "tags": [
+          "Baseball"
+        ],
+        "ticker": "KXMLBGAME",
+        "title": "Professional Baseball Game",
+        "resolved_event_ticker": "KXMLBGAME-26SEP291400PHIATL"
+      }
+    }
+  },
+  "end_metadata": {
+    "KXAFCONGAME-26SEP29ZAMTOG-ZAM": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-15T00:01:20.79008Z",
+        "custom_strike": {
+          "soccer_team": "5fca7692-84f6-4593-897b-4890ee7a23a3"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONGAME-26SEP29ZAMTOG",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.7200",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.2900",
+        "no_bid_dollars": "0.2800",
+        "no_sub_title": "Zambia",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "92903.77",
+        "open_time": "2026-09-15T00:06:00Z",
+        "previous_price_dollars": "0.4800",
+        "previous_yes_ask_dollars": "0.4800",
+        "previous_yes_bid_dollars": "0.4700",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Zambia wins the Zambia vs Togo professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Zambia vs Togo professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXAFCONGAME-26SEP29ZAMTOG-ZAM",
+        "title": "Zambia wins",
+        "updated_time": "2026-09-15T00:06:00.365732Z",
+        "volume_24h_fp": "147447.75",
+        "volume_fp": "155396.89",
+        "yes_ask_dollars": "0.7200",
+        "yes_ask_size_fp": "26944.44",
+        "yes_bid_dollars": "0.7100",
+        "yes_bid_size_fp": "23967.70",
+        "yes_sub_title": "Zambia"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:55.179584Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONGAME",
+        "title": "AFCON Game Winner",
+        "resolved_event_ticker": "KXAFCONGAME-26SEP29ZAMTOG"
+      }
+    },
+    "KXITFWMATCH-26SEP29SOUHOV-HOV": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-09-29T17:01:52Z",
+        "created_time": "2026-09-29T01:02:53.015304Z",
+        "custom_strike": {
+          "tennis_competitor": "de74892d-256d-4267-9105-c638f290970f"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXITFWMATCH-26SEP29SOUHOV",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T21:00:00Z",
+        "expiration_time": "2026-10-13T15:00:00Z",
+        "expiration_value": "Alice Soulie",
+        "last_price_dollars": "0.0100",
+        "latest_expiration_time": "2026-10-13T15:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "1.0000",
+        "no_bid_dollars": "0.0000",
+        "no_sub_title": "Liv Hovde",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T21:00:00Z",
+        "open_interest_fp": "122686.04",
+        "open_time": "2026-09-29T01:12:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "no",
+        "rules_primary": "If Liv Hovde wins the Soulie vs Hovde professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Soulie vs Hovde professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), all markets will resolve to $0.50. If a player withdraws or forfeits after a match has started, that player will resolve to No. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "settlement_ts": "2026-09-29T17:03:56.452371Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "strike_type": "structured",
+        "ticker": "KXITFWMATCH-26SEP29SOUHOV-HOV",
+        "title": "Liv Hovde wins",
+        "updated_time": "2026-09-29T17:03:56.848688Z",
+        "volume_24h_fp": "250138.84",
+        "volume_fp": "250138.84",
+        "yes_ask_dollars": "1.0000",
+        "yes_ask_size_fp": "0.00",
+        "yes_bid_dollars": "0.0000",
+        "yes_bid_size_fp": "0.00",
+        "yes_sub_title": "Liv Hovde"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.459465Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXITFWMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), all markets will resolve to **$0.50**. If a player withdraws or forfeits after a match has started, that player will resolve to **No**.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ITF",
+            "url": "https://www.itftennis.com/en/"
+          },
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com"
+          },
+          {
+            "name": "Flashscore",
+            "url": "https://www.flashscoreusa.com/tennis/itf-men-singles/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXITFWMATCH",
+        "title": "ITF Women's Match",
+        "resolved_event_ticker": "KXITFWMATCH-26SEP29SOUHOV"
+      }
+    },
+    "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-09-29T16:55:01Z",
+        "created_time": "2026-09-28T23:31:05.96062Z",
+        "custom_strike": {
+          "tennis_competitor": "11aa49d3-5526-4f7a-967a-f2f485462584"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXATPCHALLENGERMATCH-26SEP29MARLOK",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T14:30:00Z",
+        "expiration_time": "2026-10-13T11:30:00Z",
+        "expiration_value": "Laurent Lokoli",
+        "last_price_dollars": "0.0100",
+        "latest_expiration_time": "2026-10-13T11:30:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "1.0000",
+        "no_bid_dollars": "0.0000",
+        "no_sub_title": "Pol Martin Tiffon",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T14:30:00Z",
+        "open_interest_fp": "1273228.15",
+        "open_time": "2026-09-28T23:40:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "no",
+        "rules_primary": "If Pol Martin Tiffon wins the Martin Tiffon vs Lokoli professional tennis match in the 2026 ATP Challenger Bari Round Of 32 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Martin Tiffon vs Lokoli professional tennis match in the 2026 ATP Challenger Bari Round Of 32 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "settlement_ts": "2026-09-29T16:57:06.487842Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "strike_type": "structured",
+        "ticker": "KXATPCHALLENGERMATCH-26SEP29MARLOK-MAR",
+        "title": "Pol Martin Tiffon wins",
+        "updated_time": "2026-09-29T16:57:06.848372Z",
+        "volume_24h_fp": "3097896.59",
+        "volume_fp": "3097896.59",
+        "yes_ask_dollars": "1.0000",
+        "yes_ask_size_fp": "0.00",
+        "yes_bid_dollars": "0.0000",
+        "yes_bid_size_fp": "0.00",
+        "yes_sub_title": "Pol Martin Tiffon"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.153127Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXATPCHALLENGERMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), the market will resolve to a fair price for each player in accordance with the rules. If a player withdraws or forfeits after a match has started, that player will resolve to no.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ATP",
+            "url": "https://www.atptour.com/"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXATPCHALLENGERMATCH",
+        "title": "Challenger ATP ",
+        "resolved_event_ticker": "KXATPCHALLENGERMATCH-26SEP29MARLOK"
+      }
+    },
+    "KXAFCONGAME-26SEP29GBSNGR-GBS": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-15T00:01:21.876696Z",
+        "custom_strike": {
+          "soccer_team": "d0521004-1cda-4a44-a135-bea820a9fdfc"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONGAME-26SEP29GBSNGR",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.4300",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.5800",
+        "no_bid_dollars": "0.5700",
+        "no_sub_title": "Guinea-Bissau",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "58551.01",
+        "open_time": "2026-09-15T00:06:00Z",
+        "previous_price_dollars": "0.1200",
+        "previous_yes_ask_dollars": "0.1200",
+        "previous_yes_bid_dollars": "0.1100",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Guinea-Bissau wins the Guinea-Bissau vs Nigeria professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Guinea-Bissau vs Nigeria professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXAFCONGAME-26SEP29GBSNGR-GBS",
+        "title": "Guinea-Bissau wins",
+        "updated_time": "2026-09-15T00:06:00.365732Z",
+        "volume_24h_fp": "83776.22",
+        "volume_fp": "89321.62",
+        "yes_ask_dollars": "0.4300",
+        "yes_ask_size_fp": "219.90",
+        "yes_bid_dollars": "0.4200",
+        "yes_bid_size_fp": "746.60",
+        "yes_sub_title": "Guinea-Bissau"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:55.179584Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONGAME",
+        "title": "AFCON Game Winner",
+        "resolved_event_ticker": "KXAFCONGAME-26SEP29GBSNGR"
+      }
+    },
+    "KXAFCONGAME-26SEP29UGALBA-UGA": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-15T00:01:22.429456Z",
+        "custom_strike": {
+          "soccer_team": "2683c6d9-4dd6-44d8-92a8-54e34206d583"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONGAME-26SEP29UGALBA",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.7800",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.2300",
+        "no_bid_dollars": "0.2200",
+        "no_sub_title": "Uganda",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "41338.65",
+        "open_time": "2026-09-15T00:06:00Z",
+        "previous_price_dollars": "0.4800",
+        "previous_yes_ask_dollars": "0.4900",
+        "previous_yes_bid_dollars": "0.4800",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Uganda wins the Uganda vs Libya professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Uganda vs Libya professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXAFCONGAME-26SEP29UGALBA-UGA",
+        "title": "Uganda wins",
+        "updated_time": "2026-09-15T00:06:00.365732Z",
+        "volume_24h_fp": "61333.84",
+        "volume_fp": "64749.72",
+        "yes_ask_dollars": "0.7800",
+        "yes_ask_size_fp": "8186.84",
+        "yes_bid_dollars": "0.7700",
+        "yes_bid_size_fp": "20.00",
+        "yes_sub_title": "Uganda"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:55.179584Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONGAME",
+        "title": "AFCON Game Winner",
+        "resolved_event_ticker": "KXAFCONGAME-26SEP29UGALBA"
+      }
+    },
+    "KXITFWMATCH-26SEP29NARNGI-NAR": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-09-29T17:06:45Z",
+        "created_time": "2026-09-29T01:02:50.57346Z",
+        "custom_strike": {
+          "tennis_competitor": "39abd9f1-bdd5-4b61-95f7-66f579809200"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXITFWMATCH-26SEP29NARNGI",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T21:00:00Z",
+        "expiration_time": "2026-10-13T15:00:00Z",
+        "expiration_value": "Mathilde Ngijol Carre",
+        "last_price_dollars": "0.0100",
+        "latest_expiration_time": "2026-10-13T15:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "1.0000",
+        "no_bid_dollars": "0.0000",
+        "no_sub_title": "Charlotte Narti",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T21:00:00Z",
+        "open_interest_fp": "13729.12",
+        "open_time": "2026-09-29T01:12:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "no",
+        "rules_primary": "If Charlotte Narti wins the Narti vs Ngijol Carre professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Narti vs Ngijol Carre professional tennis match in the 2026 W15 Nashville TN Round of 16 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), all markets will resolve to $0.50. If a player withdraws or forfeits after a match has started, that player will resolve to No. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "settlement_ts": "2026-09-29T17:08:46.452084Z",
+        "settlement_value_dollars": "0.0000",
+        "status": "finalized",
+        "strike_type": "structured",
+        "ticker": "KXITFWMATCH-26SEP29NARNGI-NAR",
+        "title": "Charlotte Narti wins",
+        "updated_time": "2026-09-29T17:08:46.848058Z",
+        "volume_24h_fp": "22319.88",
+        "volume_fp": "26503.12",
+        "yes_ask_dollars": "1.0000",
+        "yes_ask_size_fp": "0.00",
+        "yes_bid_dollars": "0.0000",
+        "yes_bid_size_fp": "0.00",
+        "yes_sub_title": "Charlotte Narti"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.459465Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXITFWMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), all markets will resolve to **$0.50**. If a player withdraws or forfeits after a match has started, that player will resolve to **No**.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ITF",
+            "url": "https://www.itftennis.com/en/"
+          },
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com"
+          },
+          {
+            "name": "Flashscore",
+            "url": "https://www.flashscoreusa.com/tennis/itf-men-singles/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXITFWMATCH",
+        "title": "ITF Women's Match",
+        "resolved_event_ticker": "KXITFWMATCH-26SEP29NARNGI"
+      }
+    },
+    "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-13T15:00:00Z",
+        "created_time": "2026-09-29T15:10:51.625785Z",
+        "custom_strike": {
+          "tennis_competitor": "ecc0846c-05db-4864-8eef-be65c04269dc"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXATPCHALLENGERMATCH-26SEP29FERLEI",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T18:00:00Z",
+        "expiration_time": "2026-10-13T15:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.4400",
+        "latest_expiration_time": "2026-10-13T15:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.5700",
+        "no_bid_dollars": "0.5600",
+        "no_sub_title": "Wilson Leite",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T18:00:00Z",
+        "open_interest_fp": "98898.13",
+        "open_time": "2026-09-29T15:20:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.0000",
+        "previous_yes_bid_dollars": "0.0000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Wilson Leite wins the Fernandez vs Leite professional tennis match in the 2026 ATP Challenger Curitiba Round Of 32 after a ball has been played, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Fernandez vs Leite professional tennis match in the 2026 ATP Challenger Curitiba Round Of 32 after a ball has been played. If the match does not occur (signaled by a ball being played) due to a player injury, walkover, forfeiture, or any other cancellation (all before the match starts), the market will resolve to a fair price in accordance with the rules. If this match is postponed or delayed, the market will remain open and close after the rescheduled match has finished (within two weeks).\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 60,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXATPCHALLENGERMATCH-26SEP29FERLEI-LEI",
+        "title": "Wilson Leite wins",
+        "updated_time": "2026-09-29T16:26:26.207316Z",
+        "volume_24h_fp": "107992.94",
+        "volume_fp": "175081.98",
+        "yes_ask_dollars": "0.4400",
+        "yes_ask_size_fp": "8762.90",
+        "yes_bid_dollars": "0.4300",
+        "yes_bid_size_fp": "3581.09",
+        "yes_sub_title": "Wilson Leite"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/ACHIEVEMENTS.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/ACHIEVEMENTS.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-28T23:31:13.153127Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "KXATPCHALLENGERMATCH-2026-04-09",
+            "markdown": "**Important information:** If the match does not start (signaled by a ball being played), the market will resolve to a fair price for each player in accordance with the rules. If a player withdraws or forfeits after a match has started, that player will resolve to no.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ATP",
+            "url": "https://www.atptour.com/"
+          }
+        ],
+        "tags": [
+          "Tennis"
+        ],
+        "ticker": "KXATPCHALLENGERMATCH",
+        "title": "Challenger ATP ",
+        "resolved_event_ticker": "KXATPCHALLENGERMATCH-26SEP29FERLEI"
+      }
+    },
+    "KXUEFANLGAME-26SEP29FINBLR-FIN": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-21T16:02:16.806434Z",
+        "custom_strike": {
+          "soccer_team": "e3442894-2403-489a-90f3-55b45eb737d7"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXUEFANLGAME-26SEP29FINBLR",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T19:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.5200",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.4900",
+        "no_bid_dollars": "0.4800",
+        "no_sub_title": "Finland",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T19:00:00Z",
+        "open_interest_fp": "667904.89",
+        "open_time": "2026-09-21T16:06:00Z",
+        "previous_price_dollars": "0.6100",
+        "previous_yes_ask_dollars": "0.6100",
+        "previous_yes_bid_dollars": "0.6000",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Finland wins the Finland vs Belarus professional UEFA Nations League soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Finland vs Belarus professional UEFA Nations League soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties). If the game ends in a tie, the market called \"Tie\" resolves to Yes. If the game is cancelled or rescheduled to over 48 hours away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 0,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXUEFANLGAME-26SEP29FINBLR-FIN",
+        "title": "Finland wins",
+        "updated_time": "2026-09-21T16:06:01.233722Z",
+        "volume_24h_fp": "726855.53",
+        "volume_fp": "784056.55",
+        "yes_ask_dollars": "0.5200",
+        "yes_ask_size_fp": "13453.31",
+        "yes_bid_dollars": "0.5100",
+        "yes_bid_size_fp": "4140.96",
+        "yes_sub_title": "Finland"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERGAMEWIN.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T22:15:54.311819Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERGAME-bulk-2026-04-09",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com/"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com/"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXUEFANLGAME",
+        "title": "UEFA Nations League Game",
+        "resolved_event_ticker": "KXUEFANLGAME-26SEP29FINBLR"
+      }
+    },
+    "KXAFCONSPREAD-26SEP29GHAGAM-GHA2": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-01T16:00:00Z",
+        "created_time": "2026-09-23T00:04:10.061266Z",
+        "custom_strike": {
+          "soccer_team": "5c4b405e-5b26-47cf-bb23-acd90eda9e99"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXAFCONSPREAD-26SEP29GHAGAM",
+        "exchange_index": 0,
+        "expected_expiration_time": "2026-09-29T20:00:00Z",
+        "expiration_time": "2026-10-01T16:00:00Z",
+        "expiration_value": "",
+        "floor_strike": 1.5,
+        "last_price_dollars": "0.1500",
+        "latest_expiration_time": "2026-10-01T16:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.8600",
+        "no_bid_dollars": "0.8500",
+        "no_sub_title": "Ghana wins by more than 1.5 goals",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T20:00:00Z",
+        "open_interest_fp": "12825.91",
+        "open_time": "2026-09-23T00:06:00Z",
+        "previous_price_dollars": "0.0000",
+        "previous_yes_ask_dollars": "0.3700",
+        "previous_yes_bid_dollars": "0.3500",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Ghana wins by more than 1.5 goals in the Ghana vs Gambia professional AFCON Qualifiers soccer game originally scheduled for Sep 29, 2026 after 90 minutes plus stoppage time (does not include extra time or penalties), then the market resolves to Yes.",
+        "rules_secondary": "Kalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 30,
+        "status": "active",
+        "strike_type": "greater",
+        "ticker": "KXAFCONSPREAD-26SEP29GHAGAM-GHA2",
+        "title": "Ghana wins by more than 1.5 goals?",
+        "updated_time": "2026-09-29T16:33:58.323553Z",
+        "volume_24h_fp": "21792.89",
+        "volume_fp": "22737.43",
+        "yes_ask_dollars": "0.1500",
+        "yes_ask_size_fp": "1641.00",
+        "yes_bid_dollars": "0.1400",
+        "yes_bid_size_fp": "966.00",
+        "yes_sub_title": "Ghana wins by more than 1.5 goals"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/SOCCERSPREAD.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/SOCCERSPREAD.pdf",
+        "exchange_index": 0,
+        "fee_multiplier": 1,
+        "fee_type": "quadratic",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-22T23:27:54.314854Z",
+        "product_metadata": {
+          "important_info": {
+            "id": "SOCCERSPREAD-bulk-2026-04-23",
+            "markdown": "**Important information:** The following market is based on the outcome after 90 minutes plus stoppage time. This does not include extra time or penalties.",
+            "message": "",
+            "title": ""
+          },
+          "scope": "Spread"
+        },
+        "settlement_sources": [
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          },
+          {
+            "name": "ESPN",
+            "url": "https://espn.com"
+          }
+        ],
+        "tags": [
+          "Soccer"
+        ],
+        "ticker": "KXAFCONSPREAD",
+        "title": "Spread",
+        "resolved_event_ticker": "KXAFCONSPREAD-26SEP29GHAGAM"
+      }
+    },
+    "KXMLBGAME-26SEP291400PHIATL-ATL": {
+      "market": {
+        "can_close_early": true,
+        "close_time": "2026-10-02T18:00:00Z",
+        "created_time": "2026-09-28T01:45:45.096301Z",
+        "custom_strike": {
+          "baseball_team": "aa47177d-346b-4467-b8d2-dc49e284a2e6"
+        },
+        "early_close_condition": "This market will close and expire after a winner is declared.",
+        "event_ticker": "KXMLBGAME-26SEP291400PHIATL",
+        "exchange_index": 3,
+        "expected_expiration_time": "2026-09-29T21:00:00Z",
+        "expiration_time": "2026-10-02T18:00:00Z",
+        "expiration_value": "",
+        "last_price_dollars": "0.6300",
+        "latest_expiration_time": "2026-10-02T18:00:00Z",
+        "liquidity_dollars": "0.0000",
+        "market_type": "binary",
+        "no_ask_dollars": "0.3800",
+        "no_bid_dollars": "0.3700",
+        "no_sub_title": "Atlanta",
+        "notional_value_dollars": "1.0000",
+        "occurrence_datetime": "2026-09-29T21:00:00Z",
+        "open_interest_fp": "665137.55",
+        "open_time": "2026-09-28T01:55:00Z",
+        "previous_price_dollars": "0.6400",
+        "previous_yes_ask_dollars": "0.6500",
+        "previous_yes_bid_dollars": "0.6400",
+        "price_level_structure": "linear_cent",
+        "price_ranges": [
+          {
+            "end": "1.0000",
+            "start": "0.0000",
+            "step": "0.0100"
+          }
+        ],
+        "result": "",
+        "rules_primary": "If Atlanta wins the Philadelphia vs Atlanta professional baseball game originally scheduled for Sep 29, 2026 at 2:00 PM EDT, then the market resolves to Yes.",
+        "rules_secondary": "The following market refers to the Philadelphia vs Atlanta professional baseball game originally scheduled for Sep 29, 2026 at 2:00 PM EDT. If this game is postponed or delayed, the market will remain open and close after the rescheduled game has finished (within two days). If the game is cancelled or rescheduled to over two days away, the market will resolve to a fair price in accordance with the rules.\n\nKalshi is not affiliated, associated, authorized, endorsed by, or in any way officially connected with the Governing League. All trademarks, logos, and brand names are the property of their respective owners.",
+        "settlement_timer_seconds": 120,
+        "status": "active",
+        "strike_type": "structured",
+        "ticker": "KXMLBGAME-26SEP291400PHIATL-ATL",
+        "title": "Atlanta wins",
+        "updated_time": "2026-09-28T01:55:00.851675Z",
+        "volume_24h_fp": "611519.53",
+        "volume_fp": "717736.25",
+        "yes_ask_dollars": "0.6300",
+        "yes_ask_size_fp": "1313187.79",
+        "yes_bid_dollars": "0.6200",
+        "yes_bid_size_fp": "31076.88",
+        "yes_sub_title": "Atlanta"
+      },
+      "series": {
+        "additional_prohibitions": [
+          "Current players, coaches, and staff of the league, association, or organization(s) governing the event. For college leagues/associations specifically, or where otherwise appropriate (as identified by the Exchange), this applies to current players/coaches/staff of the specific sport in <event> rather than the league/association as a whole (e.g., if the Division I Gonzaga Men\u2019s Basketball Team is playing in <event>, this prohibition will restrict trades by current players/coaches/staff on NCAA Basketball, rather than all current players/coaches/staff in any NCAA sport).",
+          "Paid employees of the league and league participants",
+          "Owners of teams and the league",
+          "and household members and immediate family of all above",
+          "Persons who are employed by any of the Source Agencies are not permitted to trade on the Contract.",
+          "Persons who hold any material, non-public information on the Underlying are not permitted to trade on the Contract."
+        ],
+        "categories": [
+          "Sports"
+        ],
+        "category": "Sports",
+        "contract_terms_url": "https://assets.kalshi.com/contract_terms/BASEBALLGAMEWIN.pdf",
+        "contract_url": "https://assets.kalshi.com/regulatory/product-certifications/BASEBALLGAMEWIN.pdf",
+        "exchange_index": 3,
+        "fee_multiplier": 0.5,
+        "fee_type": "quadratic_with_maker_fees",
+        "frequency": "custom",
+        "last_updated_ts": "2026-09-29T03:11:56.979968Z",
+        "product_metadata": {
+          "scope": "Game"
+        },
+        "settlement_sources": [
+          {
+            "name": "ESPN",
+            "url": "https://www.espn.com"
+          },
+          {
+            "name": "Fox Sports",
+            "url": "https://www.foxsports.com"
+          },
+          {
+            "name": "the Governing League",
+            "url": "https://www.mlb.com/"
+          }
+        ],
+        "tags": [
+          "Baseball"
+        ],
+        "ticker": "KXMLBGAME",
+        "title": "Professional Baseball Game",
+        "resolved_event_ticker": "KXMLBGAME-26SEP291400PHIATL"
+      }
+    }
+  },
+  "credentials_saved": false
+}
