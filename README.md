@@ -22,15 +22,9 @@ The prediction target is the next taker side. Price direction, three-state outco
 
 Rolling conditional distributions combine imbalance, flow and state history. Maker, taker and arbitrage experiments model fees, queue fills, slippage and an additional 5 ms action delay. Shadow quote episodes measure fill-risk scenarios; funded replay evaluates account accounting.
 
-| Measurement | Result | Scope |
-|---|---:|---|
-| Next taker side | 77.06% | 65.48% unconditional baseline; 1,260 overlapping windows |
-| Two-sided completion | 36.95% | 235 paired / 636 hypothetical overlapping quote episodes |
-| Three-state prediction | 77.3% | 82.0% always-ZERO baseline; different target |
-| Funded paper replay | -$0.3887 net | $100 to $99.6113; 3 taker trades |
-| Funded maker / arbitrage trades | 0 / 0 | Execution-policy coverage in this capture |
+The selected result evaluates next taker side against its unconditional baseline. Quote-completion research models joint fills and inventory state.
 
-The execution experiments study how predictive information translates into fills and account outcomes. The shadow episode sum (-$12.30572) uses overlapping hypothetical capacity and is reported as an episode diagnostic, separately from portfolio P&L.
+[Complete experiment records](verification/) · [Technical explorer](docs/technical-explorer.html).
 
 ## Reproduce
 
@@ -52,4 +46,3 @@ python reproduce.py
 - [Methods and implementation review](docs/AUDIT.md) · [Dataset guide](docs/DATASETS.md).
 
 By Aarush Shah.
-

@@ -16,8 +16,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3009,
-    "sha256": "d48c372f9ac61f5b5d438c02c19264dc267ce71fb0676916d68489a7c709b93c"
+    "bytes": 2532,
+    "sha256": "db49f573e549b770cd9f7f05fc5c1a8b6bb9e9fa22a3d9cf0534f650b03a8e69"
   },
   {
     "path": "combined_paper/Active_30min_Paper_Report.md",
@@ -376,8 +376,8 @@
   },
   {
     "path": "docs/explorer.html",
-    "bytes": 7971,
-    "sha256": "767a369547b23fd83b0646a68e564d748e16dad5a7cd2fc08a97c9159c5ece36"
+    "bytes": 6639,
+    "sha256": "6027c9361521061aac61f68565aa704df702abfc946fe1952d316b979baa1ab2"
   },
   {
     "path": "docs/kalshi_diagnostics.png",
@@ -393,6 +393,11 @@
     "path": "docs/preview.png",
     "bytes": 58106,
     "sha256": "557074b97537a3593185042a8aeba562bce981d0e9044c1dd3f1b0a898151f85"
+  },
+  {
+    "path": "docs/technical-explorer.html",
+    "bytes": 8245,
+    "sha256": "e2555ff563b0b95d46b22e8e6f86dbd5c41f93605862ddbca288f00703547ba1"
   },
   {
     "path": "historical/Kalshi_Live_Paper.ipynb",
