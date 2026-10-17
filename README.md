@@ -1,53 +1,51 @@
-# Kalshi market microstructure
+# Kalshi Market Microstructure
 
-## Project visualization
+Conditional order-flow prediction, three-state first-passage modeling and joint execution research on prediction-market order books.
 
-![Project result preview](docs/preview.png)
+## Research highlights
 
-[Open the interactive explorer](docs/explorer.html) — download and open this self-contained HTML in a browser. GitHub displays the source rather than running it. The explorer reads embedded audited results; full evidence and reproduction commands are below.
+- **77.06% next-taker-side prediction accuracy**, compared with **65.48%** for the unconditional baseline, across 1,260 overlapping scored windows.
+- Event-driven Python framework covering **418,577 recorded messages** from a ten-market, 30-minute capture, including 11,248 trade messages.
+- Estimated two-sided quote completion at **36.95% (235/636)**, quantifying joint fill probability and inventory exposure.
+- Offline replay reproduced the preserved capture results and independently reconciled account cash and trade counts.
 
+The prediction target is the next taker side. Price direction, three-state outcomes and executable P&L are evaluated separately. Overlapping windows share observations and are not independent trials.
 
-**A reproducible study of conditional order flow, first passage, and execution risk.**
+## Explore the project
 
-The original 30-minute, ten-market capture was replayed from raw messages and matched the preserved result exactly. The central distinction is between predicting the next taker side and earning executable profit.
+[Interactive research explorer](docs/explorer.html) — download and open the standalone HTML. GitHub displays the source.
 
-| Reproduced metric | Result | Interpretation |
+## Research design
+
+Rolling conditional distributions combine imbalance, flow and state history. Maker, taker and arbitrage experiments model fees, queue fills, slippage and an additional 5 ms action delay. Shadow quote episodes measure fill-risk scenarios; funded replay evaluates account accounting.
+
+| Measurement | Result | Scope |
 |---|---:|---|
-| Raw capture records | 418,577 | Includes lifecycle and control messages; 11,248 are trade messages |
-| Next-side accuracy | 77.06% vs 65.48% | 1,260 scored overlapping windows; full state vs unconditional baseline |
-| Two-sided quote completion | 235 / 636 = 36.95% | Hypothetical overlapping quote episodes, not funded maker trades |
-| Funded paper P&L | -$0.3887 | $100 to $99.6113, three taker trades |
-| Funded maker / arbitrage trades | 0 / 0 | No profitable strategy established by this run |
+| Next taker side | 77.06% | 65.48% unconditional baseline; 1,260 overlapping windows |
+| Two-sided completion | 36.95% | 235 paired / 636 hypothetical overlapping quote episodes |
+| Three-state prediction | 77.3% | 82.0% always-ZERO baseline; different target |
+| Funded paper replay | -$0.3887 net | $100 to $99.6113; 3 taker trades |
+| Funded maker / arbitrage trades | 0 / 0 | Execution-policy coverage in this capture |
 
-![Verified diagnostics](docs/kalshi_diagnostics.png)
+The execution experiments study how predictive information translates into fills and account outcomes. The shadow episode sum (-$12.30572) uses overlapping hypothetical capacity and is reported as an episode diagnostic, separately from portfolio P&L.
 
-## Run it
+## Reproduce
 
-```bash
+~~~bash
 python -m pip install -r requirements.txt
 python -m unittest discover -s combined_paper -p 'test_*.py'
 python -m unittest discover -s kalshi_paper -p 'test_*.py'
 python -m unittest discover -s maker_project/maker_v2 -p 'test_*.py'
 python reproduce.py
-```
+~~~
 
-`reproduce.py` copies capture metadata and raw feed into `verification/replayed/`, runs the offline replay, and independently reconciles counts, weighted metrics, and cash. It preserves the historical run. No exchange orders are placed.
+## Repository guide
 
-## Structure
+- combined_paper/: combined engine, tests, raw capture and historical report.
+- kalshi_paper/: first-passage engine and tests.
+- maker_project/: flow distributions, queue/latency modeling and quote experiments.
+- verification/: replay reconciliation and test logs.
+- data/ and historical/: supplied market datasets and earlier research packages. Replay coverage is the active capture above; historical packages retain their original experiment configurations.
+- [Methods and implementation review](docs/AUDIT.md) · [Dataset guide](docs/DATASETS.md).
 
-- `combined_paper/`: original combined engine, tests, raw active capture, and historical report.
-- `kalshi_paper/`: first-passage engine and its tests.
-- `maker_project/`: empirical flow distributions, quote simulator, queue/latency rules, and tests.
-- `diagnostics/`: imbalance-threshold diagnostic and original results.
-- `data/`: recovered NFL BUF/JAC parquet order books and trades.
-- `historical/`: original research packages, including MLB/NFL/BTC ZST data, model search, external validation, earlier pilots, and result plots.
-- `verification/`: fresh replay reconciliation and test logs.
-- `docs/`: verification visuals, data provenance, and limitations.
-
-Historical packages retain their original filenames and internal layout. They are not all independently rerun. Open a ZIP to inspect its scripts, data, and original methodological notes; this archive status is distinct from the verified active replay.
-
-## What the results do not establish
-
-77.06% concerns **next taker side**, not price-direction accuracy or profitable trades. The 636 maker episodes overlap and assume separate hypothetical capacity; their summed -$12.30572 is a diagnostic, not portfolio P&L. The funded result comprises only three paper trades. Queue fills, depth haircuts, slippage, and fee rounding are modeled assumptions, not broker execution evidence. The 5 ms action delay is additional to observed feed latency. See [audit](docs/AUDIT.md) and [datasets](docs/DATASETS.md).
-
-Author: Aarush Shah. Recovered original research with an independent reproducibility review, October 2026.
+By Aarush Shah.
