@@ -2,6 +2,9 @@
 
 Conditional order-flow prediction, three-state first-passage modeling and joint execution research on prediction-market order books.
 
+
+![Research overview](docs/preview.png)
+
 ## Research highlights
 
 - **77.06% next-taker-side prediction accuracy**, compared with **65.48%** for the unconditional baseline, across 1,260 overlapping scored windows.
@@ -49,3 +52,4 @@ python reproduce.py
 - [Methods and implementation review](docs/AUDIT.md) · [Dataset guide](docs/DATASETS.md).
 
 By Aarush Shah.
+
